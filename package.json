@@ -23,7 +23,7 @@
     "scripts": {
         "prepublishOnly": "yarn lint && yarn prettier && yarn test",
         "prettier": "prettier --write '**/*.{js,json,css,md}'",
-        "lint": "eslint --fix ./bin ./dist",
+        "lint": "eslint --fix ./bin ./src",
         "test": "jest",
         "test:watch": "yarn test --watch",
         "build": "babel src -d dist/lib && babel bin -d dist/bin && babel version.js -d dist && cp shinka.json dist/shinka.json"
@@ -41,22 +41,11 @@
     },
     "keywords": [
         "shinka",
-        "commander",
-        "commanderjs",
-        "command-line-tool",
-        "cli",
-        "command-line",
-        "command line",
-        "cl",
-        "terminal",
-        "node",
-        "nodejs",
         "mybb"
     ],
     "dependencies": {
         "chalk": "^2.4.1",
         "cli-progress": "^2.0.0",
-        "colors": "^1.3.1",
         "commander": "^2.15.1",
         "progress": "^2.0.0"
     },

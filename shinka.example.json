@@ -1,7 +1,0 @@
-{
-    "link": {
-        "files": ["dummies/1.txt"],
-        "directories": ["dummies/a"]
-    },
-    "mybb_root": "C:/path/to/mybb/root"
-}
