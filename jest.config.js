@@ -1,5 +1,5 @@
 module.exports = {
-    collectCoverageFrom: ["(bin|dist)/**/*.{js,jsx,mjs}"],
+    collectCoverageFrom: ["dist/**/*.{js,jsx,mjs}"],
     testMatch: [
         "<rootDir>/**/__tests__/**/*.{js,jsx,mjs}",
         "<rootDir>/**/?(*.)(spec|test).{js,jsx,mjs}"
