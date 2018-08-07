@@ -1,4 +1,4 @@
-import Linker from "./Linker";
+import Linker from "../Linker";
 
 /**
  * Creates symbolic links for designated files and directories.

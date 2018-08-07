@@ -1,4 +1,4 @@
-import Linker from "./Linker";
+import Linker from "../Linker";
 
 /**
  * Destroys symbolic links for designated files and directories.

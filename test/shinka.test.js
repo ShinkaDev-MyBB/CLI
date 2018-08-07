@@ -1,6 +1,4 @@
-const commander = require("../bin/shinka.js");
-
-console.log(commander);
+// const commander = require("../bin/shinka.js");
 
 describe("shinka > link", () => {
     it("should link files", () => {
