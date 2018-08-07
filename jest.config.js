@@ -1,8 +1,8 @@
 module.exports = {
-    collectCoverageFrom: ["dist/**/*.{js,jsx,mjs}"],
+    collectCoverageFrom: ["(src|bin)/**/*.{js,jsx,mjs}"],
     testMatch: [
-        "<rootDir>/**/__tests__/**/*.{js,jsx,mjs}",
-        "<rootDir>/**/?(*.)(spec|test).{js,jsx,mjs}"
+        "<rootDir>/(src|bin|test)/__tests__/**/*(spec|test).{js,jsx,mjs}",
+        "<rootDir>/(src|bin|test)/**/?(*.)(spec|test).{js,jsx,mjs}"
     ],
     testEnvironment: "node",
     testURL: "http://0.0.0.0",

@@ -1,10 +1,10 @@
-import { exec } from "child_process";
+import { execSync } from "child_process";
 import chalk from "chalk";
 import config from "../../shinka.json";
 
 export default class Releaser {
     filename = `${config.vendor}-${config.code}-${config.semver}.zip`;
-    errors = [];
+    errorList = [];
 
     constructor(cmd) {
         this.cmd = cmd;
@@ -34,12 +34,12 @@ export default class Releaser {
 
     release() {
         try {
-            exec(`git archive HEAD:src --format zip -o "${this.filename}"`);
+            execSync(`git archive HEAD:src --format zip -o "${this.filename}"`);
         } catch (error) {
-            this.errors.push(error);
+            this.errorList.push(error);
         }
 
-        this.errors.length ? this.outputErrors() : this.outputSuccess();
+        this.errorList.length ? this.outputErrors() : this.outputSuccess();
     }
 
     errors() {
@@ -48,7 +48,7 @@ export default class Releaser {
         let str = [chalk.red(`Failed to bundle ${this.filename}`)];
 
         if (verbose) {
-            this.errors.forEach(error => {
+            this.errorList.forEach(error => {
                 str.push(`\n${error}`);
             });
         } else {
