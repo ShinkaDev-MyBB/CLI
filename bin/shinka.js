@@ -4,8 +4,8 @@
 
 const commander = require("commander");
 const { version } = require("../package.json");
-const { link, unlink, relink, release } = require("../lib/commands");
-const { Helper } = require("../lib/Helper");
+const { link, unlink, relink, release } = require("../dist/commands");
+const { Helper } = require("../dist/Helper");
 
 const { error } = console;
 const { exit, argv } = process;

@@ -12,21 +12,21 @@
     },
     "directories": {
         "bin": "./bin",
-        "lib": "./lib"
+        "dist": "./dist"
     },
     "files": [
         "bin",
-        "lib",
+        "dist",
         "README.md",
         "LICENSE.md"
     ],
     "scripts": {
         "prepublishOnly": "yarn lint && yarn prettier && yarn test",
         "prettier": "prettier --write '**/*.{js,json,css,md}'",
-        "lint": "eslint --fix ./bin ./lib",
+        "lint": "eslint --fix ./bin ./dist",
         "test": "jest",
         "test:watch": "yarn test --watch",
-        "build": "babel src -d lib"
+        "build": "babel src -d dist"
     },
     "husky": {
         "hooks": {
