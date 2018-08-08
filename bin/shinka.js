@@ -28,7 +28,7 @@ if (!argv.slice(2).length) {
 }
 
 function loadCommands() {
-    const config = path.resolve("shinka.json");
+    const config = loadConfig();
 
     Object.values(commands).forEach(data => {
         const { command, description, options = [], action, examples = [] } = data(config);
@@ -44,4 +44,14 @@ function loadCommands() {
             cmd.option(flag, description);
         });
     });
+}
+
+export function loadConfig(file = "shinka.json") {
+    const resolved = path.resolve(file);
+    try {
+        const config = require(resolved);
+        return config;
+    } catch (error) {
+        throw Error(`Cannot find shinka.json at ${resolved}`);
+    }
 }
