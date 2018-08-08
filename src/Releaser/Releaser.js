@@ -1,13 +1,13 @@
 import { execSync } from "child_process";
 import chalk from "chalk";
-import config from "../../shinka.json";
 
 export default class Releaser {
-    filename = `${config.vendor}-${config.code}-${config.semver}.zip`;
     errorList = [];
+    config = {};
 
-    constructor(cmd) {
+    constructor(cmd, config) {
         this.cmd = cmd;
+        this.config = config;
 
         this.setFileName();
     }
@@ -16,9 +16,9 @@ export default class Releaser {
         const {
             output,
             directory,
-            vendor = config.vendor,
-            code = config.code,
-            semver = config.version
+            vendor = this.config.vendor,
+            code = this.config.code,
+            semver = this.config.version
         } = this.cmd;
 
         this.filename = `${vendor}-${code}-${semver}.zip`;
@@ -34,12 +34,16 @@ export default class Releaser {
 
     release() {
         try {
-            execSync(`git archive HEAD:src --format zip -o "${this.filename}"`);
+            this.executeArchive();
         } catch (error) {
             this.errorList.push(error);
         }
 
         this.errorList.length ? this.outputErrors() : this.outputSuccess();
+    }
+
+    executeArchive() {
+        execSync(`git archive HEAD:src --format zip -o "${this.filename}"`);
     }
 
     errors() {

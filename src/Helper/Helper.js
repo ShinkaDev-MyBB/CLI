@@ -10,7 +10,7 @@ export default class Helper {
     static help(examples = [], command = "") {
         let str = ["\n  Examples: \n"];
 
-        const max = examples.reduce((a, b) => (a[0].length > b[0].length ? a : b), [0])[0].length;
+        const max = examples.reduce(this.getLongest, [""])[0].length;
 
         examples.forEach(([cmd, explain]) => {
             const padded = cmd.padEnd(max);
@@ -18,5 +18,9 @@ export default class Helper {
         });
 
         return str;
+    }
+
+    static getLongest(a, b) {
+        return a[0].length > b[0].length ? a : b;
     }
 }

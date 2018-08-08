@@ -7,24 +7,33 @@ import path from "path";
 describe("Releaser", () => {
     let errors;
     let cmd;
-    let releaser;
+    let rel;
+    let config;
 
-    const release = () => {
-        releaser = releaser || new Releaser(cmd);
-        releaser.errorList = errors;
-        return releaser;
+    const releaser = () => {
+        if (!rel) {
+            rel = new Releaser(cmd, config);
+            rel.errorList = errors;
+        }
+
+        return rel;
     };
 
     beforeEach(() => {
         errors = ["one error", "two error"];
         cmd = { output: "test.zip" };
-        releaser = null;
+        rel = null;
+        config = {
+            vendor: "shinka",
+            code: "cli",
+            version: "0.0.1a"
+        };
     });
 
     describe("setFileName()", () => {
         const expectFilenameEquals = (expected = {}) => {
-            release().setFileName();
-            expect(release().filename).toEqual(expected);
+            releaser().setFileName();
+            expect(releaser().filename).toEqual(expected);
         };
 
         it("set filename from config", () => {
@@ -51,7 +60,7 @@ describe("Releaser", () => {
     describe("errors()", () => {
         it("output verbose errors", () => {
             cmd.verbose = true;
-            const received = release().errors();
+            const received = releaser().errors();
 
             // n+1 for initial failure message
             expect(received.length).toEqual(errors.length + 1);
@@ -63,7 +72,7 @@ describe("Releaser", () => {
 
         it("output succinct error", () => {
             cmd.verbose = false;
-            const received = release().errors();
+            const received = releaser().errors();
 
             // failure + verbose message
             expect(received.length).toEqual(2);
@@ -76,7 +85,7 @@ describe("Releaser", () => {
 
     describe("success()", () => {
         it("output message", () => {
-            const received = release().success();
+            const received = releaser().success();
             expect(received).toEqual(expect.stringContaining("Success"));
         });
     });
@@ -121,11 +130,22 @@ describe("Releaser", () => {
 
             checkForFile(cmd.output);
 
-            release().release();
+            releaser().release();
             const exists = fileExists(cmd.output);
             expect(exists).toEqual(true);
 
             removeFile(cmd.output);
+        });
+
+        it("push error", () => {
+            errors = [];
+            releaser().executeArchive = () => {
+                throw Error("This is a test error");
+            };
+
+            releaser().release();
+
+            expect(releaser().errorList.length).toEqual(1);
         });
     });
 });

@@ -1,5 +1,10 @@
 module.exports = {
-    collectCoverageFrom: ["(src|bin)/**/*.{js,jsx,mjs}"],
+    collectCoverage: true,
+    collectCoverageFrom: [
+        "(src|bin)/**/*.{js,jsx,mjs}",
+        "!(src|bin)/**/__stories__/*",
+        "!(src|bin)/**/__tests__/*"
+    ],
     testMatch: [
         "<rootDir>/(src|bin|test)/__tests__/**/*(spec|test).{js,jsx,mjs}",
         "<rootDir>/(src|bin|test)/**/?(*.)(spec|test).{js,jsx,mjs}"

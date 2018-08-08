@@ -1,3 +1,4 @@
+import config from "../../shinka.json";
 import Linker from "../Linker";
 
 /**
@@ -6,5 +7,5 @@ import Linker from "../Linker";
  * @param object cmd
  */
 export function link(cmd) {
-    new Linker(cmd).link();
+    new Linker(cmd, config).link();
 }
