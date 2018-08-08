@@ -2,6 +2,8 @@ import chalk from "chalk";
 import fs from "fs";
 import ProgressBar from "progress";
 
+import Logger from "../Logger";
+
 export const verbs = {
     linking: { present: "Link", past: "Linked", gerund: "Linking" },
     unlinking: { present: "Unlink", past: "Unlinked", gerund: "Unlinking" }
@@ -23,15 +25,18 @@ export default class Linker {
     /** @var {string} cwd       - Current working directory, used to build absolute paths */
     cwd = process.cwd();
 
-    /** @var {object} verbs     - Verbs to use in console output */
+    /** @var {object} verbs     - Verbs to use in logger output */
     verbs = {};
 
     /** @var {object} config    - Config to pull linkables from */
     config = { link: { files: [], directories: [] } };
 
-    constructor(cmd, config) {
+    logger;
+
+    constructor(cmd, config, logger = new Logger()) {
         this.cmd = cmd;
         this.config = config || this.config;
+        this.logger = logger;
 
         this.total = this.config.link.files.length + this.config.link.directories.length;
         this.maxLength = this.getMaxLength();
@@ -139,12 +144,12 @@ export default class Linker {
 
     outputErrors() {
         const str = this.errors();
-        str.forEach(err => console.log(err));
+        str.forEach(err => this.logger.log(err));
     }
 
     outputSuccess() {
         const str = this.success();
-        console.log(str);
+        this.logger.log(str);
     }
 
     /**

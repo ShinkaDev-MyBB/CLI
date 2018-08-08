@@ -1,11 +1,12 @@
 export default class Logger {
-    constructor(cmd) {
-        this.silent = cmd.silent;
+    constructor(silent = false, channel = console) {
+        this.silent = silent;
+        this.channel = channel;
     }
 
     log(output, force = false) {
         if (!this.silent || force) {
-            console.log(output);
+            this.channel.log(output);
         }
     }
 }

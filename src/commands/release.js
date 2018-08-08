@@ -1,6 +1,5 @@
-import config from "../../shinka.json";
 import Releaser from "../Releaser";
 
-export function release(cmd) {
+export function release(cmd, config) {
     new Releaser(cmd, config).release();
 }

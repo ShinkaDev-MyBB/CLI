@@ -17,12 +17,13 @@ describe("Linker", () => {
     let linker;
     let cmd;
     let config;
+    let logger;
     let errors;
     let verbs;
 
     const link = () => {
         if (!linker) {
-            linker = new Linker(cmd, config);
+            linker = new Linker(cmd, config, logger);
             linker.verbs = verbs;
             linker.errorList = errors;
         }
@@ -61,13 +62,21 @@ describe("Linker", () => {
         ];
         verbs = { present: "test", gerund: "testing", past: "tested" };
         linker = null;
+        logger = {
+            log: jest.fn()
+        };
         mockStderr();
     });
 
     describe("constructor()", () => {
         it("use default config", () => {
-            config = null;
+            config = undefined;
             expect(link().config).toBeTruthy();
+        });
+
+        it("use default logger", () => {
+            logger = undefined;
+            expect(link().logger).toBeTruthy();
         });
 
         it("set properties", () => {

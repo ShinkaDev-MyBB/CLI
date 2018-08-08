@@ -9,10 +9,11 @@ describe("Releaser", () => {
     let cmd;
     let rel;
     let config;
+    let logger;
 
     const releaser = () => {
         if (!rel) {
-            rel = new Releaser(cmd, config);
+            rel = new Releaser(cmd, config, logger);
             rel.errorList = errors;
         }
 
@@ -28,25 +29,35 @@ describe("Releaser", () => {
             code: "cli",
             version: "0.0.1a"
         };
+        logger = {
+            log: jest.fn()
+        };
     });
 
-    describe("setFileName()", () => {
+    describe("constructor()", () => {
+        it("set default logger", () => {
+            logger = undefined;
+            expect(releaser().logger).toBeTruthy();
+        });
+    });
+
+    describe("getFileName()", () => {
         const expectFilenameEquals = (expected = {}) => {
-            releaser().setFileName();
-            expect(releaser().filename).toEqual(expected);
+            const received = releaser().getFileName();
+            expect(received).toEqual(expected);
         };
 
-        it("set filename from config", () => {
+        it("get filename from config", () => {
             cmd = {};
             expectFilenameEquals(`${vendor}-${code}-${version}.zip`);
         });
 
-        it("set filename from command args", () => {
+        it("get filename from command args", () => {
             cmd = { vendor: "shin", code: "news", semver: "1.0.0a" };
             expectFilenameEquals(`${cmd.vendor}-${cmd.code}-${cmd.semver}.zip`);
         });
 
-        it("set filename as output", () => {
+        it("get filename as output", () => {
             cmd = { output: "path/to/a/thing.zip" };
             expectFilenameEquals(cmd.output);
         });

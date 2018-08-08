@@ -26,7 +26,7 @@
         "lint": "eslint --fix ./bin ./src",
         "test": "jest",
         "test:watch": "yarn test --watch",
-        "build": "babel src -d dist/lib && babel bin -d dist/bin && babel version.js -d dist && cp shinka.json dist/shinka.json"
+        "build": "babel src -d dist/src && babel bin -d dist/bin && babel version.js -d dist && cp shinka.json dist/shinka.json"
     },
     "husky": {
         "hooks": {
@@ -44,6 +44,7 @@
         "mybb"
     ],
     "dependencies": {
+        "babel-plugin-transform-object-rest-spread": "^6.26.0",
         "chalk": "^2.4.1",
         "cli-progress": "^2.0.0",
         "commander": "^2.15.1",

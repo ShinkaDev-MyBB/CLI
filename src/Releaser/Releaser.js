@@ -1,18 +1,20 @@
 import { execSync } from "child_process";
 import chalk from "chalk";
 
+import Logger from "../Logger";
+
 export default class Releaser {
     errorList = [];
     config = {};
 
-    constructor(cmd, config) {
+    constructor(cmd, config, logger = new Logger()) {
         this.cmd = cmd;
         this.config = config;
-
-        this.setFileName();
+        this.logger = logger;
+        this.filename = this.getFileName();
     }
 
-    setFileName() {
+    getFileName() {
         const {
             output,
             directory,
@@ -21,15 +23,17 @@ export default class Releaser {
             semver = this.config.version
         } = this.cmd;
 
-        this.filename = `${vendor}-${code}-${semver}.zip`;
+        let filename = `${vendor}-${code}-${semver}.zip`;
 
         if (output) {
-            this.filename = output;
+            filename = output;
         }
 
         if (directory) {
-            this.filename = `${directory}/${this.filename}`;
+            filename = `${directory}/${filename}`;
         }
+
+        return filename;
     }
 
     release() {
@@ -68,11 +72,11 @@ export default class Releaser {
 
     outputErrors() {
         const str = this.errors();
-        str.forEach(err => console.log(err));
+        str.forEach(err => this.logger.log(err));
     }
 
     outputSuccess() {
         const str = this.success();
-        console.log(str);
+        this.logger.log(str);
     }
 }

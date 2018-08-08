@@ -1,26 +1,31 @@
 import chalk from "chalk";
+import Logger from "../Logger";
 
 export default class Helper {
-    static outputHelp(examples = [], command = "") {
-        const str = this.help(examples, command);
-
-        str.forEach(eg => console.log(eg));
+    constructor(logger = new Logger()) {
+        this.logger = logger;
     }
 
-    static help(examples = [], command = "") {
+    outputHelp(examples = [], command = "") {
+        const str = this.help(examples, command);
+
+        str.forEach(eg => this.logger.log(eg));
+    }
+
+    help(examples = [], cmd = "") {
         let str = ["\n  Examples: \n"];
 
-        const max = examples.reduce(this.getLongest, [""])[0].length;
+        const max = examples.reduce(this.getLongest, { command: "" }).command.length;
 
-        examples.forEach(([cmd, explain]) => {
-            const padded = cmd.padEnd(max);
-            str.push(`    $ shinka ${command} ${padded}   ${chalk.gray(explain)}`);
+        examples.forEach(({ command, description }) => {
+            const padded = command.padEnd(max);
+            str.push(`    $ shinka ${cmd} ${padded}   ${chalk.gray(description)}`);
         });
 
         return str;
     }
 
-    static getLongest(a, b) {
-        return a[0].length > b[0].length ? a : b;
+    getLongest(a, b) {
+        return a.command.length > b.command.length ? a : b;
     }
 }

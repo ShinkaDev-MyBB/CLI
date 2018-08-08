@@ -1,4 +1,3 @@
-import config from "../../shinka.json";
 import Linker from "../Linker";
 
 /**
@@ -6,6 +5,6 @@ import Linker from "../Linker";
  *
  * @param object cmd
  */
-export function unlink(cmd) {
+export function unlink(cmd, config) {
     new Linker(cmd, config).unlink();
 }

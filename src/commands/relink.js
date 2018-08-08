@@ -1,4 +1,3 @@
-import config from "../../shinka.json";
 import Linker from "../Linker";
 
 /**
@@ -6,7 +5,7 @@ import Linker from "../Linker";
  *
  * @param object cmd
  */
-export function relink(cmd) {
+export function relink(cmd, config) {
     const linker = new Linker(cmd, config);
     linker.unlink();
     console.log("");
