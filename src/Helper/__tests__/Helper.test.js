@@ -1,6 +1,9 @@
 import Helper from "../Helper";
 import Logger from "../../Logger";
 
+/**
+ * @test {Helper}
+ */
 describe("Helper", () => {
     const longest = "three";
     const examples = [
@@ -11,7 +14,9 @@ describe("Helper", () => {
             description: "e.g. 3"
         }
     ];
-    let logger;
+    let logger = {
+        log: jest.fn()
+    };
     let help;
 
     const helper = () => {
@@ -28,19 +33,25 @@ describe("Helper", () => {
         help = null;
     });
 
+    /**
+     * @test {Helper#constructor}
+     */
     describe("constructor()", () => {
-        it("set logger", () => {
-            expect(helper().logger).toEqual(logger);
-        });
-
-        it("set logger", () => {
-            logger = undefined;
-            expect(helper().logger).toBeInstanceOf(Logger);
+        it.each`
+            log          | expected
+            ${logger}    | ${Object}
+            ${undefined} | ${Logger}
+        `("sets logger to instance of $expected when $log", ({ log, expected }) => {
+            logger = log;
+            expect(helper().logger).toBeInstanceOf(expected);
         });
     });
 
+    /**
+     * @test {Helper#help}
+     */
     describe("help()", () => {
-        it("build string", () => {
+        it("builds string", () => {
             const received = helper().help(examples);
 
             expect(received[0]).toEqual(expect.stringContaining("Examples"));
@@ -51,20 +62,21 @@ describe("Helper", () => {
             });
         });
 
-        it("accept empty list", () => {
-            const received = helper().help([]);
-            expect(Array.isArray(received)).toBeTruthy();
+        it.each`
+            examples     | expected
+            ${examples}  | ${examples.length + 1}
+            ${[]}        | ${1}
+            ${undefined} | ${1}
+        `("returns string[] with length $expected for $examples", ({ examples, expected }) => {
+            const received = helper().help(examples);
+            expect(Array.isArray(received)).toEqual(true);
+            expect(received).toHaveLength(expected);
         });
 
-        it("accept undefined", () => {
-            const received = helper().help();
-            expect(Array.isArray(received)).toBeTruthy();
-        });
-
-        it("use command", () => {
+        it("includes command name", () => {
             const received = helper()
                 .help(examples, "release")
-                .slice(1);
+                .slice(1); // ignore header
 
             received.forEach(str => {
                 expect(str).toEqual(expect.stringContaining("release"));
@@ -72,40 +84,35 @@ describe("Helper", () => {
         });
     });
 
+    /**
+     * @test {Helper#outputHelp}
+     */
     describe("outputHelp()", () => {
-        const expectConsoleLog = (examples, expected = 1) => {
+        it.each`
+            examples     | expected
+            ${examples}  | ${examples.length + 1}
+            ${[]}        | ${1}
+            ${undefined} | ${1}
+        `("calls console.log $expected times for $examples", ({ examples, expected }) => {
             helper().outputHelp(examples);
 
             const { calls } = logger.log.mock;
             expect(calls.length).toEqual(expected);
-        };
-
-        it("output each line", () => {
-            expectConsoleLog(examples, examples.length + 1);
-        });
-
-        it("accept empty list", () => {
-            expectConsoleLog([]);
-        });
-
-        it("accept undefined", () => {
-            expectConsoleLog(undefined);
         });
     });
 
+    /**
+     * @test {Helper#getLongest}
+     */
     describe("getLongest()", () => {
-        it("return length of a", () => {
-            const longest = { command: "bbbbbbb" };
-            const shortest = { command: "a" };
-            const received = helper().getLongest(longest, shortest);
-            expect(received).toEqual(longest);
-        });
-
-        it("return length of b", () => {
-            const longest = { command: "bbbbbbb" };
-            const shortest = { command: "a" };
-            const received = helper().getLongest(shortest, longest);
-            expect(received).toEqual(longest);
+        it.each`
+            a            | b            | expected
+            ${"bbbbbbb"} | ${"a"}       | ${"bbbbbbb"}
+            ${"a"}       | ${"bbbbbbb"} | ${"bbbbbbb"}
+            ${"a"}       | ${"b"}       | ${"b"}
+        `("returns $expected when $a and $b are used", ({ a, b, expected }) => {
+            const received = helper().getLongest({ command: a }, { command: b });
+            expect(received).toEqual({ command: expected });
         });
     });
 });

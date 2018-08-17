@@ -3,6 +3,9 @@ import path from "path";
 import Linker, { verbs as linkerVerbs } from "../Linker";
 import * as helpers from "./helpers";
 
+/**
+ * @test {Linker}
+ */
 describe("Linker", () => {
     const longestPath = "c.txt";
     const mybb_root = path.resolve("src/Linker/__tests__/links");
@@ -16,7 +19,13 @@ describe("Linker", () => {
 
     let linker;
     let cmd;
-    let config;
+    let config = {
+        link: {
+            files: [longestPath],
+            directories: ["a"]
+        },
+        mybb_root
+    };
     let logger;
     let errors;
     let verbs;
@@ -68,18 +77,21 @@ describe("Linker", () => {
         mockStderr();
     });
 
+    /**
+     * @test {Linker#constructor}
+     */
     describe("constructor()", () => {
-        it("use default config", () => {
+        it("uses default config", () => {
             config = undefined;
             expect(link().config).toBeTruthy();
         });
 
-        it("use default logger", () => {
+        it("uses default logger", () => {
             logger = undefined;
             expect(link().logger).toBeTruthy();
         });
 
-        it("set properties", () => {
+        it("sets properties", () => {
             const expected = config.link.files.length + config.link.directories.length;
             expect(link().config).toEqual(config);
             expect(link().total).toEqual(expected);
@@ -88,6 +100,9 @@ describe("Linker", () => {
         });
     });
 
+    /**
+     * @test {Linker#errors}
+     */
     describe("errors()", () => {
         const mapErrors = () => {
             return errors.reduce(
@@ -100,7 +115,7 @@ describe("Linker", () => {
             );
         };
 
-        it("output verbose errors", () => {
+        it("outputs verbose errors", () => {
             cmd.verbose = true;
             const received = link().errors();
 
@@ -109,7 +124,7 @@ describe("Linker", () => {
             expect(received).toEqual([expect.stringContaining(`${errors.length}`), ...mapErrors()]);
         });
 
-        it("output succinct error", () => {
+        it("outputs succinct error", () => {
             cmd.verbose = false;
             const received = link().errors();
 
@@ -122,22 +137,31 @@ describe("Linker", () => {
         });
     });
 
+    /**
+     * @test {Linker#success}
+     */
     describe("success()", () => {
-        it("output message", () => {
+        it("outputs message", () => {
             const received = link().success();
             expect(received).toEqual(expect.stringContaining("Success"));
         });
     });
 
+    /**
+     * @test {Linker#constructor}
+     */
     describe("getMaxLength()", () => {
-        it("calculate max length", () => {
+        it("calculates max length", () => {
             const received = link().getMaxLength();
             expect(received).toEqual(longestPath.length);
         });
     });
 
+    /**
+     * @test {Linker#progress}
+     */
     describe("progress()", () => {
-        it("output failure", () => {
+        it("outputs failure", () => {
             const path = "a/path";
             const error = {
                 code: "ERROR CODE"
@@ -148,7 +172,7 @@ describe("Linker", () => {
             });
         });
 
-        it("output success", () => {
+        it("outputs success", () => {
             const path = "a/path";
             const received = link().progress(path);
             [verbs.gerund, path, "Success"].forEach(str => {
@@ -165,37 +189,43 @@ describe("Linker", () => {
             return helpers.resolvePaths(file);
         };
 
+        /**
+         * @test {Linker#makeLink}
+         */
         describe("makeLink()", () => {
-            const makeLink = (file, type = "file") => {
+            const makeLink = (file, type) => {
                 const { linkPath } = setupLinkage(file);
                 helpers.checkForFile(linkPath);
 
                 link().makeLink(file, type);
 
                 const exists = helpers.fileExists(linkPath);
-                helpers.removeFile(linkPath);
-
                 expect(exists).toEqual(true);
+
+                helpers.removeFile(linkPath);
             };
 
-            it("make link", () => {
-                makeLink(config.link.files[0]);
+            it.each`
+                path                          | type
+                ${config.link.files[0]}       | ${"file"}
+                ${config.link.directories[0]} | ${"dir"}
+            `("links $type at $path", ({ path, type }) => {
+                makeLink(path, type);
             });
 
-            it("make directory", () => {
-                makeLink(config.link.directories[0], "dir");
-            });
-
-            it("push error", () => {
+            it("pushes error", () => {
                 errors = [];
                 link().makeLink("not/a/real/path");
 
-                expect(link().errorList.length).toEqual(1);
+                expect(link().errorList).toHaveLength(1);
             });
         });
 
+        /**
+         * @test {Linker#destroyLink}
+         */
         describe("destroyLink()", () => {
-            it("destroy link", () => {
+            it("destroys link", () => {
                 const file = config.link.files[0];
                 const { originalPath, linkPath } = setupLinkage(file);
                 helpers.createFile(originalPath, linkPath);
@@ -206,7 +236,7 @@ describe("Linker", () => {
                 expect(exists).toEqual(false);
             });
 
-            it("push error", () => {
+            it("pushes error", () => {
                 const file = "not/a/real/path";
                 setupLinkage(file);
 
@@ -217,14 +247,17 @@ describe("Linker", () => {
         });
 
         describe("commands", () => {
+            /**
+             * @test {Linker#link}
+             */
             describe("link()", () => {
-                it("set verbs", () => {
+                it("sets verbs", () => {
                     config = emptyConfig;
                     link().link();
                     expect(link().verbs).toEqual(linkerVerbs.linking);
                 });
 
-                it("make links", () => {
+                it("makes links", () => {
                     setupLinkage();
                     link().link();
 
@@ -238,14 +271,17 @@ describe("Linker", () => {
                 });
             });
 
+            /**
+             * @test {Linker#unlink}
+             */
             describe("unlink()", () => {
-                it("set verbs", () => {
+                it("sets verbs", () => {
                     config = emptyConfig;
                     link().unlink();
                     expect(link().verbs).toEqual(linkerVerbs.unlinking);
                 });
 
-                it("destroy links", () => {
+                it("destroys links", () => {
                     helpers.createLinks([...config.link.files, ...config.link.directories]);
 
                     if (!helpers.getLinks().length) {
@@ -261,7 +297,7 @@ describe("Linker", () => {
                     });
                 });
 
-                it("output errors", () => {
+                it("outputs errors", () => {
                     config = emptyConfig;
                     const fnOutputErrors = jest.fn();
                     link().outputErrors = fnOutputErrors;
@@ -272,7 +308,7 @@ describe("Linker", () => {
                     expect(fnOutputErrors).toHaveBeenCalled();
                 });
 
-                it("output success", () => {
+                it("outputs success", () => {
                     config = emptyConfig;
                     const fnOutputSuccess = jest.fn();
                     link().outputSuccess = fnOutputSuccess;

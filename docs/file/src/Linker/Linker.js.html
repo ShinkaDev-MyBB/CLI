@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../../">
+  <title data-ice="title">src/Linker/Linker.js | shinka-cli</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<meta name="description" content="A command line utility for developing MyBB plugins."><meta property="twitter:card" content="summary"><meta property="twitter:title" content="shinka-cli"><meta property="twitter:description" content="A command line utility for developing MyBB plugins."></head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  <a href="test.html" data-ice="testLink">Test</a>
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+<a style="position:relative; top:3px;" href="https://github.com/ShinkaDev-MyBB/cli"><img width="20px" src="./image/github.png"></a></header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#documenter">Documenter</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/Documenter/Documenter.js~Documenter.html">Documenter</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/Documenter/Presenter.js~Presenter.html">Presenter</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/Documenter/Transformer.js~Transformer.html">Transformer</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#helper">Helper</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/Helper/Helper.js~Helper.html">Helper</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#linker">Linker</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/Linker/Linker.js~Linker.html">Linker</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-verbs">verbs</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#linker---tests--">Linker/__tests__</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-checkForFile">checkForFile</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-createFile">createFile</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-createLinks">createLinks</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-fileExists">fileExists</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getLinks">getLinks</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-removeFile">removeFile</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-removeLinks">removeLinks</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-resolvePaths">resolvePaths</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#logger">Logger</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/Logger/Logger.js~Logger.html">Logger</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#releaser">Releaser</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/Releaser/Releaser.js~Releaser.html">Releaser</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#typedef">Typedef</a><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-Cmd">Cmd</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-Command">Command</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-Config">Config</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-Example">Example</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-LinkError">LinkError</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-LogObject">LogObject</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-Option">Option</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-Verbs">Verbs</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#commands">commands</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-link">link</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-release">release</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-relink">relink</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-unlink">unlink</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/Linker/Linker.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import chalk from &quot;chalk&quot;;
+import fs from &quot;fs&quot;;
+import nodePath from &quot;path&quot;;
+import ProgressBar from &quot;progress&quot;;
+
+import Logger from &quot;../Logger&quot;;
+
+/**
+ * Strings used in composing messages.
+ * @type {{ linking: Verbs, unlinking: Verbs }}
+ */
+export const verbs = {
+    linking: { present: &quot;Link&quot;, past: &quot;Linked&quot;, gerund: &quot;Linking&quot; },
+    unlinking: { present: &quot;Unlink&quot;, past: &quot;Unlinked&quot;, gerund: &quot;Unlinking&quot; }
+};
+
+/**
+ * Handles creating and destroying symlinks.
+ */
+export default class Linker {
+    /**
+     * Paths and associated errors.
+     * @type {LinkError[]}
+     */
+    errorList = [];
+
+    /**
+     * Number of files and directories.
+     * @type {number}
+     */
+    total;
+
+    /**
+     * Length of longest path.
+     * @type {number}
+     */
+    maxLength;
+
+    /**
+     * Progress bar.
+     * @type {ProgressBar}
+     */
+    bar;
+
+    /**
+     * Current working directory, used to build absolute paths.
+     * @type {string}
+     */
+    cwd = process.cwd();
+
+    /**
+     * Verbs to use in composing messages.
+     * @type {Verbs}
+     */
+    verbs = {};
+
+    /**
+     * Command arguments.
+     * @type {Cmd}
+     */
+    cmd;
+
+    /**
+     * Config to pull linkables from.
+     * @type {Config}
+     */
+    config = { link: { files: [], directories: [] } };
+
+    /**
+     * logger#log is used to output progress, e.g. {@link Logger#log} or {@link console#log}.
+     * @type {LogObject}
+     */
+    logger;
+
+    /**
+     * @param {Cmd}    cmd
+     * @param {Config} [config=this.config]
+     * @param {LogObject} [logger=new Logger()]
+     */
+    constructor(cmd, config, logger = new Logger()) {
+        this.cmd = cmd;
+        this.config = config || this.config;
+        this.logger = logger;
+
+        this.total = this.config.link.files.length + this.config.link.directories.length;
+        this.maxLength = this.getMaxLength();
+        this.bar = new ProgressBar(&quot;\n:bar [:current/:total]&quot;, {
+            total: this.total
+        });
+    }
+
+    /**
+     * Links items and outputs progress.
+     *
+     * @param    {Config}   config
+     * @property {string[]} config.files
+     * @property {string[]} config.directories
+     * @returns  {Linker}
+     */
+    link({ files = [], directories = [] } = this.config.link) {
+        this.verbs = verbs.linking;
+
+        files.forEach(path =&gt; this.makeLink(path, &quot;file&quot;));
+        directories.forEach(path =&gt; this.makeLink(path, &quot;dir&quot;));
+
+        this.errorList.length ? this.outputErrors() : this.outputSuccess();
+
+        return this;
+    }
+
+    /**
+     * Unlinks items and outputs progress.
+     *
+     * @param    {Config}   config
+     * @property {string[]} config.files
+     * @property {string[]} config.directories
+     * @returns  {Linker}
+     */
+    unlink({ files = [], directories = [] } = this.config.link) {
+        this.verbs = verbs.unlinking;
+
+        files.forEach(this.destroyLink);
+        directories.forEach(this.destroyLink);
+
+        this.errorList.length ? this.outputErrors() : this.outputSuccess();
+
+        return this;
+    }
+
+    /**
+     * Destroys symlink and outputs progress.
+     *
+     * @method
+     * @param {string} path - Path to file or directory
+     */
+    destroyLink = path =&gt; {
+        const { mybb_root } = this.config;
+        let error = null;
+
+        try {
+            fs.unlinkSync(nodePath.resolve(mybb_root, path));
+        } catch (e) {
+            error = e;
+            this.errorList.push({ path, error });
+        }
+
+        this.outputProgress(path, error);
+    };
+
+    /**
+     * Creates symlink and outputs progress.
+     *
+     * @method
+     * @param {string} path - Path to file or directory
+     * @param {string} [type=&quot;file&quot;] - &lt;code&gt;file&lt;/code&gt; or &lt;code&gt;dir&lt;/code&gt;
+     */
+    makeLink = (path, type = &quot;file&quot;) =&gt; {
+        const { mybb_root } = this.config;
+        let error = null;
+
+        try {
+            fs.symlinkSync(
+                nodePath.resolve(this.cwd, path),
+                nodePath.resolve(mybb_root, path),
+                type
+            );
+        } catch (e) {
+            error = e;
+            this.errorList.push({ path, error });
+        }
+
+        this.outputProgress(path, error);
+    };
+
+    /**
+     * Outputs status message and updates progress bar.
+     * @param {string} path
+     * @param {?Error}  [error]
+     */
+    outputProgress(path, error) {
+        const str = this.progress(path, error);
+        this.bar.interrupt(str);
+        this.bar.tick();
+    }
+
+    /**
+     * Builds progress message in format `(Un)Linking... to/a/path    Status`
+     *
+     * @param   {string} path
+     * @param   {?Error} [error]
+     * @returns {string}
+     */
+    progress(path, error) {
+        const verb = this.verbs.gerund;
+
+        let suffix = error ? chalk.red(error.code) : chalk.green(&quot;Success&quot;);
+        let str = path.padEnd(this.maxLength);
+        str = `${str} ${suffix}`;
+
+        return chalk.gray(`${verb}... `) + str;
+    }
+
+    /**
+     * Builds error messages.
+     *
+     * @returns {string[]}
+     */
+    errors() {
+        const { verbose } = this.cmd;
+        const verb = this.verbs.present.toLowerCase();
+
+        let str = [chalk.red(`\nFailed to ${verb} ${this.errorList.length} files or directories`)];
+
+        if (verbose) {
+            this.errorList.forEach(({ path, error }) =&gt; {
+                str.push(`\n${path}\n`);
+                str.push(error);
+            });
+        } else {
+            str.push(chalk.gray(&quot;Rerun with -v for verbose error messages.&quot;));
+        }
+
+        return str;
+    }
+
+    /**
+     * Builds success message.
+     *
+     * @returns {string}
+     */
+    success() {
+        const verb = this.verbs.past.toLowerCase();
+        return chalk.green(`\nSuccessfully ${verb} ${this.total} files and directories`);
+    }
+
+    /**
+     * Outputs error messages.
+     */
+    outputErrors() {
+        const str = this.errors();
+        str.forEach(err =&gt; this.logger.log(err));
+    }
+
+    /**
+     * Outputs success message.
+     */
+    outputSuccess() {
+        const str = this.success();
+        this.logger.log(str);
+    }
+
+    /**
+     * Calculates length of longest file or directory name.
+     *
+     * @returns {number}
+     */
+    getMaxLength() {
+        const { files, directories } = this.config.link;
+        return [...files, ...directories].reduce((a, b) =&gt; (a.length &gt; b.length ? a : b), [])
+            .length;
+    }
+}
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

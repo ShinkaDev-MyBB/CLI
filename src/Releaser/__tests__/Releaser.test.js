@@ -25,9 +25,9 @@ describe("Releaser", () => {
         cmd = { output: "test.zip" };
         rel = null;
         config = {
-            vendor: "shinka",
-            code: "cli",
-            version: "0.0.1a"
+            vendor,
+            code,
+            version
         };
         logger = {
             log: jest.fn()

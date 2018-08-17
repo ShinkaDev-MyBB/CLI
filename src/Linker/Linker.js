@@ -1,38 +1,82 @@
 import chalk from "chalk";
 import fs from "fs";
+import nodePath from "path";
 import ProgressBar from "progress";
 
 import Logger from "../Logger";
 
+/**
+ * Strings used in composing messages.
+ * @type {{ linking: Verbs, unlinking: Verbs }}
+ */
 export const verbs = {
     linking: { present: "Link", past: "Linked", gerund: "Linking" },
     unlinking: { present: "Unlink", past: "Unlinked", gerund: "Unlinking" }
 };
 
+/**
+ * Handles creating and destroying symlinks.
+ */
 export default class Linker {
-    /** @var {object[]} errors  - Paths and associated errors */
+    /**
+     * Paths and associated errors.
+     * @type {LinkError[]}
+     */
     errorList = [];
 
-    /** @var {number} total     - Number of files and directories */
+    /**
+     * Number of files and directories.
+     * @type {number}
+     */
     total;
 
-    /** @var {number} maxLength - Length of longest path */
+    /**
+     * Length of longest path.
+     * @type {number}
+     */
     maxLength;
 
-    /** @var {ProgressBar} bar  - Outputs progress bar */
+    /**
+     * Progress bar.
+     * @type {ProgressBar}
+     */
     bar;
 
-    /** @var {string} cwd       - Current working directory, used to build absolute paths */
+    /**
+     * Current working directory, used to build absolute paths.
+     * @type {string}
+     */
     cwd = process.cwd();
 
-    /** @var {object} verbs     - Verbs to use in logger output */
+    /**
+     * Verbs to use in composing messages.
+     * @type {Verbs}
+     */
     verbs = {};
 
-    /** @var {object} config    - Config to pull linkables from */
+    /**
+     * Command arguments.
+     * @type {Cmd}
+     */
+    cmd;
+
+    /**
+     * Config to pull linkables from.
+     * @type {Config}
+     */
     config = { link: { files: [], directories: [] } };
 
+    /**
+     * logger#log is used to output progress, e.g. {@link Logger#log} or {@link console#log}.
+     * @type {LogObject}
+     */
     logger;
 
+    /**
+     * @param {Cmd}    cmd
+     * @param {Config} [config=this.config]
+     * @param {LogObject} [logger=new Logger()]
+     */
     constructor(cmd, config, logger = new Logger()) {
         this.cmd = cmd;
         this.config = config || this.config;
@@ -45,8 +89,15 @@ export default class Linker {
         });
     }
 
-    link() {
-        const { files, directories } = this.config.link;
+    /**
+     * Links items and outputs progress.
+     *
+     * @param    {Config}   config
+     * @property {string[]} config.files
+     * @property {string[]} config.directories
+     * @returns  {Linker}
+     */
+    link({ files = [], directories = [] } = this.config.link) {
         this.verbs = verbs.linking;
 
         files.forEach(path => this.makeLink(path, "file"));
@@ -57,8 +108,15 @@ export default class Linker {
         return this;
     }
 
-    unlink() {
-        const { files, directories } = this.config.link;
+    /**
+     * Unlinks items and outputs progress.
+     *
+     * @param    {Config}   config
+     * @property {string[]} config.files
+     * @property {string[]} config.directories
+     * @returns  {Linker}
+     */
+    unlink({ files = [], directories = [] } = this.config.link) {
         this.verbs = verbs.unlinking;
 
         files.forEach(this.destroyLink);
@@ -69,12 +127,18 @@ export default class Linker {
         return this;
     }
 
+    /**
+     * Destroys symlink and outputs progress.
+     *
+     * @method
+     * @param {string} path - Path to file or directory
+     */
     destroyLink = path => {
         const { mybb_root } = this.config;
         let error = null;
 
         try {
-            fs.unlinkSync(`${mybb_root}/${path}`);
+            fs.unlinkSync(nodePath.resolve(mybb_root, path));
         } catch (e) {
             error = e;
             this.errorList.push({ path, error });
@@ -83,12 +147,23 @@ export default class Linker {
         this.outputProgress(path, error);
     };
 
+    /**
+     * Creates symlink and outputs progress.
+     *
+     * @method
+     * @param {string} path - Path to file or directory
+     * @param {string} [type="file"] - <code>file</code> or <code>dir</code>
+     */
     makeLink = (path, type = "file") => {
         const { mybb_root } = this.config;
         let error = null;
 
         try {
-            fs.symlinkSync(`${this.cwd}/${path}`, `${mybb_root}/${path}`, type);
+            fs.symlinkSync(
+                nodePath.resolve(this.cwd, path),
+                nodePath.resolve(mybb_root, path),
+                type
+            );
         } catch (e) {
             error = e;
             this.errorList.push({ path, error });
@@ -97,12 +172,24 @@ export default class Linker {
         this.outputProgress(path, error);
     };
 
+    /**
+     * Outputs status message and updates progress bar.
+     * @param {string} path
+     * @param {?Error}  [error]
+     */
     outputProgress(path, error) {
         const str = this.progress(path, error);
         this.bar.interrupt(str);
         this.bar.tick();
     }
 
+    /**
+     * Builds progress message in format `(Un)Linking... to/a/path    Status`
+     *
+     * @param   {string} path
+     * @param   {?Error} [error]
+     * @returns {string}
+     */
     progress(path, error) {
         const verb = this.verbs.gerund;
 
@@ -114,6 +201,8 @@ export default class Linker {
     }
 
     /**
+     * Builds error messages.
+     *
      * @returns {string[]}
      */
     errors() {
@@ -135,6 +224,8 @@ export default class Linker {
     }
 
     /**
+     * Builds success message.
+     *
      * @returns {string}
      */
     success() {
@@ -142,11 +233,17 @@ export default class Linker {
         return chalk.green(`\nSuccessfully ${verb} ${this.total} files and directories`);
     }
 
+    /**
+     * Outputs error messages.
+     */
     outputErrors() {
         const str = this.errors();
         str.forEach(err => this.logger.log(err));
     }
 
+    /**
+     * Outputs success message.
+     */
     outputSuccess() {
         const str = this.success();
         this.logger.log(str);

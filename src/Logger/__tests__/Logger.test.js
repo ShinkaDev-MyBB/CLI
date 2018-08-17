@@ -1,5 +1,8 @@
 import Logger from "../Logger";
 
+/**
+ * @test {Logger}
+ */
 describe("Logger", () => {
     const output = "expected output";
     let log;
@@ -23,33 +26,42 @@ describe("Logger", () => {
         silent = false;
     });
 
+    /**
+     * @test {Logger#constructor}
+     */
     describe("constructor()", () => {
-        it("set silent property from cmd", () => {
+        it("sets silent property", () => {
             silent = "SILENCE";
             expect(logger().silent).toEqual(silent);
         });
 
-        it("default channel to console", () => {
+        it("defaults channel to console", () => {
             channel = undefined;
             expect(logger().channel).toEqual(console);
         });
     });
 
+    /**
+     * @test {Logger#log}
+     */
     describe("log()", () => {
-        it("log output when not silenced", () => {
+        it("logs output when not silenced", () => {
             logger().log(output);
             expect(channel.log).toHaveBeenCalledWith(output);
         });
 
-        it("not log output when silenced", () => {
+        it("doesn't log output when silenced", () => {
             silent = true;
             logger().log(output);
             expect(channel.log).not.toHaveBeenCalled();
         });
 
-        it("log output when forced", () => {
+        /**
+         * @test {Logger#force.log}
+         */
+        it("logs output when forced", () => {
             silent = true;
-            logger().log(output, true);
+            logger().force.log(output);
             expect(channel.log).toHaveBeenCalledWith(output);
         });
     });

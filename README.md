@@ -18,7 +18,7 @@ npm install --global shinka-cli
 
 ### Configure
 
-Create the utility's config file in the root of your app.
+Create the utility's config file in the root of your app. See [shinka.example.json](/blob/master/shinka.example.json) for a full example.
 
 #### `shinka.json`
 
@@ -34,13 +34,15 @@ Create the utility's config file in the root of your app.
 
 ## Usage
 
+Try `shinka <command> --help` for detailed options and examples.
+
 ### `shinka link`
 
 Creates symbolic links for files designated in shinka.json
 
-| Flag            | Description                |
-| :-------------- | :------------------------- |
-| `-v, --verbose` | Output full error messages |
+| Flag            | Description                   |
+| :-------------- | :---------------------------- |
+| `-v, --verbose` | Output verbose error messages |
 
 ```shell
 $ shinka link
@@ -52,9 +54,9 @@ $ shinka link -v
 
 Destroys symbolic links for files designated in shinka.json
 
-| Flag            | Description                |
-| :-------------- | :------------------------- |
-| `-v, --verbose` | Output full error messages |
+| Flag            | Description                   |
+| :-------------- | :---------------------------- |
+| `-v, --verbose` | Output verbose error messages |
 
 ```shell
 $ shinka unlink
@@ -66,27 +68,14 @@ $ shinka unlink -v
 
 Destroys and recreates symbolic links for files designated in shinka.json
 
-| Flag            | Description                |
-| :-------------- | :------------------------- |
-| `-v, --verbose` | Output full error messages |
+| Flag            | Description                   |
+| :-------------- | :---------------------------- |
+| `-v, --verbose` | Output verbose error messages |
 
 ```shell
 $ shinka relink
 $ shinka relink --verbose
 $ shinka relink -v
-```
-
-### `shinka test`
-
-Runs PHPUnit tests and outputs results.
-
-| Flag                       | Description          |
-| :------------------------- | :------------------- |
-| `-o <path>, --only <path>` | Only run these tests |
-
-```shell
-$ shinka test
-$ shinka test -o path/to/specific/test(s)
 ```
 
 ### `shinka release`
@@ -95,13 +84,15 @@ Builds and bundles for release.
 
 Output filename in format `<vendor>-<code>-<version>.zip`, e.g. `shinka-cli-0.0.1a.zip`
 
-| Flag                                   | Description                                |                                                                 |
-| :------------------------------------- | :----------------------------------------- | :-------------------------------------------------------------- |
-| `-v <version>, --version <version>`    | Version to release                         |
-| `-V <vendor>, --vendor <vendor>`       | Vendor name, e.g. `shinka` in `shinka-cli` |
-| `-c <code>, --code <code>`             | Plugin code, e.g. `cli` in `shinka-cli`    |
-| `-b <version>, --bump <version>`       | Bumps version before release               | `patch`, `minor`, `major`, or a specific version, e.g. `1.0.2a` |
-| `-f <filename>, --filename <filename>` | Should include file extension              |
+Uses `git archive HEAD:src --format zip` to bundle. Configure your `.gitattributes` accordingly.
+
+| Flag                               | Description                                                   |     |
+| :--------------------------------- | :------------------------------------------------------------ | :-- |
+| `-s <version>, --semver <version>` | Version to release                                            |
+| `-N <vendor>, --vendor <vendor>`   | Vendor name, e.g. `shinka` in `shinka-cli`                    |
+| `-c <code>, --code <code>`         | Plugin code, e.g. `cli` in `shinka-cli`                       |
+| `-o <path>, --output <path>`       | Output filename. Should include file extension.               |
+| `-d <dir>, --directory <dir>`      | Output directory and filename. Should include file extension. |
 
 ```json
 // shinka.json

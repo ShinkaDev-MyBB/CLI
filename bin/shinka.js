@@ -40,7 +40,7 @@ function loadCommands() {
                 new Helper().outputHelp(examples, command);
             });
 
-        Object.entries(options).forEach(([flag, description]) => {
+        options.forEach(({ flag, description }) => {
             cmd.option(flag, description);
         });
     });

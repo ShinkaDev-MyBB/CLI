@@ -1,0 +1,10 @@
+{
+    "link": {
+        "files": ["path/to/a/file.txt"],
+        "directories": ["path/to/a/directory"]
+    },
+    "mybb_root": "path/to/mybb/root",
+    "vendor": "shinka",
+    "code": "cli",
+    "version": "0.0.1"
+}

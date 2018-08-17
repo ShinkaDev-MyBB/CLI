@@ -1,0 +1,31 @@
+{
+    "source": "./src",
+    "destination": "./docs",
+    "plugins": [
+        {
+            "name": "esdoc-standard-plugin",
+            "option": {
+                "test": {
+                    "source": "./src",
+                    "interfaces": ["describe", "it", "context", "suite", "test"],
+                    "includes": ["(spec|Spec|test|Test)\\.js$"],
+                    "excludes": ["\\.config\\.js$", "\\.data\\.js$"]
+                },
+                "brand": {
+                    "title": "shinka-cli",
+                    "description": "A command line utility for developing MyBB plugins.",
+                    "repository": "https://github.com/ShinkaDev-MyBB/cli",
+                    "site": "https://github.com/ShinkaDev-MyBB",
+                    "author": "https://github.com/kalyndrobinson"
+                },
+                "manual": {
+                    "index": "./manual/index.md",
+                    "globalIndex": true,
+                    "asset": "./manual/asset",
+                    "files": ["./manual/install.md", "./manual/configure.md", "./manual/usage.md"]
+                }
+            }
+        },
+        { "name": "esdoc-ecmascript-proposal-plugin", "option": { "all": true } }
+    ]
+}

@@ -1,0 +1,4605 @@
+[
+  {
+    "__docId__": 1,
+    "kind": "external",
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Infinity",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 2,
+    "kind": "external",
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~NaN",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 3,
+    "kind": "external",
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~undefined",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 4,
+    "kind": "external",
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~null",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 5,
+    "kind": "external",
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 6,
+    "kind": "external",
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 7,
+    "kind": "external",
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 8,
+    "kind": "external",
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 9,
+    "kind": "external",
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 10,
+    "kind": "external",
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 11,
+    "kind": "external",
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Symbol",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 12,
+    "kind": "external",
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Error",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 13,
+    "kind": "external",
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~EvalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 14,
+    "kind": "external",
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~InternalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 15,
+    "kind": "external",
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RangeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 16,
+    "kind": "external",
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ReferenceError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 17,
+    "kind": "external",
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~SyntaxError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 18,
+    "kind": "external",
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~TypeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 19,
+    "kind": "external",
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~URIError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 20,
+    "kind": "external",
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 21,
+    "kind": "external",
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 22,
+    "kind": "external",
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Date",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 23,
+    "kind": "external",
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~String",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 24,
+    "kind": "external",
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~string",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 25,
+    "kind": "external",
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RegExp",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 26,
+    "kind": "external",
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 27,
+    "kind": "external",
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 28,
+    "kind": "external",
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 29,
+    "kind": "external",
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8ClampedArray",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 30,
+    "kind": "external",
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 31,
+    "kind": "external",
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 32,
+    "kind": "external",
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 33,
+    "kind": "external",
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 34,
+    "kind": "external",
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 35,
+    "kind": "external",
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float64Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 36,
+    "kind": "external",
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Map",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 37,
+    "kind": "external",
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Set",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 38,
+    "kind": "external",
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakMap",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 39,
+    "kind": "external",
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakSet",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 40,
+    "kind": "external",
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ArrayBuffer",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 41,
+    "kind": "external",
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~DataView",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 42,
+    "kind": "external",
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~JSON",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 43,
+    "kind": "external",
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Promise",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 44,
+    "kind": "external",
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Generator",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 45,
+    "kind": "external",
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~GeneratorFunction",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 46,
+    "kind": "external",
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Reflect",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 47,
+    "kind": "external",
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Proxy",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "src/commands/index.js",
+    "content": "export * from \"./link\";\r\nexport * from \"./relink\";\r\nexport * from \"./unlink\";\r\nexport * from \"./release\";\r\n",
+    "static": true,
+    "longname": "C:/Users/Kalyn Robinson/Documents/Development/mybb/cli/src/commands/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "file",
+    "name": "src/commands/link.js",
+    "content": "import Linker from \"../Linker\";\r\n\r\n/**\r\n * Creates symbolic links for designated files and directories.\r\n *\r\n * @param {Command} cmd    - To access command arguments\r\n * @param {Object}  config - shinka.json\r\n */\r\nexport function link(cmd, config) {\r\n    new Linker(cmd, config).link();\r\n}\r\n",
+    "static": true,
+    "longname": "C:/Users/Kalyn Robinson/Documents/Development/mybb/cli/src/commands/link.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 50,
+    "kind": "function",
+    "name": "link",
+    "memberof": "src/commands/link.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/commands/link.js~link",
+    "access": "public",
+    "export": true,
+    "importPath": "shinka-cli/src/commands/link.js",
+    "importStyle": "{link}",
+    "description": "Creates symbolic links for designated files and directories.",
+    "lineNumber": 9,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Command"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "cmd",
+        "description": "To access command arguments"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "config",
+        "description": "shinka.json"
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 51,
+    "kind": "file",
+    "name": "src/commands/release.js",
+    "content": "import Releaser from \"../Releaser\";\r\n\r\n/**\r\n * Bundles source files for release.\r\n *\r\n * @param {Object} cmd    - To access command arguments\r\n * @param {Object} config - shinka.json\r\n */\r\nexport function release(cmd, config) {\r\n    new Releaser(cmd, config).release();\r\n}\r\n",
+    "static": true,
+    "longname": "C:/Users/Kalyn Robinson/Documents/Development/mybb/cli/src/commands/release.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 52,
+    "kind": "function",
+    "name": "release",
+    "memberof": "src/commands/release.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/commands/release.js~release",
+    "access": "public",
+    "export": true,
+    "importPath": "shinka-cli/src/commands/release.js",
+    "importStyle": "{release}",
+    "description": "Bundles source files for release.",
+    "lineNumber": 9,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "cmd",
+        "description": "To access command arguments"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "config",
+        "description": "shinka.json"
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 53,
+    "kind": "file",
+    "name": "src/commands/relink.js",
+    "content": "import Linker from \"../Linker\";\r\n\r\n/**\r\n * Destroys symbolic links for designated files and directories.\r\n *\r\n * @param {Object} cmd    - To access command arguments\r\n * @param {Object} config - shinka.json\r\n */\r\nexport function relink(cmd, config) {\r\n    const linker = new Linker(cmd, config);\r\n    linker.unlink();\r\n    console.log(\"\");\r\n    linker.link();\r\n}\r\n",
+    "static": true,
+    "longname": "C:/Users/Kalyn Robinson/Documents/Development/mybb/cli/src/commands/relink.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 54,
+    "kind": "function",
+    "name": "relink",
+    "memberof": "src/commands/relink.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/commands/relink.js~relink",
+    "access": "public",
+    "export": true,
+    "importPath": "shinka-cli/src/commands/relink.js",
+    "importStyle": "{relink}",
+    "description": "Destroys symbolic links for designated files and directories.",
+    "lineNumber": 9,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "cmd",
+        "description": "To access command arguments"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "config",
+        "description": "shinka.json"
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 55,
+    "kind": "file",
+    "name": "src/commands/unlink.js",
+    "content": "import Linker from \"../Linker\";\r\n\r\n/**\r\n * Destroys symbolic links for designated files and directories.\r\n *\r\n * @param {Object} cmd    - To access command arguments\r\n * @param {Object} config - shinka.json\r\n */\r\nexport function unlink(cmd, config) {\r\n    new Linker(cmd, config).unlink();\r\n}\r\n",
+    "static": true,
+    "longname": "C:/Users/Kalyn Robinson/Documents/Development/mybb/cli/src/commands/unlink.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 56,
+    "kind": "function",
+    "name": "unlink",
+    "memberof": "src/commands/unlink.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/commands/unlink.js~unlink",
+    "access": "public",
+    "export": true,
+    "importPath": "shinka-cli/src/commands/unlink.js",
+    "importStyle": "{unlink}",
+    "description": "Destroys symbolic links for designated files and directories.",
+    "lineNumber": 9,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "cmd",
+        "description": "To access command arguments"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "config",
+        "description": "shinka.json"
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 57,
+    "kind": "file",
+    "name": "src/Documenter/Documenter.js",
+    "content": "import fs from \"fs\";\r\nimport nodePath from \"path\";\r\n\r\nimport Presenter from \"./Presenter\";\r\nimport * as cmds from \"../../bin/commands\";\r\n\r\nconst defaultCommands = Object.entries(cmds).map(([_, value]) => value());\r\n\r\n/**\r\n * Generates markdown documentation for commands.\r\n *\r\n * @example\r\n * Documenter.generate();\r\n * @example\r\n * Documenter.generate(cmds);\r\n * @example\r\n * Documenter.generate(cmds, \"to/a/path.md\");\r\n */\r\nexport default class Documenter {\r\n    /**\r\n     * Generates documentation and write to file.\r\n     *\r\n     * @param {Command[]} [commands=cmds] - Defaults to exported commands\r\n     * @param {string}    [path=\"src/commands/COMMANDS.md\"] - File to write to\r\n     *\r\n     * @example\r\n     * Documenter.generate();\r\n     * @example\r\n     * Documenter.generate(cmds);\r\n     * @example\r\n     * Documenter.generate(cmds, \"to/a/path.md\");\r\n     */\r\n    static generate(commands = defaultCommands, path = \"manual/usage.md\") {\r\n        const presented = [\r\n            \"# Usage\",\r\n            \"Try `shinka <command> --help` for detailed options and examples.\",\r\n            ...commands.map(Presenter.generateFor)\r\n        ].join(\"\\n\");\r\n\r\n        fs.writeFileSync(nodePath.resolve(path), presented);\r\n    }\r\n}\r\n",
+    "static": true,
+    "longname": "C:/Users/Kalyn Robinson/Documents/Development/mybb/cli/src/Documenter/Documenter.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 58,
+    "kind": "variable",
+    "name": "defaultCommands",
+    "memberof": "src/Documenter/Documenter.js",
+    "static": true,
+    "longname": "src/Documenter/Documenter.js~defaultCommands",
+    "access": "public",
+    "export": false,
+    "importPath": "shinka-cli/src/Documenter/Documenter.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 59,
+    "kind": "class",
+    "name": "Documenter",
+    "memberof": "src/Documenter/Documenter.js",
+    "static": true,
+    "longname": "src/Documenter/Documenter.js~Documenter",
+    "access": "public",
+    "export": true,
+    "importPath": "shinka-cli/src/Documenter/Documenter.js",
+    "importStyle": "Documenter",
+    "description": "Generates markdown documentation for commands.",
+    "examples": [
+      "Documenter.generate();",
+      "Documenter.generate(cmds);",
+      "Documenter.generate(cmds, \"to/a/path.md\");"
+    ],
+    "lineNumber": 19,
+    "interface": false
+  },
+  {
+    "__docId__": 60,
+    "kind": "method",
+    "name": "generate",
+    "memberof": "src/Documenter/Documenter.js~Documenter",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/Documenter/Documenter.js~Documenter.generate",
+    "access": "public",
+    "description": "Generates documentation and write to file.",
+    "examples": [
+      "Documenter.generate();",
+      "Documenter.generate(cmds);",
+      "Documenter.generate(cmds, \"to/a/path.md\");"
+    ],
+    "lineNumber": 33,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Command[]"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "cmds",
+        "defaultRaw": "cmds",
+        "name": "commands",
+        "description": "Defaults to exported commands"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "\"src/commands/COMMANDS.md\"",
+        "defaultRaw": "src/commands/COMMANDS.md",
+        "name": "path",
+        "description": "File to write to"
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 61,
+    "kind": "file",
+    "name": "src/Documenter/index.js",
+    "content": "export { default } from \"./Documenter\";\r\nexport { default as Documenter } from \"./Documenter\";\r\n",
+    "static": true,
+    "longname": "C:/Users/Kalyn Robinson/Documents/Development/mybb/cli/src/Documenter/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 62,
+    "kind": "file",
+    "name": "src/Documenter/Presenter.js",
+    "content": "import Transformer from \"./Transformer\";\r\n\r\n/**\r\n * Generates markdown documentation for commands.\r\n *\r\n * @example\r\n * Presenter.generateFor({\r\n *      command: 'release',\r\n *      description: 'Bundles source files for release.',\r\n *      options: [{ flag: '-f, --force', description: \"Overwrite target file\" }],\r\n *      examples: [{ command: '-o path/to/target', description: \"Changes output directory\" }]\r\n * });\r\n * // => ## release\r\n * //    Bundles source files for release.\r\n * //\r\n * //    ### Options\r\n * //    **-f, --force**: Overwrite target file\r\n * //\r\n * //    ### Examples\r\n * //    $ shinka release -o path/to/target     # Changes output directory\r\n */\r\nexport default class Presenter {\r\n    /**\r\n     * Generates documentation for given command.\r\n     *\r\n     * @param   {Command} cmd - Command being documented\r\n     * @returns {string}  Generated documentation\r\n     *\r\n     * @example\r\n     * Presenter.generateFor({\r\n     *      command: 'release',\r\n     *      description: 'Bundles source files for release.'\r\n     * });\r\n     * // => ## Release\r\n     * //    Bundles source files for release.\r\n     */\r\n    static generateFor = cmd => {\r\n        const output = [\r\n            `## \\`${cmd.command}\\``,\r\n            cmd.description,\r\n            ...Presenter.buildOptions(cmd),\r\n            ...Presenter.buildExamples(cmd)\r\n        ];\r\n\r\n        return output.join(\"\\n\");\r\n    };\r\n\r\n    /**\r\n     * Transforms examples to list of strings.\r\n     *\r\n     * @param   {Command}    cmd\r\n     * @param   {Example[]}  cmd.examples\r\n     * @param   {string}     cmd.command\r\n     * @returns {string[]}\r\n     *\r\n     * @example\r\n     * Presenter.buildExamples({\r\n     *      command: \"release\",\r\n     *      examples: [{ command: '-o path/to/target', description: \"Changes output directory\" }]\r\n     * });\r\n     * // => ['### Examples',\r\n     * //     '```shell',\r\n     * //     '$ release -o path/to/target    # Changes output directory',\r\n     * //     '```']\r\n     */\r\n    static buildExamples({ examples, command }) {\r\n        if (!examples || !examples.length) {\r\n            return [];\r\n        }\r\n\r\n        const egs = examples.map(eg => {\r\n            // include command name in example\r\n            eg.command = `${command} ${eg.command}`;\r\n            return `${Transformer.example(eg)}`;\r\n        });\r\n\r\n        return [`### Examples`, \"```shell\", ...egs, \"```\"];\r\n    }\r\n\r\n    /**\r\n     * Transforms options to list of strings.\r\n     *\r\n     * @param   {Command}  cmd\r\n     * @param   {Option[]} cmd.options\r\n     * @returns {string[]}\r\n     *\r\n     * @example\r\n     * Presenter.buildOptions({\r\n     *      options: [{ flag: '-f, --force', description: \"Overwrite target file\" }]\r\n     * });\r\n     * // => ['### Options', **-f, --force**: Overwrite target file']\r\n     */\r\n    static buildOptions({ options }) {\r\n        if (!options || !options.length) {\r\n            return [];\r\n        }\r\n\r\n        const opts = options.map(option => `${Transformer.option(option)}\\n`);\r\n\r\n        return [`### Options`, ...opts];\r\n    }\r\n}\r\n",
+    "static": true,
+    "longname": "C:/Users/Kalyn Robinson/Documents/Development/mybb/cli/src/Documenter/Presenter.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 63,
+    "kind": "class",
+    "name": "Presenter",
+    "memberof": "src/Documenter/Presenter.js",
+    "static": true,
+    "longname": "src/Documenter/Presenter.js~Presenter",
+    "access": "public",
+    "export": true,
+    "importPath": "shinka-cli/src/Documenter/Presenter.js",
+    "importStyle": "Presenter",
+    "description": "Generates markdown documentation for commands.",
+    "examples": [
+      "Presenter.generateFor({\n     command: 'release',\n     description: 'Bundles source files for release.',\n     options: [{ flag: '-f, --force', description: \"Overwrite target file\" }],\n     examples: [{ command: '-o path/to/target', description: \"Changes output directory\" }]\n});\n// => ## release\n//    Bundles source files for release.\n//\n//    ### Options\n//    **-f, --force**: Overwrite target file\n//\n//    ### Examples\n//    $ shinka release -o path/to/target     # Changes output directory"
+    ],
+    "lineNumber": 22,
+    "interface": false
+  },
+  {
+    "__docId__": 64,
+    "kind": "member",
+    "name": "generateFor",
+    "memberof": "src/Documenter/Presenter.js~Presenter",
+    "static": true,
+    "longname": "src/Documenter/Presenter.js~Presenter.generateFor",
+    "access": "public",
+    "description": "Generates documentation for given command.",
+    "examples": [
+      "Presenter.generateFor({\n     command: 'release',\n     description: 'Bundles source files for release.'\n});\n// => ## Release\n//    Bundles source files for release."
+    ],
+    "lineNumber": 37,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{string}  Generated documentation"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Command"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "cmd",
+        "description": "Command being documented"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "string"
+      ],
+      "spread": false,
+      "description": "Generated documentation"
+    },
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 65,
+    "kind": "method",
+    "name": "buildExamples",
+    "memberof": "src/Documenter/Presenter.js~Presenter",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/Documenter/Presenter.js~Presenter.buildExamples",
+    "access": "public",
+    "description": "Transforms examples to list of strings.",
+    "examples": [
+      "Presenter.buildExamples({\n     command: \"release\",\n     examples: [{ command: '-o path/to/target', description: \"Changes output directory\" }]\n});\n// => ['### Examples',\n//     '```shell',\n//     '$ release -o path/to/target    # Changes output directory',\n//     '```']"
+    ],
+    "lineNumber": 66,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{string[]}"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Command"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "cmd",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Example[]"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "cmd.examples",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "cmd.command",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "string[]"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 66,
+    "kind": "method",
+    "name": "buildOptions",
+    "memberof": "src/Documenter/Presenter.js~Presenter",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/Documenter/Presenter.js~Presenter.buildOptions",
+    "access": "public",
+    "description": "Transforms options to list of strings.",
+    "examples": [
+      "Presenter.buildOptions({\n     options: [{ flag: '-f, --force', description: \"Overwrite target file\" }]\n});\n// => ['### Options', **-f, --force**: Overwrite target file']"
+    ],
+    "lineNumber": 93,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{string[]}"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Command"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "cmd",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Option[]"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "cmd.options",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "string[]"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 67,
+    "kind": "file",
+    "name": "src/Documenter/Transformer.js",
+    "content": "/**\r\n * Transforms data into strings for documentation.\r\n *\r\n * @example\r\n * Transformer.example({\r\n *      command: 'release -f',\r\n *      description: 'Overwrites target file.'\r\n * });\r\n * // => $ release     # Overwrites target file.\r\n */\r\nexport default class Transformer {\r\n    /**\r\n     * @param   {Example} example\r\n     * @returns {string} in format <code>$ command     # Description</code>\r\n     *\r\n     * @example\r\n     * Transformer.example({\r\n     *      command: 'release -f',\r\n     *      description: 'Overwrites target file.'\r\n     * });\r\n     * // => $ release -f     # Overwrites target file.\r\n     */\r\n    static example({ command, description }) {\r\n        let str = `$ ${command}`;\r\n        if (description) str += `     # ${description}`;\r\n\r\n        return str;\r\n    }\r\n\r\n    /**\r\n     * @param   {Option} option\r\n     * @returns {string} in format <code>**flag**: description</code>\r\n     *\r\n     * @example\r\n     * Transformer.option({\r\n     *      flag: '-v, --verbose',\r\n     *      description: 'Output verbose error messages.'\r\n     * });\r\n     * // => **-v, --verbose**: Output verbose error messages.\r\n     */\r\n    static option({ flag, description }) {\r\n        let str = `**${flag}**`;\r\n        if (description) str += `: ${description}`;\r\n\r\n        return str;\r\n    }\r\n}\r\n",
+    "static": true,
+    "longname": "C:/Users/Kalyn Robinson/Documents/Development/mybb/cli/src/Documenter/Transformer.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 68,
+    "kind": "class",
+    "name": "Transformer",
+    "memberof": "src/Documenter/Transformer.js",
+    "static": true,
+    "longname": "src/Documenter/Transformer.js~Transformer",
+    "access": "public",
+    "export": true,
+    "importPath": "shinka-cli/src/Documenter/Transformer.js",
+    "importStyle": "Transformer",
+    "description": "Transforms data into strings for documentation.",
+    "examples": [
+      "Transformer.example({\n     command: 'release -f',\n     description: 'Overwrites target file.'\n});\n// => $ release     # Overwrites target file."
+    ],
+    "lineNumber": 11,
+    "interface": false
+  },
+  {
+    "__docId__": 69,
+    "kind": "method",
+    "name": "example",
+    "memberof": "src/Documenter/Transformer.js~Transformer",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/Documenter/Transformer.js~Transformer.example",
+    "access": "public",
+    "description": "",
+    "examples": [
+      "Transformer.example({\n     command: 'release -f',\n     description: 'Overwrites target file.'\n});\n// => $ release -f     # Overwrites target file."
+    ],
+    "lineNumber": 23,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{string} in format <code>$ command     # Description</code>"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Example"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "example",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "string"
+      ],
+      "spread": false,
+      "description": "in format <code>$ command     # Description</code>"
+    }
+  },
+  {
+    "__docId__": 70,
+    "kind": "method",
+    "name": "option",
+    "memberof": "src/Documenter/Transformer.js~Transformer",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/Documenter/Transformer.js~Transformer.option",
+    "access": "public",
+    "description": "",
+    "examples": [
+      "Transformer.option({\n     flag: '-v, --verbose',\n     description: 'Output verbose error messages.'\n});\n// => **-v, --verbose**: Output verbose error messages."
+    ],
+    "lineNumber": 41,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{string} in format <code>**flag**: description</code>"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Option"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "option",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "string"
+      ],
+      "spread": false,
+      "description": "in format <code>**flag**: description</code>"
+    }
+  },
+  {
+    "__docId__": 71,
+    "kind": "file",
+    "name": "src/Helper/Helper.js",
+    "content": "import chalk from \"chalk\";\r\nimport Logger from \"../Logger\";\r\n\r\n/**\r\n * Outputs examples for usage (--help) information.\r\n *\r\n * @example\r\n * new Helper().outputHelp(\r\n *      [{ command: \"-v\", description: \"Outputs verbose error messages\" }],\r\n *      \"link\"\r\n * );\r\n * // => Examples:\r\n * //        $ shinka link -v   Outputs verbose error messages\r\n */\r\nexport default class Helper {\r\n    /**\r\n     * Used to output help, e.g. {@link Logger#log} or {@link console#log}.\r\n     * @type {LogObject}\r\n     */\r\n    logger;\r\n\r\n    /**\r\n     * @param {LogObject} [logger=new Logger()] - Object with #log method.\r\n     */\r\n    constructor(logger = new Logger()) {\r\n        this.logger = logger;\r\n    }\r\n\r\n    /**\r\n     * Outputs usage examples.\r\n     *\r\n     * @param {Example[]} [examples=[]]\r\n     * @param {?string}   [command=\"\"] - Command name prepended to each example\r\n     *\r\n     * @example\r\n     * new Helper().outputHelp(\r\n     *      [{ command: \"-v\", description: \"Outputs verbose error messages\" }],\r\n     *      \"link\"\r\n     * );\r\n     * // => Examples:\r\n     * //        $ shinka link -v   Outputs verbose error messages\r\n     */\r\n    outputHelp(examples = [], command = \"\") {\r\n        const str = this.help(examples, command);\r\n\r\n        str.forEach(eg => this.logger.log(eg));\r\n    }\r\n\r\n    /**\r\n     * Builds usage examples.\r\n     *\r\n     * @param   {Example[]} [examples=[]]\r\n     * @param   {string}    [cmd=\"\"] - Command name prepended to each example\r\n     * @returns {string[]}\r\n     *\r\n     * @example\r\n     * new Helper().help(\r\n     *      [{ command: \"-v\", description: \"Outputs verbose error messages\" }],\r\n     *      \"link\"\r\n     * );\r\n     * // => [\"\\n  Examples: \\n\", \"$ shinka link -v   Outputs verbose error messages\"]\r\n     */\r\n    help(examples = [], cmd = \"\") {\r\n        let str = [\"\\n  Examples: \\n\"];\r\n\r\n        const max = examples.reduce(this.getLongest, { command: \"\" }).command.length;\r\n\r\n        examples.forEach(({ command, description }) => {\r\n            const padded = command.padEnd(max);\r\n            str.push(`    $ shinka ${cmd} ${padded}   ${chalk.gray(description)}`);\r\n        });\r\n\r\n        return str;\r\n    }\r\n\r\n    /**\r\n     * Reducer helper for finding the example with the longest command.\r\n     *\r\n     * @param   {Example} a\r\n     * @param   {Example} b\r\n     * @returns {Example} Example with longest command\r\n     */\r\n    getLongest(a, b) {\r\n        return a.command.length > b.command.length ? a : b;\r\n    }\r\n}\r\n",
+    "static": true,
+    "longname": "C:/Users/Kalyn Robinson/Documents/Development/mybb/cli/src/Helper/Helper.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 72,
+    "kind": "class",
+    "name": "Helper",
+    "memberof": "src/Helper/Helper.js",
+    "static": true,
+    "longname": "src/Helper/Helper.js~Helper",
+    "access": "public",
+    "export": true,
+    "importPath": "shinka-cli/src/Helper/Helper.js",
+    "importStyle": "Helper",
+    "description": "Outputs examples for usage (--help) information.",
+    "examples": [
+      "new Helper().outputHelp(\n     [{ command: \"-v\", description: \"Outputs verbose error messages\" }],\n     \"link\"\n);\n// => Examples:\n//        $ shinka link -v   Outputs verbose error messages"
+    ],
+    "lineNumber": 15,
+    "interface": false
+  },
+  {
+    "__docId__": 73,
+    "kind": "member",
+    "name": "logger",
+    "memberof": "src/Helper/Helper.js~Helper",
+    "static": false,
+    "longname": "src/Helper/Helper.js~Helper#logger",
+    "access": "public",
+    "description": "Used to output help, e.g. {@link Logger#log} or {@link console#log}.",
+    "lineNumber": 20,
+    "type": {
+      "nullable": null,
+      "types": [
+        "LogObject"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 74,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/Helper/Helper.js~Helper",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Helper/Helper.js~Helper#constructor",
+    "access": "public",
+    "description": "",
+    "lineNumber": 25,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "LogObject"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "new Logger()",
+        "defaultRaw": "new Logger()",
+        "name": "logger",
+        "description": "Object with #log method."
+      }
+    ]
+  },
+  {
+    "__docId__": 76,
+    "kind": "method",
+    "name": "outputHelp",
+    "memberof": "src/Helper/Helper.js~Helper",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Helper/Helper.js~Helper#outputHelp",
+    "access": "public",
+    "description": "Outputs usage examples.",
+    "examples": [
+      "new Helper().outputHelp(\n     [{ command: \"-v\", description: \"Outputs verbose error messages\" }],\n     \"link\"\n);\n// => Examples:\n//        $ shinka link -v   Outputs verbose error messages"
+    ],
+    "lineNumber": 43,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Example[]"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "[]",
+        "defaultRaw": [],
+        "name": "examples",
+        "description": ""
+      },
+      {
+        "nullable": true,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "\"\"",
+        "defaultRaw": "",
+        "name": "command",
+        "description": "Command name prepended to each example"
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 77,
+    "kind": "method",
+    "name": "help",
+    "memberof": "src/Helper/Helper.js~Helper",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Helper/Helper.js~Helper#help",
+    "access": "public",
+    "description": "Builds usage examples.",
+    "examples": [
+      "new Helper().help(\n     [{ command: \"-v\", description: \"Outputs verbose error messages\" }],\n     \"link\"\n);\n// => [\"\\n  Examples: \\n\", \"$ shinka link -v   Outputs verbose error messages\"]"
+    ],
+    "lineNumber": 63,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{string[]}"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Example[]"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "[]",
+        "defaultRaw": [],
+        "name": "examples",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "\"\"",
+        "defaultRaw": "",
+        "name": "cmd",
+        "description": "Command name prepended to each example"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "string[]"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 78,
+    "kind": "method",
+    "name": "getLongest",
+    "memberof": "src/Helper/Helper.js~Helper",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Helper/Helper.js~Helper#getLongest",
+    "access": "public",
+    "description": "Reducer helper for finding the example with the longest command.",
+    "lineNumber": 83,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{Example} Example with longest command"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Example"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "a",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Example"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "b",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Example"
+      ],
+      "spread": false,
+      "description": "Example with longest command"
+    }
+  },
+  {
+    "__docId__": 79,
+    "kind": "file",
+    "name": "src/Helper/index.js",
+    "content": "export { default } from \"./Helper\";\r\nexport { default as Helper } from \"./Helper\";\r\n",
+    "static": true,
+    "longname": "C:/Users/Kalyn Robinson/Documents/Development/mybb/cli/src/Helper/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 80,
+    "kind": "file",
+    "name": "src/index.js",
+    "content": "export { default as Linker } from \"./Linker\";\r\nexport { default as Releaser } from \"./Releaser\";\r\nexport { default as Helper } from \"./Helper\";\r\n",
+    "static": true,
+    "longname": "C:/Users/Kalyn Robinson/Documents/Development/mybb/cli/src/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 81,
+    "kind": "file",
+    "name": "src/Linker/index.js",
+    "content": "export { default } from \"./Linker\";\r\n",
+    "static": true,
+    "longname": "C:/Users/Kalyn Robinson/Documents/Development/mybb/cli/src/Linker/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 82,
+    "kind": "file",
+    "name": "src/Linker/Linker.js",
+    "content": "import chalk from \"chalk\";\r\nimport fs from \"fs\";\r\nimport nodePath from \"path\";\r\nimport ProgressBar from \"progress\";\r\n\r\nimport Logger from \"../Logger\";\r\n\r\n/**\r\n * Strings used in composing messages.\r\n * @type {{ linking: Verbs, unlinking: Verbs }}\r\n */\r\nexport const verbs = {\r\n    linking: { present: \"Link\", past: \"Linked\", gerund: \"Linking\" },\r\n    unlinking: { present: \"Unlink\", past: \"Unlinked\", gerund: \"Unlinking\" }\r\n};\r\n\r\n/**\r\n * Handles creating and destroying symlinks.\r\n */\r\nexport default class Linker {\r\n    /**\r\n     * Paths and associated errors.\r\n     * @type {LinkError[]}\r\n     */\r\n    errorList = [];\r\n\r\n    /**\r\n     * Number of files and directories.\r\n     * @type {number}\r\n     */\r\n    total;\r\n\r\n    /**\r\n     * Length of longest path.\r\n     * @type {number}\r\n     */\r\n    maxLength;\r\n\r\n    /**\r\n     * Progress bar.\r\n     * @type {ProgressBar}\r\n     */\r\n    bar;\r\n\r\n    /**\r\n     * Current working directory, used to build absolute paths.\r\n     * @type {string}\r\n     */\r\n    cwd = process.cwd();\r\n\r\n    /**\r\n     * Verbs to use in composing messages.\r\n     * @type {Verbs}\r\n     */\r\n    verbs = {};\r\n\r\n    /**\r\n     * Command arguments.\r\n     * @type {Cmd}\r\n     */\r\n    cmd;\r\n\r\n    /**\r\n     * Config to pull linkables from.\r\n     * @type {Config}\r\n     */\r\n    config = { link: { files: [], directories: [] } };\r\n\r\n    /**\r\n     * logger#log is used to output progress, e.g. {@link Logger#log} or {@link console#log}.\r\n     * @type {LogObject}\r\n     */\r\n    logger;\r\n\r\n    /**\r\n     * @param {Cmd}    cmd\r\n     * @param {Config} [config=this.config]\r\n     * @param {LogObject} [logger=new Logger()]\r\n     */\r\n    constructor(cmd, config, logger = new Logger()) {\r\n        this.cmd = cmd;\r\n        this.config = config || this.config;\r\n        this.logger = logger;\r\n\r\n        this.total = this.config.link.files.length + this.config.link.directories.length;\r\n        this.maxLength = this.getMaxLength();\r\n        this.bar = new ProgressBar(\"\\n:bar [:current/:total]\", {\r\n            total: this.total\r\n        });\r\n    }\r\n\r\n    /**\r\n     * Links items and outputs progress.\r\n     *\r\n     * @param    {Config}   config\r\n     * @property {string[]} config.files\r\n     * @property {string[]} config.directories\r\n     * @returns  {Linker}\r\n     */\r\n    link({ files = [], directories = [] } = this.config.link) {\r\n        this.verbs = verbs.linking;\r\n\r\n        files.forEach(path => this.makeLink(path, \"file\"));\r\n        directories.forEach(path => this.makeLink(path, \"dir\"));\r\n\r\n        this.errorList.length ? this.outputErrors() : this.outputSuccess();\r\n\r\n        return this;\r\n    }\r\n\r\n    /**\r\n     * Unlinks items and outputs progress.\r\n     *\r\n     * @param    {Config}   config\r\n     * @property {string[]} config.files\r\n     * @property {string[]} config.directories\r\n     * @returns  {Linker}\r\n     */\r\n    unlink({ files = [], directories = [] } = this.config.link) {\r\n        this.verbs = verbs.unlinking;\r\n\r\n        files.forEach(this.destroyLink);\r\n        directories.forEach(this.destroyLink);\r\n\r\n        this.errorList.length ? this.outputErrors() : this.outputSuccess();\r\n\r\n        return this;\r\n    }\r\n\r\n    /**\r\n     * Destroys symlink and outputs progress.\r\n     *\r\n     * @method\r\n     * @param {string} path - Path to file or directory\r\n     */\r\n    destroyLink = path => {\r\n        const { mybb_root } = this.config;\r\n        let error = null;\r\n\r\n        try {\r\n            fs.unlinkSync(nodePath.resolve(mybb_root, path));\r\n        } catch (e) {\r\n            error = e;\r\n            this.errorList.push({ path, error });\r\n        }\r\n\r\n        this.outputProgress(path, error);\r\n    };\r\n\r\n    /**\r\n     * Creates symlink and outputs progress.\r\n     *\r\n     * @method\r\n     * @param {string} path - Path to file or directory\r\n     * @param {string} [type=\"file\"] - <code>file</code> or <code>dir</code>\r\n     */\r\n    makeLink = (path, type = \"file\") => {\r\n        const { mybb_root } = this.config;\r\n        let error = null;\r\n\r\n        try {\r\n            fs.symlinkSync(\r\n                nodePath.resolve(this.cwd, path),\r\n                nodePath.resolve(mybb_root, path),\r\n                type\r\n            );\r\n        } catch (e) {\r\n            error = e;\r\n            this.errorList.push({ path, error });\r\n        }\r\n\r\n        this.outputProgress(path, error);\r\n    };\r\n\r\n    /**\r\n     * Outputs status message and updates progress bar.\r\n     * @param {string} path\r\n     * @param {?Error}  [error]\r\n     */\r\n    outputProgress(path, error) {\r\n        const str = this.progress(path, error);\r\n        this.bar.interrupt(str);\r\n        this.bar.tick();\r\n    }\r\n\r\n    /**\r\n     * Builds progress message in format `(Un)Linking... to/a/path    Status`\r\n     *\r\n     * @param   {string} path\r\n     * @param   {?Error} [error]\r\n     * @returns {string}\r\n     */\r\n    progress(path, error) {\r\n        const verb = this.verbs.gerund;\r\n\r\n        let suffix = error ? chalk.red(error.code) : chalk.green(\"Success\");\r\n        let str = path.padEnd(this.maxLength);\r\n        str = `${str} ${suffix}`;\r\n\r\n        return chalk.gray(`${verb}... `) + str;\r\n    }\r\n\r\n    /**\r\n     * Builds error messages.\r\n     *\r\n     * @returns {string[]}\r\n     */\r\n    errors() {\r\n        const { verbose } = this.cmd;\r\n        const verb = this.verbs.present.toLowerCase();\r\n\r\n        let str = [chalk.red(`\\nFailed to ${verb} ${this.errorList.length} files or directories`)];\r\n\r\n        if (verbose) {\r\n            this.errorList.forEach(({ path, error }) => {\r\n                str.push(`\\n${path}\\n`);\r\n                str.push(error);\r\n            });\r\n        } else {\r\n            str.push(chalk.gray(\"Rerun with -v for verbose error messages.\"));\r\n        }\r\n\r\n        return str;\r\n    }\r\n\r\n    /**\r\n     * Builds success message.\r\n     *\r\n     * @returns {string}\r\n     */\r\n    success() {\r\n        const verb = this.verbs.past.toLowerCase();\r\n        return chalk.green(`\\nSuccessfully ${verb} ${this.total} files and directories`);\r\n    }\r\n\r\n    /**\r\n     * Outputs error messages.\r\n     */\r\n    outputErrors() {\r\n        const str = this.errors();\r\n        str.forEach(err => this.logger.log(err));\r\n    }\r\n\r\n    /**\r\n     * Outputs success message.\r\n     */\r\n    outputSuccess() {\r\n        const str = this.success();\r\n        this.logger.log(str);\r\n    }\r\n\r\n    /**\r\n     * Calculates length of longest file or directory name.\r\n     *\r\n     * @returns {number}\r\n     */\r\n    getMaxLength() {\r\n        const { files, directories } = this.config.link;\r\n        return [...files, ...directories].reduce((a, b) => (a.length > b.length ? a : b), [])\r\n            .length;\r\n    }\r\n}\r\n",
+    "static": true,
+    "longname": "C:/Users/Kalyn Robinson/Documents/Development/mybb/cli/src/Linker/Linker.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 83,
+    "kind": "variable",
+    "name": "verbs",
+    "memberof": "src/Linker/Linker.js",
+    "static": true,
+    "longname": "src/Linker/Linker.js~verbs",
+    "access": "public",
+    "export": true,
+    "importPath": "shinka-cli/src/Linker/Linker.js",
+    "importStyle": "{verbs}",
+    "description": "Strings used in composing messages.",
+    "lineNumber": 12,
+    "type": {
+      "nullable": null,
+      "types": [
+        "{ linking: Verbs, unlinking: Verbs }"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 84,
+    "kind": "class",
+    "name": "Linker",
+    "memberof": "src/Linker/Linker.js",
+    "static": true,
+    "longname": "src/Linker/Linker.js~Linker",
+    "access": "public",
+    "export": true,
+    "importPath": "shinka-cli/src/Linker/Linker.js",
+    "importStyle": "Linker",
+    "description": "Handles creating and destroying symlinks.",
+    "lineNumber": 20,
+    "interface": false
+  },
+  {
+    "__docId__": 85,
+    "kind": "member",
+    "name": "errorList",
+    "memberof": "src/Linker/Linker.js~Linker",
+    "static": false,
+    "longname": "src/Linker/Linker.js~Linker#errorList",
+    "access": "public",
+    "description": "Paths and associated errors.",
+    "lineNumber": 25,
+    "type": {
+      "nullable": null,
+      "types": [
+        "LinkError[]"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 86,
+    "kind": "member",
+    "name": "total",
+    "memberof": "src/Linker/Linker.js~Linker",
+    "static": false,
+    "longname": "src/Linker/Linker.js~Linker#total",
+    "access": "public",
+    "description": "Number of files and directories.",
+    "lineNumber": 31,
+    "type": {
+      "nullable": null,
+      "types": [
+        "number"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 87,
+    "kind": "member",
+    "name": "maxLength",
+    "memberof": "src/Linker/Linker.js~Linker",
+    "static": false,
+    "longname": "src/Linker/Linker.js~Linker#maxLength",
+    "access": "public",
+    "description": "Length of longest path.",
+    "lineNumber": 37,
+    "type": {
+      "nullable": null,
+      "types": [
+        "number"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 88,
+    "kind": "member",
+    "name": "bar",
+    "memberof": "src/Linker/Linker.js~Linker",
+    "static": false,
+    "longname": "src/Linker/Linker.js~Linker#bar",
+    "access": "public",
+    "description": "Progress bar.",
+    "lineNumber": 43,
+    "type": {
+      "nullable": null,
+      "types": [
+        "ProgressBar"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 89,
+    "kind": "member",
+    "name": "cwd",
+    "memberof": "src/Linker/Linker.js~Linker",
+    "static": false,
+    "longname": "src/Linker/Linker.js~Linker#cwd",
+    "access": "public",
+    "description": "Current working directory, used to build absolute paths.",
+    "lineNumber": 49,
+    "type": {
+      "nullable": null,
+      "types": [
+        "string"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 90,
+    "kind": "member",
+    "name": "verbs",
+    "memberof": "src/Linker/Linker.js~Linker",
+    "static": false,
+    "longname": "src/Linker/Linker.js~Linker#verbs",
+    "access": "public",
+    "description": "Verbs to use in composing messages.",
+    "lineNumber": 55,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Verbs"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 91,
+    "kind": "member",
+    "name": "cmd",
+    "memberof": "src/Linker/Linker.js~Linker",
+    "static": false,
+    "longname": "src/Linker/Linker.js~Linker#cmd",
+    "access": "public",
+    "description": "Command arguments.",
+    "lineNumber": 61,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Cmd"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 92,
+    "kind": "member",
+    "name": "config",
+    "memberof": "src/Linker/Linker.js~Linker",
+    "static": false,
+    "longname": "src/Linker/Linker.js~Linker#config",
+    "access": "public",
+    "description": "Config to pull linkables from.",
+    "lineNumber": 67,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Config"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 93,
+    "kind": "member",
+    "name": "logger",
+    "memberof": "src/Linker/Linker.js~Linker",
+    "static": false,
+    "longname": "src/Linker/Linker.js~Linker#logger",
+    "access": "public",
+    "description": "logger#log is used to output progress, e.g. {@link Logger#log} or {@link console#log}.",
+    "lineNumber": 73,
+    "type": {
+      "nullable": null,
+      "types": [
+        "LogObject"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 94,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/Linker/Linker.js~Linker",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Linker/Linker.js~Linker#constructor",
+    "access": "public",
+    "description": "",
+    "lineNumber": 80,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Cmd"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "cmd",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Config"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "this.config",
+        "defaultRaw": "this.config",
+        "name": "config",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "LogObject"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "new Logger()",
+        "defaultRaw": "new Logger()",
+        "name": "logger",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "__docId__": 101,
+    "kind": "method",
+    "name": "link",
+    "memberof": "src/Linker/Linker.js~Linker",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Linker/Linker.js~Linker#link",
+    "access": "public",
+    "description": "Links items and outputs progress.",
+    "lineNumber": 100,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": " {Linker}"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Config"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "config",
+        "description": ""
+      }
+    ],
+    "properties": [
+      {
+        "nullable": null,
+        "types": [
+          "string[]"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "config.files",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string[]"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "config.directories",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Linker"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 103,
+    "kind": "method",
+    "name": "unlink",
+    "memberof": "src/Linker/Linker.js~Linker",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Linker/Linker.js~Linker#unlink",
+    "access": "public",
+    "description": "Unlinks items and outputs progress.",
+    "lineNumber": 119,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": " {Linker}"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Config"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "config",
+        "description": ""
+      }
+    ],
+    "properties": [
+      {
+        "nullable": null,
+        "types": [
+          "string[]"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "config.files",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string[]"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "config.directories",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Linker"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 105,
+    "kind": "member",
+    "name": "destroyLink",
+    "memberof": "src/Linker/Linker.js~Linker",
+    "static": false,
+    "longname": "src/Linker/Linker.js~Linker#destroyLink",
+    "access": "public",
+    "description": "Destroys symlink and outputs progress.",
+    "lineNumber": 136,
+    "unknown": [
+      {
+        "tagName": "@method",
+        "tagValue": ""
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "path",
+        "description": "Path to file or directory"
+      }
+    ],
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 106,
+    "kind": "member",
+    "name": "makeLink",
+    "memberof": "src/Linker/Linker.js~Linker",
+    "static": false,
+    "longname": "src/Linker/Linker.js~Linker#makeLink",
+    "access": "public",
+    "description": "Creates symlink and outputs progress.",
+    "lineNumber": 157,
+    "unknown": [
+      {
+        "tagName": "@method",
+        "tagValue": ""
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "path",
+        "description": "Path to file or directory"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "\"file\"",
+        "defaultRaw": "file",
+        "name": "type",
+        "description": "<code>file</code> or <code>dir</code>"
+      }
+    ],
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 107,
+    "kind": "method",
+    "name": "outputProgress",
+    "memberof": "src/Linker/Linker.js~Linker",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Linker/Linker.js~Linker#outputProgress",
+    "access": "public",
+    "description": "Outputs status message and updates progress bar.",
+    "lineNumber": 180,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "path",
+        "description": ""
+      },
+      {
+        "nullable": true,
+        "types": [
+          "Error"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "error",
+        "description": ""
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 108,
+    "kind": "method",
+    "name": "progress",
+    "memberof": "src/Linker/Linker.js~Linker",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Linker/Linker.js~Linker#progress",
+    "access": "public",
+    "description": "Builds progress message in format `(Un)Linking... to/a/path    Status`",
+    "lineNumber": 193,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{string}"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "path",
+        "description": ""
+      },
+      {
+        "nullable": true,
+        "types": [
+          "Error"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "error",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "string"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 109,
+    "kind": "method",
+    "name": "errors",
+    "memberof": "src/Linker/Linker.js~Linker",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Linker/Linker.js~Linker#errors",
+    "access": "public",
+    "description": "Builds error messages.",
+    "lineNumber": 208,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{string[]}"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "string[]"
+      ],
+      "spread": false,
+      "description": ""
+    },
+    "params": []
+  },
+  {
+    "__docId__": 110,
+    "kind": "method",
+    "name": "success",
+    "memberof": "src/Linker/Linker.js~Linker",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Linker/Linker.js~Linker#success",
+    "access": "public",
+    "description": "Builds success message.",
+    "lineNumber": 231,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{string}"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "string"
+      ],
+      "spread": false,
+      "description": ""
+    },
+    "params": []
+  },
+  {
+    "__docId__": 111,
+    "kind": "method",
+    "name": "outputErrors",
+    "memberof": "src/Linker/Linker.js~Linker",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Linker/Linker.js~Linker#outputErrors",
+    "access": "public",
+    "description": "Outputs error messages.",
+    "lineNumber": 239,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 112,
+    "kind": "method",
+    "name": "outputSuccess",
+    "memberof": "src/Linker/Linker.js~Linker",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Linker/Linker.js~Linker#outputSuccess",
+    "access": "public",
+    "description": "Outputs success message.",
+    "lineNumber": 247,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 113,
+    "kind": "method",
+    "name": "getMaxLength",
+    "memberof": "src/Linker/Linker.js~Linker",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Linker/Linker.js~Linker#getMaxLength",
+    "access": "public",
+    "description": "Calculates length of longest file or directory name.",
+    "lineNumber": 257,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{number}"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "number"
+      ],
+      "spread": false,
+      "description": ""
+    },
+    "params": []
+  },
+  {
+    "__docId__": 114,
+    "kind": "file",
+    "name": "src/Linker/__tests__/helpers.js",
+    "content": "import fs from \"fs\";\r\nimport nodePath from \"path\";\r\n\r\nconst mybb_root = nodePath.resolve(\"src/Linker/__tests__/links\");\r\nconst cwd = \"src/Linker/__tests__/originals\";\r\n\r\n/**\r\n * @param   {string}  path - Path to file\r\n * @returns {boolean}\r\n */\r\nexport const fileExists = path => {\r\n    try {\r\n        fs.accessSync(path);\r\n    } catch (err) {\r\n        return false;\r\n    }\r\n\r\n    return true;\r\n};\r\n\r\n/**\r\n * @param   {string}  path - Path to file\r\n * @returns {boolean} Whether file was successfully removed\r\n */\r\nexport const removeFile = path => {\r\n    try {\r\n        fs.unlinkSync(path);\r\n    } catch (error) {\r\n        console.warn(`Could not remove ${path}.`);\r\n        return false;\r\n    }\r\n\r\n    return true;\r\n};\r\n\r\n/**\r\n * @param  {string} originalPath - Path to target file\r\n * @param  {string} linkPath     - Path to output file\r\n * @throws {Error}  If file could not be created\r\n */\r\nexport const createFile = (originalPath, linkPath) => {\r\n    try {\r\n        fs.symlinkSync(originalPath, linkPath);\r\n    } catch (e) {\r\n        throw Error(`Could not create file ${linkPath}.`);\r\n    }\r\n\r\n    if (!fileExists(linkPath)) {\r\n        throw Error(`Could not create file for unknown reasons.`);\r\n    }\r\n};\r\n\r\n/**\r\n * Empties a directory.\r\n *\r\n * @param {string} [dir=mybb_root] - Path to directory\r\n */\r\nexport const removeLinks = (dir = mybb_root) => {\r\n    const resolved = nodePath.resolve(dir);\r\n    const files = fs.readdirSync(resolved);\r\n\r\n    files.forEach(file => {\r\n        removeFile(nodePath.resolve(resolved, file));\r\n    });\r\n};\r\n\r\n/**\r\n * Creates symbolic links.\r\n *\r\n * @param {string[]} paths - Relative paths of files\r\n */\r\nexport const createLinks = paths => {\r\n    paths.forEach(path => {\r\n        const { originalPath, linkPath } = resolvePaths(path);\r\n        createFile(originalPath, linkPath);\r\n    });\r\n};\r\n\r\n/**\r\n * Gets files in a directory.\r\n *\r\n * @param   {string}   dir - Path to directory\r\n * @returns {string[]} List of filenames\r\n */\r\nexport const getLinks = (dir = mybb_root) => {\r\n    const resolved = nodePath.resolve(dir);\r\n    return fs.readdirSync(resolved);\r\n};\r\n\r\n/**\r\n * Removes a file if it exists.\r\n *\r\n * @param  {string} path - Path to file\r\n * @throws {Error}  If file exists and could not be removed\r\n */\r\nexport const checkForFile = path => {\r\n    if (fileExists(path)) {\r\n        console.error(`File already exists. Attempting to remove ${path}.`);\r\n\r\n        if (!removeFile(path)) {\r\n            throw Error(`File already exists and could not be removed.`);\r\n        }\r\n    }\r\n};\r\n\r\n/**\r\n * Resolves file against current working directory and MyBB root.\r\n *\r\n * @param   {string} [path=\"\"] - Path to file\r\n * @returns {{ originalPath: string, linkPath: string }}\r\n */\r\nexport const resolvePaths = (path = \"\") => {\r\n    return {\r\n        originalPath: nodePath.resolve(cwd, path),\r\n        linkPath: nodePath.resolve(mybb_root, path)\r\n    };\r\n};\r\n",
+    "static": true,
+    "longname": "C:/Users/Kalyn Robinson/Documents/Development/mybb/cli/src/Linker/__tests__/helpers.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 115,
+    "kind": "variable",
+    "name": "mybb_root",
+    "memberof": "src/Linker/__tests__/helpers.js",
+    "static": true,
+    "longname": "src/Linker/__tests__/helpers.js~mybb_root",
+    "access": "public",
+    "export": false,
+    "importPath": "shinka-cli/src/Linker/__tests__/helpers.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 116,
+    "kind": "variable",
+    "name": "cwd",
+    "memberof": "src/Linker/__tests__/helpers.js",
+    "static": true,
+    "longname": "src/Linker/__tests__/helpers.js~cwd",
+    "access": "public",
+    "export": false,
+    "importPath": "shinka-cli/src/Linker/__tests__/helpers.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 117,
+    "kind": "function",
+    "name": "fileExists",
+    "memberof": "src/Linker/__tests__/helpers.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/Linker/__tests__/helpers.js~fileExists",
+    "access": "public",
+    "export": true,
+    "importPath": "shinka-cli/src/Linker/__tests__/helpers.js",
+    "importStyle": "{fileExists}",
+    "description": "",
+    "lineNumber": 11,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{boolean}"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "path",
+        "description": "Path to file"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "boolean"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 118,
+    "kind": "function",
+    "name": "removeFile",
+    "memberof": "src/Linker/__tests__/helpers.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/Linker/__tests__/helpers.js~removeFile",
+    "access": "public",
+    "export": true,
+    "importPath": "shinka-cli/src/Linker/__tests__/helpers.js",
+    "importStyle": "{removeFile}",
+    "description": "",
+    "lineNumber": 25,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{boolean} Whether file was successfully removed"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "path",
+        "description": "Path to file"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "boolean"
+      ],
+      "spread": false,
+      "description": "Whether file was successfully removed"
+    }
+  },
+  {
+    "__docId__": 119,
+    "kind": "function",
+    "name": "createFile",
+    "memberof": "src/Linker/__tests__/helpers.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/Linker/__tests__/helpers.js~createFile",
+    "access": "public",
+    "export": true,
+    "importPath": "shinka-cli/src/Linker/__tests__/helpers.js",
+    "importStyle": "{createFile}",
+    "description": "",
+    "lineNumber": 41,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "originalPath",
+        "description": "Path to target file"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "linkPath",
+        "description": "Path to output file"
+      }
+    ],
+    "throws": [
+      {
+        "types": [
+          "Error"
+        ],
+        "description": "If file could not be created"
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 120,
+    "kind": "function",
+    "name": "removeLinks",
+    "memberof": "src/Linker/__tests__/helpers.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/Linker/__tests__/helpers.js~removeLinks",
+    "access": "public",
+    "export": true,
+    "importPath": "shinka-cli/src/Linker/__tests__/helpers.js",
+    "importStyle": "{removeLinks}",
+    "description": "Empties a directory.",
+    "lineNumber": 58,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "mybb_root",
+        "defaultRaw": "mybb_root",
+        "name": "dir",
+        "description": "Path to directory"
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 121,
+    "kind": "function",
+    "name": "createLinks",
+    "memberof": "src/Linker/__tests__/helpers.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/Linker/__tests__/helpers.js~createLinks",
+    "access": "public",
+    "export": true,
+    "importPath": "shinka-cli/src/Linker/__tests__/helpers.js",
+    "importStyle": "{createLinks}",
+    "description": "Creates symbolic links.",
+    "lineNumber": 72,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string[]"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "paths",
+        "description": "Relative paths of files"
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 122,
+    "kind": "function",
+    "name": "getLinks",
+    "memberof": "src/Linker/__tests__/helpers.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/Linker/__tests__/helpers.js~getLinks",
+    "access": "public",
+    "export": true,
+    "importPath": "shinka-cli/src/Linker/__tests__/helpers.js",
+    "importStyle": "{getLinks}",
+    "description": "Gets files in a directory.",
+    "lineNumber": 85,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{string[]} List of filenames"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "dir",
+        "description": "Path to directory"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "string[]"
+      ],
+      "spread": false,
+      "description": "List of filenames"
+    }
+  },
+  {
+    "__docId__": 123,
+    "kind": "function",
+    "name": "checkForFile",
+    "memberof": "src/Linker/__tests__/helpers.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/Linker/__tests__/helpers.js~checkForFile",
+    "access": "public",
+    "export": true,
+    "importPath": "shinka-cli/src/Linker/__tests__/helpers.js",
+    "importStyle": "{checkForFile}",
+    "description": "Removes a file if it exists.",
+    "lineNumber": 96,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "path",
+        "description": "Path to file"
+      }
+    ],
+    "throws": [
+      {
+        "types": [
+          "Error"
+        ],
+        "description": "If file exists and could not be removed"
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 124,
+    "kind": "function",
+    "name": "resolvePaths",
+    "memberof": "src/Linker/__tests__/helpers.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/Linker/__tests__/helpers.js~resolvePaths",
+    "access": "public",
+    "export": true,
+    "importPath": "shinka-cli/src/Linker/__tests__/helpers.js",
+    "importStyle": "{resolvePaths}",
+    "description": "Resolves file against current working directory and MyBB root.",
+    "lineNumber": 112,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{{ originalPath: string, linkPath: string }}"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "\"\"",
+        "defaultRaw": "",
+        "name": "path",
+        "description": "Path to file"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "{ originalPath: string, linkPath: string }"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 125,
+    "kind": "file",
+    "name": "src/Logger/index.js",
+    "content": "export { default } from \"./Logger\";\r\nexport { default as Logger } from \"./Logger\";\r\n",
+    "static": true,
+    "longname": "C:/Users/Kalyn Robinson/Documents/Development/mybb/cli/src/Logger/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 126,
+    "kind": "file",
+    "name": "src/Logger/Logger.js",
+    "content": "/**\r\n * Drop-in replacement for console.log.\r\n *\r\n * Optionally silences and forces output.\r\n */\r\nexport default class Logger {\r\n    /**\r\n     * Silences output unless forced.\r\n     * @type {boolean}\r\n     */\r\n    silent = false;\r\n\r\n    /**\r\n     * Object with #log method.\r\n     * @type {LogObject}\r\n     * @property {function} log\r\n     */\r\n    channel = console;\r\n\r\n    /**\r\n     * @param {boolean} [silent=false]\r\n     * @param {Object}  [channel=console]\r\n     */\r\n    constructor(silent = false, channel = console) {\r\n        this.silent = silent;\r\n        this.channel = channel;\r\n    }\r\n\r\n    /**\r\n     * Outputs message unless silenced.\r\n     *\r\n     * @param {string} msg\r\n     */\r\n    log(msg) {\r\n        if (!this.silent) {\r\n            this.channel.log(msg);\r\n        }\r\n    }\r\n\r\n    /**\r\n     * Namespace to force log output.\r\n     * @type {Object}\r\n     * @property {function(msg: string)} force.log - Always outputs message.\r\n     * @see {@link Logger#log}\r\n     */\r\n    force = {\r\n        /**\r\n         * @param {string} msg\r\n         */\r\n        log: msg => {\r\n            this.channel.log(msg);\r\n        }\r\n    };\r\n}\r\n",
+    "static": true,
+    "longname": "C:/Users/Kalyn Robinson/Documents/Development/mybb/cli/src/Logger/Logger.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 127,
+    "kind": "class",
+    "name": "Logger",
+    "memberof": "src/Logger/Logger.js",
+    "static": true,
+    "longname": "src/Logger/Logger.js~Logger",
+    "access": "public",
+    "export": true,
+    "importPath": "shinka-cli/src/Logger/Logger.js",
+    "importStyle": "Logger",
+    "description": "Drop-in replacement for console.log.\n\nOptionally silences and forces output.",
+    "lineNumber": 6,
+    "interface": false
+  },
+  {
+    "__docId__": 128,
+    "kind": "member",
+    "name": "silent",
+    "memberof": "src/Logger/Logger.js~Logger",
+    "static": false,
+    "longname": "src/Logger/Logger.js~Logger#silent",
+    "access": "public",
+    "description": "Silences output unless forced.",
+    "lineNumber": 11,
+    "type": {
+      "nullable": null,
+      "types": [
+        "boolean"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 129,
+    "kind": "member",
+    "name": "channel",
+    "memberof": "src/Logger/Logger.js~Logger",
+    "static": false,
+    "longname": "src/Logger/Logger.js~Logger#channel",
+    "access": "public",
+    "description": "Object with #log method.",
+    "lineNumber": 18,
+    "properties": [
+      {
+        "nullable": null,
+        "types": [
+          "function"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "log",
+        "description": ""
+      }
+    ],
+    "type": {
+      "nullable": null,
+      "types": [
+        "LogObject"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 130,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/Logger/Logger.js~Logger",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Logger/Logger.js~Logger#constructor",
+    "access": "public",
+    "description": "",
+    "lineNumber": 24,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "boolean"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "false",
+        "defaultRaw": false,
+        "name": "silent",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "console",
+        "defaultRaw": "console",
+        "name": "channel",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "__docId__": 133,
+    "kind": "method",
+    "name": "log",
+    "memberof": "src/Logger/Logger.js~Logger",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Logger/Logger.js~Logger#log",
+    "access": "public",
+    "description": "Outputs message unless silenced.",
+    "lineNumber": 34,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "msg",
+        "description": ""
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 134,
+    "kind": "member",
+    "name": "force",
+    "memberof": "src/Logger/Logger.js~Logger",
+    "static": false,
+    "longname": "src/Logger/Logger.js~Logger#force",
+    "access": "public",
+    "description": "Namespace to force log output.",
+    "see": [
+      "{@link Logger#log}"
+    ],
+    "lineNumber": 46,
+    "properties": [
+      {
+        "nullable": null,
+        "types": [
+          "function(msg: string)"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "force.log",
+        "description": "Always outputs message."
+      }
+    ],
+    "type": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 135,
+    "kind": "file",
+    "name": "src/Releaser/index.js",
+    "content": "export { default } from \"./Releaser\";\r\nexport { default as Releaser } from \"./Releaser\";\r\n",
+    "static": true,
+    "longname": "C:/Users/Kalyn Robinson/Documents/Development/mybb/cli/src/Releaser/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 136,
+    "kind": "file",
+    "name": "src/Releaser/Releaser.js",
+    "content": "import { execSync } from \"child_process\";\r\nimport chalk from \"chalk\";\r\n\r\nimport Logger from \"../Logger\";\r\n\r\n/**\r\n * Bundles source files for release.\r\n *\r\n * @example <caption>Assume later uses of `config` use the following value.</caption>\r\n * const config = {\r\n *      vendor: \"shinka\",\r\n *      code: \"cli\",\r\n *      version: \"0.0.1-a\"\r\n * };\r\n *\r\n * @example\r\n * new Releaser({}, config);\r\n * // => shinka-news-0.0.1-a.zip\r\n *\r\n * @example\r\n * new Releaser({\r\n *      vendor: \"shin\",\r\n *      directory: \"to/a/dir\"\r\n * }, config);\r\n * // => to/a/dir/shin-news-0.0.1-a.zip\r\n */\r\nexport default class Releaser {\r\n    /**\r\n     * Command arguments.\r\n     *\r\n     * @type     {Cmd}\r\n     * @property {?string} [cmd.output]    - Overrides default filename format.\r\n     * @property {?string} [cmd.directory] - Prepended to filename.\r\n     * @property {?string} [cmd.vendor]    - Vendor name, e.g. `shinka` in `shinka-cli`.\r\n     * @property {?string} [cmd.code]      - Plugin code name, e.g. `cli` in `shinka-cli`.\r\n     * @property {?string} [cmd.semver]    - Semantic plugin version\r\n     */\r\n    cmd;\r\n\r\n    /**\r\n     * For vendor, code, and version lookup.\r\n     * @type {Config}\r\n     */\r\n    config = {};\r\n\r\n    /**\r\n     * @type {Error[]}\r\n     */\r\n    errorList = [];\r\n\r\n    /**\r\n     * Output target.\r\n     * @type {string}\r\n     */\r\n    filename;\r\n\r\n    /**\r\n     * logger#log is used to output progress, e.g. {@link Logger#log} or {@link console#log}.\r\n     * @type {LogObject}\r\n     */\r\n    logger;\r\n\r\n    /**\r\n     * @param {Cmd}       cmd                   - Command arguments\r\n     * @param {Config}    [config={}]           - For vendor, code, and version lookup.\r\n     * @param {LogObject} [logger=new Logger()] - logger#log is used to output progress\r\n     */\r\n    constructor(cmd, config = {}, logger = new Logger()) {\r\n        this.cmd = cmd;\r\n        this.config = config;\r\n        this.logger = logger;\r\n        this.filename = this.getFileName();\r\n    }\r\n\r\n    /**\r\n     * Builds filename from command arguments and config.\r\n     *\r\n     * Format defaults to `vendor-code-semver.zip`.\r\n     * `cmd.output` overwrites the default format.\r\n     * `cmd.directory` is prepended to the filename\r\n     *\r\n     * @returns {string}\r\n     *\r\n     * @example\r\n     * new Releaser({}, config).getFileName();\r\n     * // => shinka-cli-0.0.1-a.zip\r\n     *\r\n     * @example\r\n     * new Releaser({\r\n     *      vendor: \"shin\",\r\n     *      code: \"news\",\r\n     *      version: \"1.0.0\"\r\n     * }, config).getFileName();\r\n     * // => shin-news-1.0.0.zip\r\n     *\r\n     * @example\r\n     * new Releaser({\r\n     *      directory: \"to/a/dir\"\r\n     * }, config).getFileName();\r\n     * // => to/a/dir/shinka-news-0.0.1-a.zip\r\n     *\r\n     * @example\r\n     * new Releaser({\r\n     *      directory: \"to/a/dir\",\r\n     *      output: \"release.zip\"\r\n     * }, config).getFileName();\r\n     * // => to/a/dir/release.zip\r\n     */\r\n    getFileName() {\r\n        const {\r\n            output,\r\n            directory,\r\n            vendor = this.config.vendor,\r\n            code = this.config.code,\r\n            semver = this.config.version\r\n        } = this.cmd;\r\n\r\n        let filename = `${vendor}-${code}-${semver}.zip`;\r\n\r\n        if (output) {\r\n            filename = output;\r\n        }\r\n\r\n        if (directory) {\r\n            filename = `${directory}/${filename}`;\r\n        }\r\n\r\n        return filename;\r\n    }\r\n\r\n    /**\r\n     * Bundles source files for release with `git archive`.\r\n     */\r\n    release() {\r\n        try {\r\n            this.executeArchive();\r\n        } catch (error) {\r\n            this.errorList.push(error);\r\n        }\r\n\r\n        this.errorList.length ? this.outputErrors() : this.outputSuccess();\r\n    }\r\n\r\n    /**\r\n     * Executes `git archive` to bundle release.\r\n     */\r\n    executeArchive() {\r\n        execSync(`git archive HEAD:src --format zip -o \"${this.filename}\"`);\r\n    }\r\n\r\n    /**\r\n     * Builds error messages.\r\n     * @returns {string[]}\r\n     */\r\n    errors() {\r\n        const { verbose } = this.cmd;\r\n\r\n        let str = [chalk.red(`Failed to bundle ${this.filename}`)];\r\n\r\n        if (verbose) {\r\n            this.errorList.forEach(error => {\r\n                str.push(`\\n${error}`);\r\n            });\r\n        } else {\r\n            str.push(chalk.gray(\"Rerun with -v for verbose error messages.\"));\r\n        }\r\n\r\n        return str;\r\n    }\r\n\r\n    /**\r\n     * Builds success message.\r\n     * @returns {string}\r\n     */\r\n    success() {\r\n        return chalk.green(`Successfully bundled ${this.filename}`);\r\n    }\r\n\r\n    /**\r\n     * Outputs error messages.\r\n     */\r\n    outputErrors() {\r\n        const str = this.errors();\r\n        str.forEach(err => this.logger.log(err));\r\n    }\r\n\r\n    /**\r\n     * Outputs success message.\r\n     */\r\n    outputSuccess() {\r\n        const str = this.success();\r\n        this.logger.log(str);\r\n    }\r\n}\r\n",
+    "static": true,
+    "longname": "C:/Users/Kalyn Robinson/Documents/Development/mybb/cli/src/Releaser/Releaser.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 137,
+    "kind": "class",
+    "name": "Releaser",
+    "memberof": "src/Releaser/Releaser.js",
+    "static": true,
+    "longname": "src/Releaser/Releaser.js~Releaser",
+    "access": "public",
+    "export": true,
+    "importPath": "shinka-cli/src/Releaser/Releaser.js",
+    "importStyle": "Releaser",
+    "description": "Bundles source files for release.",
+    "examples": [
+      "<caption>Assume later uses of `config` use the following value.</caption>\nconst config = {\n     vendor: \"shinka\",\n     code: \"cli\",\n     version: \"0.0.1-a\"\n};",
+      "new Releaser({}, config);\n// => shinka-news-0.0.1-a.zip",
+      "new Releaser({\n     vendor: \"shin\",\n     directory: \"to/a/dir\"\n}, config);\n// => to/a/dir/shin-news-0.0.1-a.zip"
+    ],
+    "lineNumber": 27,
+    "interface": false
+  },
+  {
+    "__docId__": 138,
+    "kind": "member",
+    "name": "cmd",
+    "memberof": "src/Releaser/Releaser.js~Releaser",
+    "static": false,
+    "longname": "src/Releaser/Releaser.js~Releaser#cmd",
+    "access": "public",
+    "description": "Command arguments.",
+    "lineNumber": 38,
+    "properties": [
+      {
+        "nullable": true,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "cmd.output",
+        "description": "Overrides default filename format."
+      },
+      {
+        "nullable": true,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "cmd.directory",
+        "description": "Prepended to filename."
+      },
+      {
+        "nullable": true,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "cmd.vendor",
+        "description": "Vendor name, e.g. `shinka` in `shinka-cli`."
+      },
+      {
+        "nullable": true,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "cmd.code",
+        "description": "Plugin code name, e.g. `cli` in `shinka-cli`."
+      },
+      {
+        "nullable": true,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "cmd.semver",
+        "description": "Semantic plugin version"
+      }
+    ],
+    "type": {
+      "nullable": null,
+      "types": [
+        "Cmd"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 139,
+    "kind": "member",
+    "name": "config",
+    "memberof": "src/Releaser/Releaser.js~Releaser",
+    "static": false,
+    "longname": "src/Releaser/Releaser.js~Releaser#config",
+    "access": "public",
+    "description": "For vendor, code, and version lookup.",
+    "lineNumber": 44,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Config"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 140,
+    "kind": "member",
+    "name": "errorList",
+    "memberof": "src/Releaser/Releaser.js~Releaser",
+    "static": false,
+    "longname": "src/Releaser/Releaser.js~Releaser#errorList",
+    "access": "public",
+    "description": "",
+    "lineNumber": 49,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Error[]"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 141,
+    "kind": "member",
+    "name": "filename",
+    "memberof": "src/Releaser/Releaser.js~Releaser",
+    "static": false,
+    "longname": "src/Releaser/Releaser.js~Releaser#filename",
+    "access": "public",
+    "description": "Output target.",
+    "lineNumber": 55,
+    "type": {
+      "nullable": null,
+      "types": [
+        "string"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 142,
+    "kind": "member",
+    "name": "logger",
+    "memberof": "src/Releaser/Releaser.js~Releaser",
+    "static": false,
+    "longname": "src/Releaser/Releaser.js~Releaser#logger",
+    "access": "public",
+    "description": "logger#log is used to output progress, e.g. {@link Logger#log} or {@link console#log}.",
+    "lineNumber": 61,
+    "type": {
+      "nullable": null,
+      "types": [
+        "LogObject"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 143,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/Releaser/Releaser.js~Releaser",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Releaser/Releaser.js~Releaser#constructor",
+    "access": "public",
+    "description": "",
+    "lineNumber": 68,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Cmd"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "cmd",
+        "description": "Command arguments"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Config"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "{}",
+        "defaultRaw": {},
+        "name": "config",
+        "description": "For vendor, code, and version lookup."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "LogObject"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "new Logger()",
+        "defaultRaw": "new Logger()",
+        "name": "logger",
+        "description": "logger#log is used to output progress"
+      }
+    ]
+  },
+  {
+    "__docId__": 148,
+    "kind": "method",
+    "name": "getFileName",
+    "memberof": "src/Releaser/Releaser.js~Releaser",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Releaser/Releaser.js~Releaser#getFileName",
+    "access": "public",
+    "description": "Builds filename from command arguments and config.\n\nFormat defaults to `vendor-code-semver.zip`.\n`cmd.output` overwrites the default format.\n`cmd.directory` is prepended to the filename",
+    "examples": [
+      "new Releaser({}, config).getFileName();\n// => shinka-cli-0.0.1-a.zip",
+      "new Releaser({\n     vendor: \"shin\",\n     code: \"news\",\n     version: \"1.0.0\"\n}, config).getFileName();\n// => shin-news-1.0.0.zip",
+      "new Releaser({\n     directory: \"to/a/dir\"\n}, config).getFileName();\n// => to/a/dir/shinka-news-0.0.1-a.zip",
+      "new Releaser({\n     directory: \"to/a/dir\",\n     output: \"release.zip\"\n}, config).getFileName();\n// => to/a/dir/release.zip"
+    ],
+    "lineNumber": 109,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{string}"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "string"
+      ],
+      "spread": false,
+      "description": ""
+    },
+    "params": []
+  },
+  {
+    "__docId__": 149,
+    "kind": "method",
+    "name": "release",
+    "memberof": "src/Releaser/Releaser.js~Releaser",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Releaser/Releaser.js~Releaser#release",
+    "access": "public",
+    "description": "Bundles source files for release with `git archive`.",
+    "lineNumber": 134,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 150,
+    "kind": "method",
+    "name": "executeArchive",
+    "memberof": "src/Releaser/Releaser.js~Releaser",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Releaser/Releaser.js~Releaser#executeArchive",
+    "access": "public",
+    "description": "Executes `git archive` to bundle release.",
+    "lineNumber": 147,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 151,
+    "kind": "method",
+    "name": "errors",
+    "memberof": "src/Releaser/Releaser.js~Releaser",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Releaser/Releaser.js~Releaser#errors",
+    "access": "public",
+    "description": "Builds error messages.",
+    "lineNumber": 155,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{string[]}"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "string[]"
+      ],
+      "spread": false,
+      "description": ""
+    },
+    "params": []
+  },
+  {
+    "__docId__": 152,
+    "kind": "method",
+    "name": "success",
+    "memberof": "src/Releaser/Releaser.js~Releaser",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Releaser/Releaser.js~Releaser#success",
+    "access": "public",
+    "description": "Builds success message.",
+    "lineNumber": 175,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{string}"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "string"
+      ],
+      "spread": false,
+      "description": ""
+    },
+    "params": []
+  },
+  {
+    "__docId__": 153,
+    "kind": "method",
+    "name": "outputErrors",
+    "memberof": "src/Releaser/Releaser.js~Releaser",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Releaser/Releaser.js~Releaser#outputErrors",
+    "access": "public",
+    "description": "Outputs error messages.",
+    "lineNumber": 182,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 154,
+    "kind": "method",
+    "name": "outputSuccess",
+    "memberof": "src/Releaser/Releaser.js~Releaser",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Releaser/Releaser.js~Releaser#outputSuccess",
+    "access": "public",
+    "description": "Outputs success message.",
+    "lineNumber": 190,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 155,
+    "kind": "file",
+    "name": "src/Typedef/typedef.js",
+    "content": "/**\r\n * Command outline used to generate Commander commands and documentation.\r\n *\r\n * @typedef  {Object}    Command\r\n * @property {string}    command\r\n * @property {string}    description\r\n * @property {Option[]}  options\r\n * @property {Example[]} examples\r\n *\r\n * @example\r\n * {\r\n *     command: \"release\",\r\n *     description: \"Bundles source for release.\",\r\n *     options: [{\r\n *          flag: \"-v, --verbose\",\r\n *          description: \"Output verbose error messages.\"\r\n *     }],\r\n *     examples: [{\r\n *          command: \"-o path/to/target\",\r\n *          description: \"Bundled at path/to/target.\"\r\n *     }]\r\n * }\r\n */\r\n\r\n/**\r\n * Option outline used to generate Commander commands.\r\n *\r\n * @typedef  {Object}  Option\r\n * @property {string}  flag\r\n * @property {?string} description\r\n *\r\n * @example\r\n * {\r\n *     flag: \"-v, --verbose\",\r\n *     description: \"Output verbose error messages.\"\r\n * }\r\n */\r\n\r\n/**\r\n * Example outline used to generate --help output.\r\n *\r\n * @typedef  {Object}  Example\r\n * @property {string}  command\r\n * @property {?string} description\r\n *\r\n * @example\r\n * {\r\n *     command: \"-o path/to/target\",\r\n *     description: \"Bundled at path/to/target.\"\r\n * }\r\n */\r\n\r\n/**\r\n * @see {@link Linker}\r\n *\r\n * @typedef  {Object} LinkError\r\n * @property {string} path\r\n * @property {Error}  error\r\n *\r\n * @example\r\n * {\r\n *     path: \"path/to/file\",\r\n *     error: {\r\n *          code: \"EEOT\"\r\n *     }\r\n * }\r\n */\r\n\r\n/**\r\n * Object with #log method used to output progress.\r\n * @see {@link Logger}\r\n *\r\n * @typedef  {Object}   LogObject\r\n * @property {function} log\r\n *\r\n * @example\r\n * class Logger {\r\n *     log(msg) {\r\n *          console.log(msg);\r\n *      }\r\n * }\r\n *\r\n * @example\r\n * {\r\n *      log: (msg) => console.log(msg)\r\n * }\r\n *\r\n * @example\r\n * console\r\n */\r\n\r\n/**\r\n * Strings used to build messages.\r\n *\r\n * @typedef  {Object} Verbs\r\n * @property {string} past\r\n * @property {string} present\r\n * @property {string} gerund\r\n *\r\n * @example\r\n * {\r\n *      past: \"Linked\",\r\n *      present: \"Link\"\r\n *      gerund: \"Linking\"\r\n * }\r\n */\r\n\r\n/**\r\n * [Commander.js command](https://github.com/tj/commander.js/blob/master/typings/index.d.ts).\r\n *\r\n * @typedef {Object} Cmd\r\n */\r\n\r\n/**\r\n * Project config.\r\n *\r\n * @typedef {Object} Config\r\n * @property {{ files: string[], directories: [] }} links - Paths used by {@link Linker}.\r\n * @property {string} mybb_root - Absolute path to MyBB root.\r\n * @property {string} vendor    - Vendor name, e.g. `shinka` in `shinka-cli`. Used by {@link Releaser}.\r\n * @property {string} code      - Plugin codename, e.g. `cli` in `shinka-cli`. Used by {@link Releaser}.\r\n * @property {string} version   - [Semantic version](https://semver.org/). Used by {@link Releaser}.\r\n *\r\n * @example\r\n * {\r\n *      links: {\r\n *          files: [\"to/a/file\", \"to/another/file\"],\r\n *          directories: [\"to/a/dir\", \"to/another/dir\"]\r\n *      },\r\n *      mybb_root: \"C:/path/to/mybb/root\",\r\n *      vendor: \"shinka\",\r\n *      code: \"cli\",\r\n *      version: \"0.0.1-a\"\r\n * }\r\n */\r\n",
+    "static": true,
+    "longname": "C:/Users/Kalyn Robinson/Documents/Development/mybb/cli/src/Typedef/typedef.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 156,
+    "kind": "typedef",
+    "name": "Command",
+    "memberof": "src/Typedef/typedef.js",
+    "static": true,
+    "longname": "src/Typedef/typedef.js~Command",
+    "access": "public",
+    "description": "Command outline used to generate Commander commands and documentation.",
+    "examples": [
+      "{\n    command: \"release\",\n    description: \"Bundles source for release.\",\n    options: [{\n         flag: \"-v, --verbose\",\n         description: \"Output verbose error messages.\"\n    }],\n    examples: [{\n         command: \"-o path/to/target\",\n         description: \"Bundled at path/to/target.\"\n    }]\n}"
+    ],
+    "properties": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "command",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "description",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Option[]"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "options",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Example[]"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "examples",
+        "description": ""
+      }
+    ],
+    "type": {
+      "types": [
+        "Object"
+      ],
+      "optional": false,
+      "name": "Command"
+    }
+  },
+  {
+    "__docId__": 157,
+    "kind": "typedef",
+    "name": "Option",
+    "memberof": "src/Typedef/typedef.js",
+    "static": true,
+    "longname": "src/Typedef/typedef.js~Option",
+    "access": "public",
+    "description": "Option outline used to generate Commander commands.",
+    "examples": [
+      "{\n    flag: \"-v, --verbose\",\n    description: \"Output verbose error messages.\"\n}"
+    ],
+    "properties": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "flag",
+        "description": ""
+      },
+      {
+        "nullable": true,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "description",
+        "description": ""
+      }
+    ],
+    "type": {
+      "types": [
+        "Object"
+      ],
+      "optional": false,
+      "name": "Option"
+    }
+  },
+  {
+    "__docId__": 158,
+    "kind": "typedef",
+    "name": "Example",
+    "memberof": "src/Typedef/typedef.js",
+    "static": true,
+    "longname": "src/Typedef/typedef.js~Example",
+    "access": "public",
+    "description": "Example outline used to generate --help output.",
+    "examples": [
+      "{\n    command: \"-o path/to/target\",\n    description: \"Bundled at path/to/target.\"\n}"
+    ],
+    "properties": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "command",
+        "description": ""
+      },
+      {
+        "nullable": true,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "description",
+        "description": ""
+      }
+    ],
+    "type": {
+      "types": [
+        "Object"
+      ],
+      "optional": false,
+      "name": "Example"
+    }
+  },
+  {
+    "__docId__": 159,
+    "kind": "typedef",
+    "name": "LinkError",
+    "memberof": "src/Typedef/typedef.js",
+    "static": true,
+    "longname": "src/Typedef/typedef.js~LinkError",
+    "access": "public",
+    "description": "",
+    "examples": [
+      "{\n    path: \"path/to/file\",\n    error: {\n         code: \"EEOT\"\n    }\n}"
+    ],
+    "see": [
+      "{@link Linker}"
+    ],
+    "properties": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "path",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Error"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "error",
+        "description": ""
+      }
+    ],
+    "type": {
+      "types": [
+        "Object"
+      ],
+      "optional": false,
+      "name": "LinkError"
+    }
+  },
+  {
+    "__docId__": 160,
+    "kind": "typedef",
+    "name": "LogObject",
+    "memberof": "src/Typedef/typedef.js",
+    "static": true,
+    "longname": "src/Typedef/typedef.js~LogObject",
+    "access": "public",
+    "description": "Object with #log method used to output progress.",
+    "examples": [
+      "class Logger {\n    log(msg) {\n         console.log(msg);\n     }\n}",
+      "{\n     log: (msg) => console.log(msg)\n}",
+      "console"
+    ],
+    "see": [
+      "{@link Logger}"
+    ],
+    "properties": [
+      {
+        "nullable": null,
+        "types": [
+          "function"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "log",
+        "description": ""
+      }
+    ],
+    "type": {
+      "types": [
+        "Object"
+      ],
+      "optional": false,
+      "name": "LogObject"
+    }
+  },
+  {
+    "__docId__": 161,
+    "kind": "typedef",
+    "name": "Verbs",
+    "memberof": "src/Typedef/typedef.js",
+    "static": true,
+    "longname": "src/Typedef/typedef.js~Verbs",
+    "access": "public",
+    "description": "Strings used to build messages.",
+    "examples": [
+      "{\n     past: \"Linked\",\n     present: \"Link\"\n     gerund: \"Linking\"\n}"
+    ],
+    "properties": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "past",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "present",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "gerund",
+        "description": ""
+      }
+    ],
+    "type": {
+      "types": [
+        "Object"
+      ],
+      "optional": false,
+      "name": "Verbs"
+    }
+  },
+  {
+    "__docId__": 162,
+    "kind": "typedef",
+    "name": "Cmd",
+    "memberof": "src/Typedef/typedef.js",
+    "static": true,
+    "longname": "src/Typedef/typedef.js~Cmd",
+    "access": "public",
+    "description": "[Commander.js command](https://github.com/tj/commander.js/blob/master/typings/index.d.ts).",
+    "type": {
+      "types": [
+        "Object"
+      ],
+      "optional": false,
+      "name": "Cmd"
+    }
+  },
+  {
+    "__docId__": 163,
+    "kind": "typedef",
+    "name": "Config",
+    "memberof": "src/Typedef/typedef.js",
+    "static": true,
+    "longname": "src/Typedef/typedef.js~Config",
+    "access": "public",
+    "description": "Project config.",
+    "examples": [
+      "{\n     links: {\n         files: [\"to/a/file\", \"to/another/file\"],\n         directories: [\"to/a/dir\", \"to/another/dir\"]\n     },\n     mybb_root: \"C:/path/to/mybb/root\",\n     vendor: \"shinka\",\n     code: \"cli\",\n     version: \"0.0.1-a\"\n}"
+    ],
+    "properties": [
+      {
+        "nullable": null,
+        "types": [
+          "{ files: string[], directories: [] }"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "links",
+        "description": "Paths used by {@link Linker}."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "mybb_root",
+        "description": "Absolute path to MyBB root."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "vendor",
+        "description": "Vendor name, e.g. `shinka` in `shinka-cli`. Used by {@link Releaser}."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "code",
+        "description": "Plugin codename, e.g. `cli` in `shinka-cli`. Used by {@link Releaser}."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "version",
+        "description": "[Semantic version](https://semver.org/). Used by {@link Releaser}."
+      }
+    ],
+    "type": {
+      "types": [
+        "Object"
+      ],
+      "optional": false,
+      "name": "Config"
+    }
+  },
+  {
+    "kind": "index",
+    "content": "# shinka-cli\r\n\r\nCommand line tool for developing MyBB plugins.\r\n\r\n## Installation\r\n\r\n### Yarn\r\n\r\n```shell\r\nyarn global add shinka-cli\r\n```\r\n\r\n### NPM\r\n\r\n```shell\r\nnpm install --global shinka-cli\r\n```\r\n\r\n### Configure\r\n\r\nCreate the utility's config file in the root of your app. See [shinka.example.json](/blob/master/shinka.example.json) for a full example.\r\n\r\n#### `shinka.json`\r\n\r\n```json\r\n{\r\n    \"link\": {\r\n        \"files\": [\"inc/plugins/shinka.php\"],\r\n        \"directories\": [\"inc/plugins/Shinka\"]\r\n    },\r\n    \"mybb_root\": \"C:/path/to/mybb/root\"\r\n}\r\n```\r\n\r\n## Usage\r\n\r\nTry `shinka <command> --help` for detailed options and examples.\r\n\r\n### `shinka link`\r\n\r\nCreates symbolic links for files designated in shinka.json\r\n\r\n| Flag            | Description                   |\r\n| :-------------- | :---------------------------- |\r\n| `-v, --verbose` | Output verbose error messages |\r\n\r\n```shell\r\n$ shinka link\r\n$ shinka link --verbose\r\n$ shinka link -v\r\n```\r\n\r\n### `shinka unlink`\r\n\r\nDestroys symbolic links for files designated in shinka.json\r\n\r\n| Flag            | Description                   |\r\n| :-------------- | :---------------------------- |\r\n| `-v, --verbose` | Output verbose error messages |\r\n\r\n```shell\r\n$ shinka unlink\r\n$ shinka unlink --verbose\r\n$ shinka unlink -v\r\n```\r\n\r\n### `shinka relink`\r\n\r\nDestroys and recreates symbolic links for files designated in shinka.json\r\n\r\n| Flag            | Description                   |\r\n| :-------------- | :---------------------------- |\r\n| `-v, --verbose` | Output verbose error messages |\r\n\r\n```shell\r\n$ shinka relink\r\n$ shinka relink --verbose\r\n$ shinka relink -v\r\n```\r\n\r\n### `shinka release`\r\n\r\nBuilds and bundles for release.\r\n\r\nOutput filename in format `<vendor>-<code>-<version>.zip`, e.g. `shinka-cli-0.0.1a.zip`\r\n\r\nUses `git archive HEAD:src --format zip` to bundle. Configure your `.gitattributes` accordingly.\r\n\r\n| Flag                               | Description                                                   |     |\r\n| :--------------------------------- | :------------------------------------------------------------ | :-- |\r\n| `-s <version>, --semver <version>` | Version to release                                            |\r\n| `-N <vendor>, --vendor <vendor>`   | Vendor name, e.g. `shinka` in `shinka-cli`                    |\r\n| `-c <code>, --code <code>`         | Plugin code, e.g. `cli` in `shinka-cli`                       |\r\n| `-o <path>, --output <path>`       | Output filename. Should include file extension.               |\r\n| `-d <dir>, --directory <dir>`      | Output directory and filename. Should include file extension. |\r\n\r\n```json\r\n// shinka.json\r\n{\r\n    \"code\": \"cli\",\r\n    \"vendor\": \"shinka\",\r\n    \"version\": \"1.0.0\"\r\n}\r\n```\r\n\r\n```shell\r\n$ shinka release                            # => shinka-cli-1.0.0.zip\r\n$ shinka release -v 1.0.0a                  # => shinka-cli-1.0.0a.zip\r\n$ shinka release -V shin -C news            # => shin-news-1.0.0.zip\r\n$ shinka release -b minor                   # => shinka-news-1.1.0.zip\r\n```\r\n",
+    "longname": "C:\\Users\\Kalyn Robinson\\Documents\\Development\\mybb\\cli\\README.md",
+    "name": "./README.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "packageJSON",
+    "content": "{\r\n    \"name\": \"shinka-cli\",\r\n    \"version\": \"0.0.1\",\r\n    \"description\": \"Command line tool for developing MyBB plugins.\",\r\n    \"repository\": \"https://github.com/ShinkaDev-MyBB/cli\",\r\n    \"author\": { \r\n        \"name\" : \"Kalyn Robinson\", \r\n        \"email\" : \"kalyndrobinson@gmail.com\",\r\n        \"url\" : \"https://github.com/kalynrobinson\"\r\n    },\r\n    \"license\": \"Unlicense\",\r\n    \"engines\": {\r\n        \"node\": \">=8.0.0\"\r\n    },\r\n    \"main\": \"./bin/shinka.js\",\r\n    \"bin\": {\r\n        \"shinka\": \"./bin/shinka.js\"\r\n    },\r\n    \"directories\": {\r\n        \"bin\": \"./bin\",\r\n        \"dist\": \"./dist\"\r\n    },\r\n    \"files\": [\r\n        \"README.md\",\r\n        \"LICENSE.md\"\r\n    ],\r\n    \"scripts\": {\r\n        \"prepublishOnly\": \"yarn lint && yarn prettier && yarn test\",\r\n        \"prettier\": \"prettier --write '**/*.{js,json,css,md}'\",\r\n        \"lint\": \"eslint --fix ./bin ./src\",\r\n        \"test\": \"jest\",\r\n        \"test:watch\": \"yarn test --watch\",\r\n        \"build\": \"babel src -d dist/src && babel bin -d dist/bin && babel version.js -d dist\",\r\n        \"docs\": \"node scripts/document.js\"\r\n    },\r\n    \"husky\": {\r\n        \"hooks\": {\r\n            \"pre-commit\": \"lint-staged\"\r\n        }\r\n    },\r\n    \"lint-staged\": {\r\n        \"*.{js,css,md}\": [\r\n            \"prettier --write\",\r\n            \"git add\"\r\n        ]\r\n    },\r\n    \"keywords\": [\r\n        \"shinka\",\r\n        \"mybb\"\r\n    ],\r\n    \"dependencies\": {\r\n        \"babel-plugin-transform-object-rest-spread\": \"^6.26.0\",\r\n        \"chalk\": \"^2.4.1\",\r\n        \"cli-progress\": \"^2.0.0\",\r\n        \"commander\": \"^2.15.1\",\r\n        \"esdoc\": \"^1.1.0\",\r\n        \"esdoc-standard-plugin\": \"^1.0.0\",\r\n        \"progress\": \"^2.0.0\"\r\n    },\r\n    \"devDependencies\": {\r\n        \"@types/jest\": \"^22.2.3\",\r\n        \"@types/shelljs\": \"^0.8.0\",\r\n        \"babel-cli\": \"^6.26.0\",\r\n        \"babel-core\": \"^6.26.3\",\r\n        \"babel-eslint\": \"^8.2.6\",\r\n        \"babel-jest\": \"^23.4.2\",\r\n        \"babel-plugin-transform-class-properties\": \"^6.24.1\",\r\n        \"babel-preset-env\": \"^1.7.0\",\r\n        \"esdoc-ecmascript-proposal-plugin\": \"^1.0.0\",\r\n        \"eslint\": \"^4.19.1\",\r\n        \"husky\": \"^1.0.0-rc.7\",\r\n        \"jest\": \"^23.0.0\",\r\n        \"jsdoc\": \"^3.5.5\",\r\n        \"lint-staged\": \"^7.1.2\",\r\n        \"prettier\": \"^1.12.1\",\r\n        \"shelljs\": \"^0.8.2\"\r\n    }\r\n}\r\n",
+    "longname": "C:\\Users\\Kalyn Robinson\\Documents\\Development\\mybb\\cli\\package.json",
+    "name": "package.json",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manualIndex",
+    "globalIndex": true,
+    "content": "# shinka-cli\r\n\r\nA command line tool for developing MyBB plugins.\r\n",
+    "longname": "C:\\Users\\Kalyn Robinson\\Documents\\Development\\mybb\\cli\\manual\\index.md",
+    "name": "./manual/index.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manualAsset",
+    "longname": "C:\\Users\\Kalyn Robinson\\Documents\\Development\\mybb\\cli\\manual\\asset",
+    "name": "./manual/asset",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manual",
+    "longname": "C:\\Users\\Kalyn Robinson\\Documents\\Development\\mybb\\cli\\manual\\install.md",
+    "name": "./manual/install.md",
+    "content": "# Installation\r\n\r\n## Yarn\r\n\r\n```shell\r\nyarn global add shinka-cli\r\n```\r\n\r\n## NPM\r\n\r\n```shell\r\nnpm install --global shinka-cli\r\n```\r\n\r\n## Configure\r\n\r\nCreate the utility's config file in the root of your app. See [Configure](configure.html) for more information.\r\n\r\n### `shinka.json`\r\n\r\n```json\r\n{\r\n    \"link\": {\r\n        \"files\": [\"inc/plugins/shinka.php\"],\r\n        \"directories\": [\"inc/plugins/Shinka\"]\r\n    },\r\n    \"mybb_root\": \"C:/path/to/mybb/root\"\r\n}\r\n```\r\n",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manual",
+    "longname": "C:\\Users\\Kalyn Robinson\\Documents\\Development\\mybb\\cli\\manual\\configure.md",
+    "name": "./manual/configure.md",
+    "content": "# Configure\r\n\r\nCreate the utility's config file in the root of your app. See [shinka.example.json](/blob/master/shinka.example.json) for a full example.\r\n\r\n## `shinka.json`\r\n\r\n```json\r\n{\r\n    \"link\": {\r\n        \"files\": [\"inc/plugins/shinka.php\"],\r\n        \"directories\": [\"inc/plugins/Shinka\"]\r\n    },\r\n    \"mybb_root\": \"C:/path/to/mybb/root\",\r\n    \"vendor\": \"shinka\",\r\n    \"code\": \"cli\",\r\n    \"version\": \"0.0.1-a\"\r\n}\r\n```\r\n\r\n## Fields\r\n\r\n**link**: files and directories used by the `link`, `unlink`, and `relink` commands.\r\n\r\n**mybb_root**: Root directory of your local MyBB installation. Used by the `link`, `unlink`, and `relink` commands.\r\n\r\n**vendor**: Vendor name, e.g. `shinka` in `shinka-cli`. Used by the `release` command.\r\n\r\n**code**: Plugin codename, e.g. `cli` in `shinka-cli`. Used by the `release` command.\r\n\r\n**version**: Semantic plugin version. Used by the `release` command.\r\n",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manual",
+    "longname": "C:\\Users\\Kalyn Robinson\\Documents\\Development\\mybb\\cli\\manual\\usage.md",
+    "name": "./manual/usage.md",
+    "content": "# Usage\nTry `shinka <command> --help` for detailed options and examples.\n## `link`\nCreate symbolic links for plugin files and directories.\n### Options\n**-v, --verbose**: Output verbose error messages\n\n### Examples\n```shell\n$ link \n$ link --verbose\n$ link -v\n```\n## `relink`\nDestroy and recreate symbolic links for plugin files and directories.\n### Options\n**-v, --verbose**: Output verbose error messages\n\n### Examples\n```shell\n$ relink \n$ relink --verbose\n$ relink -v\n```\n## `unlink`\nDestroy and recreate symbolic links for plugin files and directories.\n### Options\n**-v, --verbose**: Output verbose error messages\n\n### Examples\n```shell\n$ unlink \n$ unlink --verbose\n$ unlink -v\n```\n## `release`\nCreate symbolic links for plugin files and directories.\n### Options\n**-v, --verbose**: Output verbose error messages\n\n**-s, --semver [version]**: Plugin version. Defaults to shinka.json.\n\n**-N, --vendor [vendor]**: Vendor name, e.g. `shinka` in `shinka-cli`. Defaults to shinka.json.\n\n**-c, --code [code]**: Plugin codename, e.g. `cli` in `shinka-cli`. Defaults to shinka.json.\n\n**-o, --output [path]**: Bundle filename. Should include file extension.\n\n**-d, --directory [path]**: Output directory and filename. Should include file extension.\n\n### Examples\n```shell\n$ release      # Outputs to shinka-cli-0.0.1a.zip\n$ release -N shin -c news -s 1.0.0     # Outputs to shin-news-1.0.0.zip\n$ release -o to/a/path/release.zip     # Outputs to to/a/path/release.zip\n$ release -d to/a/path     # Outputs to to/a/path/shinka-cli-0.0.1a.zip\n```",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "__docId__": 164,
+    "kind": "testFile",
+    "name": "src/Documenter/__tests__/Documenter.test.js",
+    "content": "import fs from \"fs\";\r\nimport nodePath from \"path\";\r\n\r\nimport Documenter from \"../Documenter\";\r\n\r\n/** @test {Documenter} */\r\ndescribe.only(\"Documenter\", () => {\r\n    const path = \"./DOCUMENTER.md\";\r\n    const commands = [\r\n        {\r\n            command: \"command\",\r\n            description: \"Does a thing\",\r\n            options: [\r\n                { flag: \"-f, --force\", description: \"Force the thing\" },\r\n                { flag: \"-v, --verbose\", description: \"Output verbose error messages\" }\r\n            ],\r\n            examples: [\r\n                {\r\n                    command: \"-f\",\r\n                    description: \"Force it to do a thing\"\r\n                },\r\n                {\r\n                    command: \"-v\",\r\n                    description: \"Outputs full error messages\"\r\n                }\r\n            ]\r\n        }\r\n    ];\r\n\r\n    afterEach(() => {\r\n        try {\r\n            fs.unlinkSync(nodePath.resolve(path));\r\n        } catch (e) {\r\n            console.warn(`${path} does not exist.`);\r\n        }\r\n    });\r\n\r\n    const readFile = () => {\r\n        return fs.readFileSync(path, { encoding: \"utf8\" });\r\n    };\r\n\r\n    const fileExists = () => {\r\n        try {\r\n            fs.accessSync(path);\r\n        } catch (err) {\r\n            return false;\r\n        }\r\n\r\n        return true;\r\n    };\r\n\r\n    describe(\"#generate\", () => {\r\n        it.each`\r\n            commands\r\n            ${undefined}\r\n            ${commands}\r\n        `(\"writes file with $commands\", () => {\r\n            Documenter.generate(commands, path);\r\n            expect(fileExists()).toEqual(true);\r\n        });\r\n\r\n        it(\"writes default commands\", () => {\r\n            Documenter.generate(undefined, path);\r\n            const written = readFile();\r\n\r\n            [\"link\", \"release\", \"relink\", \"unlink\"].forEach(({ command }) => {\r\n                expect(written).toContain(command);\r\n            });\r\n        });\r\n\r\n        it(\"writes given commands\", () => {\r\n            Documenter.generate(commands, path);\r\n            const written = readFile();\r\n\r\n            commands.forEach(command => {\r\n                expect(written).toContain(command.command);\r\n            });\r\n        });\r\n    });\r\n});\r\n",
+    "static": true,
+    "longname": "C:/Users/Kalyn Robinson/Documents/Development/mybb/cli/src/Documenter/__tests__/Documenter.test.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 165,
+    "kind": "test",
+    "name": "describe0",
+    "testId": 0,
+    "memberof": "src/Documenter/__tests__/Documenter.test.js",
+    "testDepth": 0,
+    "static": true,
+    "longname": "src/Documenter/__tests__/Documenter.test.js~describe0",
+    "access": null,
+    "description": "#generate",
+    "lineNumber": 52
+  },
+  {
+    "__docId__": 166,
+    "kind": "test",
+    "name": "it1",
+    "testId": 1,
+    "memberof": "src/Documenter/__tests__/Documenter.test.js~describe0",
+    "testDepth": 1,
+    "static": true,
+    "longname": "src/Documenter/__tests__/Documenter.test.js~describe0.it1",
+    "access": null,
+    "description": "writes default commands",
+    "lineNumber": 62
+  },
+  {
+    "__docId__": 167,
+    "kind": "test",
+    "name": "it2",
+    "testId": 2,
+    "memberof": "src/Documenter/__tests__/Documenter.test.js~describe0",
+    "testDepth": 1,
+    "static": true,
+    "longname": "src/Documenter/__tests__/Documenter.test.js~describe0.it2",
+    "access": null,
+    "description": "writes given commands",
+    "lineNumber": 71
+  },
+  {
+    "__docId__": 168,
+    "kind": "testFile",
+    "name": "src/Documenter/__tests__/Presenter.test.js",
+    "content": "import Presenter from \"../Presenter\";\r\n\r\n/** @test {Presenter} */\r\ndescribe(\"Presenter\", () => {\r\n    const obj = {\r\n        command: \"command\",\r\n        description: \"Does a thing\",\r\n        options: [\r\n            { flag: \"-f, --force\", description: \"Force the thing\" },\r\n            { flag: \"-v, --verbose\", description: \"Output verbose error messages\" }\r\n        ],\r\n        examples: [\r\n            {\r\n                command: \"-f\",\r\n                description: \"Force it to do a thing\"\r\n            },\r\n            {\r\n                command: \"-v\",\r\n                description: \"Outputs full error messages\"\r\n            }\r\n        ]\r\n    };\r\n\r\n    /** @test {Presenter.buildExamples} */\r\n    describe(\"buildExamples()\", () => {\r\n        it(\"builds each example\", () => {\r\n            const received = Presenter.buildExamples(obj);\r\n\r\n            // n+3 to account for header and code fences (```)\r\n            expect(received).toHaveLength(obj.examples.length + 3);\r\n\r\n            const examples = received.slice(2, received.length - 1);\r\n            examples.forEach((eg, ndx) => {\r\n                const { command, description } = obj.examples[ndx];\r\n                expect(eg).toContain(command);\r\n                expect(eg).toContain(description);\r\n            });\r\n        });\r\n\r\n        it.each`\r\n            obj                 | expected\r\n            ${obj}              | ${obj.examples.length + 3}\r\n            ${{ examples: [] }} | ${0}\r\n            ${{}}               | ${0}\r\n        `(\"accepts $obj.options\", ({ obj, expected }) => {\r\n            const received = Presenter.buildExamples(obj);\r\n            expect(received).toHaveLength(expected);\r\n        });\r\n    });\r\n\r\n    /** @test {Presenter.buildOptions} */\r\n    describe(\"buildOptions()\", () => {\r\n        it(\"builds each option\", () => {\r\n            const received = Presenter.buildOptions(obj);\r\n\r\n            // n+1 to account for header\r\n            expect(received).toHaveLength(obj.options.length + 1);\r\n\r\n            const options = received.slice(1);\r\n            options.forEach((eg, ndx) => {\r\n                const { flag, description } = obj.options[ndx];\r\n                expect(eg).toContain(flag);\r\n                expect(eg).toContain(description);\r\n            });\r\n        });\r\n\r\n        it.each`\r\n            obj                | expected\r\n            ${obj}             | ${obj.options.length + 1}\r\n            ${{ options: [] }} | ${0}\r\n            ${{}}              | ${0}\r\n        `(\"accepts $obj.options\", ({ obj, expected }) => {\r\n            const received = Presenter.buildOptions(obj);\r\n            expect(received).toHaveLength(expected);\r\n        });\r\n    });\r\n\r\n    /** @test {Presenter.generateFor} */\r\n    describe(\"generateFor()\", () => {\r\n        it(\"returns something\", () => {\r\n            const fn1Return = [\"one\"];\r\n            const fn2Return = [\"two\", \"three\"];\r\n            let fn1, fn2;\r\n\r\n            const Modified = Presenter;\r\n            Modified.buildOptions = fn1 = jest.fn().mockReturnValue(fn1Return);\r\n            Modified.buildExamples = fn2 = jest.fn().mockReturnValue(fn2Return);\r\n\r\n            const received = Modified.generateFor(obj);\r\n\r\n            [obj.command, obj.description, ...fn1Return, ...fn2Return].forEach(str => {\r\n                expect(received).toEqual(expect.stringContaining(str));\r\n            });\r\n\r\n            [fn1, fn2].forEach;\r\n            expect(fn1).toHaveBeenCalledTimes(1);\r\n        });\r\n    });\r\n});\r\n",
+    "static": true,
+    "longname": "C:/Users/Kalyn Robinson/Documents/Development/mybb/cli/src/Documenter/__tests__/Presenter.test.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 169,
+    "kind": "test",
+    "name": "describe3",
+    "testId": 3,
+    "memberof": "src/Documenter/__tests__/Presenter.test.js",
+    "testDepth": 0,
+    "static": true,
+    "longname": "src/Documenter/__tests__/Presenter.test.js~describe3",
+    "access": null,
+    "description": "Presenter",
+    "lineNumber": 4,
+    "testTargets": [
+      "Presenter"
+    ]
+  },
+  {
+    "__docId__": 170,
+    "kind": "test",
+    "name": "describe4",
+    "testId": 4,
+    "memberof": "src/Documenter/__tests__/Presenter.test.js~describe3",
+    "testDepth": 1,
+    "static": true,
+    "longname": "src/Documenter/__tests__/Presenter.test.js~describe3.describe4",
+    "access": null,
+    "description": "buildExamples()",
+    "lineNumber": 25,
+    "testTargets": [
+      "Presenter.buildExamples"
+    ]
+  },
+  {
+    "__docId__": 171,
+    "kind": "test",
+    "name": "it5",
+    "testId": 5,
+    "memberof": "src/Documenter/__tests__/Presenter.test.js~describe3.describe4",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/Documenter/__tests__/Presenter.test.js~describe3.describe4.it5",
+    "access": null,
+    "description": "builds each example",
+    "lineNumber": 26
+  },
+  {
+    "__docId__": 172,
+    "kind": "test",
+    "name": "describe6",
+    "testId": 6,
+    "memberof": "src/Documenter/__tests__/Presenter.test.js~describe3",
+    "testDepth": 1,
+    "static": true,
+    "longname": "src/Documenter/__tests__/Presenter.test.js~describe3.describe6",
+    "access": null,
+    "description": "buildOptions()",
+    "lineNumber": 52,
+    "testTargets": [
+      "Presenter.buildOptions"
+    ]
+  },
+  {
+    "__docId__": 173,
+    "kind": "test",
+    "name": "it7",
+    "testId": 7,
+    "memberof": "src/Documenter/__tests__/Presenter.test.js~describe3.describe6",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/Documenter/__tests__/Presenter.test.js~describe3.describe6.it7",
+    "access": null,
+    "description": "builds each option",
+    "lineNumber": 53
+  },
+  {
+    "__docId__": 174,
+    "kind": "test",
+    "name": "describe8",
+    "testId": 8,
+    "memberof": "src/Documenter/__tests__/Presenter.test.js~describe3",
+    "testDepth": 1,
+    "static": true,
+    "longname": "src/Documenter/__tests__/Presenter.test.js~describe3.describe8",
+    "access": null,
+    "description": "generateFor()",
+    "lineNumber": 79,
+    "testTargets": [
+      "Presenter.generateFor"
+    ]
+  },
+  {
+    "__docId__": 175,
+    "kind": "test",
+    "name": "it9",
+    "testId": 9,
+    "memberof": "src/Documenter/__tests__/Presenter.test.js~describe3.describe8",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/Documenter/__tests__/Presenter.test.js~describe3.describe8.it9",
+    "access": null,
+    "description": "returns something",
+    "lineNumber": 80
+  },
+  {
+    "__docId__": 176,
+    "kind": "testFile",
+    "name": "src/Documenter/__tests__/Transformer.test.js",
+    "content": "import Transformer from \"../Transformer\";\r\n\r\n/** @test {Transformer} */\r\ndescribe(\"Transformer\", () => {\r\n    const examples = [\r\n        [\r\n            {\r\n                command: \"release -f\",\r\n                description: \"Force it to do a thing\"\r\n            }\r\n        ],\r\n        [\r\n            {\r\n                command: \"release -v\"\r\n            }\r\n        ]\r\n    ];\r\n\r\n    const options = [\r\n        [{ flag: \"-f, --force\", description: \"Force the thing\" }],\r\n        [{ flag: \"-v, --verbose\", description: \"Output verbose error messages\" }]\r\n    ];\r\n\r\n    /** @test {Transformer.example} */\r\n    describe(\"example()\", () => {\r\n        it.each(examples)(\"builds example for %o\", example => {\r\n            const received = Transformer.example(example);\r\n            expect(received).toContain(example.command);\r\n\r\n            if (example.description) {\r\n                expect(received).toContain(example.description);\r\n            }\r\n        });\r\n    });\r\n\r\n    /** @test {Transformer.option} */\r\n    describe(\"option()\", () => {\r\n        it.each(options)(\"builds option for %o\", option => {\r\n            const received = Transformer.option(option);\r\n            expect(received).toContain(option.flag);\r\n\r\n            if (option.description) {\r\n                expect(received).toContain(option.description);\r\n            } else {\r\n                expect(received).not.toContain(\":\");\r\n            }\r\n        });\r\n    });\r\n});\r\n",
+    "static": true,
+    "longname": "C:/Users/Kalyn Robinson/Documents/Development/mybb/cli/src/Documenter/__tests__/Transformer.test.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 177,
+    "kind": "test",
+    "name": "describe10",
+    "testId": 10,
+    "memberof": "src/Documenter/__tests__/Transformer.test.js",
+    "testDepth": 0,
+    "static": true,
+    "longname": "src/Documenter/__tests__/Transformer.test.js~describe10",
+    "access": null,
+    "description": "Transformer",
+    "lineNumber": 4,
+    "testTargets": [
+      "Transformer"
+    ]
+  },
+  {
+    "__docId__": 178,
+    "kind": "test",
+    "name": "describe11",
+    "testId": 11,
+    "memberof": "src/Documenter/__tests__/Transformer.test.js~describe10",
+    "testDepth": 1,
+    "static": true,
+    "longname": "src/Documenter/__tests__/Transformer.test.js~describe10.describe11",
+    "access": null,
+    "description": "example()",
+    "lineNumber": 25,
+    "testTargets": [
+      "Transformer.example"
+    ]
+  },
+  {
+    "__docId__": 179,
+    "kind": "test",
+    "name": "describe12",
+    "testId": 12,
+    "memberof": "src/Documenter/__tests__/Transformer.test.js~describe10",
+    "testDepth": 1,
+    "static": true,
+    "longname": "src/Documenter/__tests__/Transformer.test.js~describe10.describe12",
+    "access": null,
+    "description": "option()",
+    "lineNumber": 37,
+    "testTargets": [
+      "Transformer.option"
+    ]
+  },
+  {
+    "__docId__": 180,
+    "kind": "testFile",
+    "name": "src/Helper/__tests__/Helper.test.js",
+    "content": "import Helper from \"../Helper\";\r\nimport Logger from \"../../Logger\";\r\n\r\n/**\r\n * @test {Helper}\r\n */\r\ndescribe(\"Helper\", () => {\r\n    const longest = \"three\";\r\n    const examples = [\r\n        { command: \"one\", description: \"e.g. 1\" },\r\n        { command: \"two\", description: \"e.g. 2\" },\r\n        {\r\n            command: longest,\r\n            description: \"e.g. 3\"\r\n        }\r\n    ];\r\n    let logger = {\r\n        log: jest.fn()\r\n    };\r\n    let help;\r\n\r\n    const helper = () => {\r\n        if (!help) {\r\n            help = new Helper(logger);\r\n        }\r\n        return help;\r\n    };\r\n\r\n    beforeEach(() => {\r\n        logger = {\r\n            log: jest.fn()\r\n        };\r\n        help = null;\r\n    });\r\n\r\n    /**\r\n     * @test {Helper#constructor}\r\n     */\r\n    describe(\"constructor()\", () => {\r\n        it.each`\r\n            log          | expected\r\n            ${logger}    | ${Object}\r\n            ${undefined} | ${Logger}\r\n        `(\"sets logger to instance of $expected when $log\", ({ log, expected }) => {\r\n            logger = log;\r\n            expect(helper().logger).toBeInstanceOf(expected);\r\n        });\r\n    });\r\n\r\n    /**\r\n     * @test {Helper#help}\r\n     */\r\n    describe(\"help()\", () => {\r\n        it(\"builds string\", () => {\r\n            const received = helper().help(examples);\r\n\r\n            expect(received[0]).toEqual(expect.stringContaining(\"Examples\"));\r\n\r\n            examples.forEach((example, ndx) => {\r\n                expect(received[ndx + 1]).toEqual(expect.stringContaining(example.command));\r\n                expect(received[ndx + 1]).toEqual(expect.stringContaining(example.description));\r\n            });\r\n        });\r\n\r\n        it.each`\r\n            examples     | expected\r\n            ${examples}  | ${examples.length + 1}\r\n            ${[]}        | ${1}\r\n            ${undefined} | ${1}\r\n        `(\"returns string[] with length $expected for $examples\", ({ examples, expected }) => {\r\n            const received = helper().help(examples);\r\n            expect(Array.isArray(received)).toEqual(true);\r\n            expect(received).toHaveLength(expected);\r\n        });\r\n\r\n        it(\"includes command name\", () => {\r\n            const received = helper()\r\n                .help(examples, \"release\")\r\n                .slice(1); // ignore header\r\n\r\n            received.forEach(str => {\r\n                expect(str).toEqual(expect.stringContaining(\"release\"));\r\n            });\r\n        });\r\n    });\r\n\r\n    /**\r\n     * @test {Helper#outputHelp}\r\n     */\r\n    describe(\"outputHelp()\", () => {\r\n        it.each`\r\n            examples     | expected\r\n            ${examples}  | ${examples.length + 1}\r\n            ${[]}        | ${1}\r\n            ${undefined} | ${1}\r\n        `(\"calls console.log $expected times for $examples\", ({ examples, expected }) => {\r\n            helper().outputHelp(examples);\r\n\r\n            const { calls } = logger.log.mock;\r\n            expect(calls.length).toEqual(expected);\r\n        });\r\n    });\r\n\r\n    /**\r\n     * @test {Helper#getLongest}\r\n     */\r\n    describe(\"getLongest()\", () => {\r\n        it.each`\r\n            a            | b            | expected\r\n            ${\"bbbbbbb\"} | ${\"a\"}       | ${\"bbbbbbb\"}\r\n            ${\"a\"}       | ${\"bbbbbbb\"} | ${\"bbbbbbb\"}\r\n            ${\"a\"}       | ${\"b\"}       | ${\"b\"}\r\n        `(\"returns $expected when $a and $b are used\", ({ a, b, expected }) => {\r\n            const received = helper().getLongest({ command: a }, { command: b });\r\n            expect(received).toEqual({ command: expected });\r\n        });\r\n    });\r\n});\r\n",
+    "static": true,
+    "longname": "C:/Users/Kalyn Robinson/Documents/Development/mybb/cli/src/Helper/__tests__/Helper.test.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 181,
+    "kind": "test",
+    "name": "describe13",
+    "testId": 13,
+    "memberof": "src/Helper/__tests__/Helper.test.js",
+    "testDepth": 0,
+    "static": true,
+    "longname": "src/Helper/__tests__/Helper.test.js~describe13",
+    "access": null,
+    "description": "Helper",
+    "lineNumber": 7,
+    "testTargets": [
+      "Helper"
+    ]
+  },
+  {
+    "__docId__": 182,
+    "kind": "test",
+    "name": "describe14",
+    "testId": 14,
+    "memberof": "src/Helper/__tests__/Helper.test.js~describe13",
+    "testDepth": 1,
+    "static": true,
+    "longname": "src/Helper/__tests__/Helper.test.js~describe13.describe14",
+    "access": null,
+    "description": "constructor()",
+    "lineNumber": 39,
+    "testTargets": [
+      "Helper#constructor"
+    ]
+  },
+  {
+    "__docId__": 183,
+    "kind": "test",
+    "name": "describe15",
+    "testId": 15,
+    "memberof": "src/Helper/__tests__/Helper.test.js~describe13",
+    "testDepth": 1,
+    "static": true,
+    "longname": "src/Helper/__tests__/Helper.test.js~describe13.describe15",
+    "access": null,
+    "description": "help()",
+    "lineNumber": 53,
+    "testTargets": [
+      "Helper#help"
+    ]
+  },
+  {
+    "__docId__": 184,
+    "kind": "test",
+    "name": "it16",
+    "testId": 16,
+    "memberof": "src/Helper/__tests__/Helper.test.js~describe13.describe15",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/Helper/__tests__/Helper.test.js~describe13.describe15.it16",
+    "access": null,
+    "description": "builds string",
+    "lineNumber": 54
+  },
+  {
+    "__docId__": 185,
+    "kind": "test",
+    "name": "it17",
+    "testId": 17,
+    "memberof": "src/Helper/__tests__/Helper.test.js~describe13.describe15",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/Helper/__tests__/Helper.test.js~describe13.describe15.it17",
+    "access": null,
+    "description": "includes command name",
+    "lineNumber": 76
+  },
+  {
+    "__docId__": 186,
+    "kind": "test",
+    "name": "describe18",
+    "testId": 18,
+    "memberof": "src/Helper/__tests__/Helper.test.js~describe13",
+    "testDepth": 1,
+    "static": true,
+    "longname": "src/Helper/__tests__/Helper.test.js~describe13.describe18",
+    "access": null,
+    "description": "outputHelp()",
+    "lineNumber": 90,
+    "testTargets": [
+      "Helper#outputHelp"
+    ]
+  },
+  {
+    "__docId__": 187,
+    "kind": "test",
+    "name": "describe19",
+    "testId": 19,
+    "memberof": "src/Helper/__tests__/Helper.test.js~describe13",
+    "testDepth": 1,
+    "static": true,
+    "longname": "src/Helper/__tests__/Helper.test.js~describe13.describe19",
+    "access": null,
+    "description": "getLongest()",
+    "lineNumber": 107,
+    "testTargets": [
+      "Helper#getLongest"
+    ]
+  },
+  {
+    "__docId__": 188,
+    "kind": "testFile",
+    "name": "src/Linker/__tests__/Linker.test.js",
+    "content": "import path from \"path\";\r\n\r\nimport Linker, { verbs as linkerVerbs } from \"../Linker\";\r\nimport * as helpers from \"./helpers\";\r\n\r\n/**\r\n * @test {Linker}\r\n */\r\ndescribe(\"Linker\", () => {\r\n    const longestPath = \"c.txt\";\r\n    const mybb_root = path.resolve(\"src/Linker/__tests__/links\");\r\n    const emptyConfig = {\r\n        link: {\r\n            files: [],\r\n            directories: []\r\n        },\r\n        mybb_root\r\n    };\r\n\r\n    let linker;\r\n    let cmd;\r\n    let config = {\r\n        link: {\r\n            files: [longestPath],\r\n            directories: [\"a\"]\r\n        },\r\n        mybb_root\r\n    };\r\n    let logger;\r\n    let errors;\r\n    let verbs;\r\n\r\n    const link = () => {\r\n        if (!linker) {\r\n            linker = new Linker(cmd, config, logger);\r\n            linker.verbs = verbs;\r\n            linker.errorList = errors;\r\n        }\r\n\r\n        return linker;\r\n    };\r\n\r\n    /**\r\n     * ProgressBar defaults its read/write stream to process.stderr,\r\n     * which breaks certain test runners (e.g. the Jest extension for\r\n     * VS Code).\r\n     */\r\n    const mockStderr = () => {\r\n        global.process = {\r\n            ...process,\r\n            stderr: {\r\n                clearLine: jest.fn(),\r\n                cursorTo: jest.fn(),\r\n                write: jest.fn()\r\n            }\r\n        };\r\n    };\r\n\r\n    beforeEach(() => {\r\n        cmd = { output: \"test.zip\" };\r\n        config = {\r\n            link: {\r\n                files: [longestPath],\r\n                directories: [\"a\"]\r\n            },\r\n            mybb_root\r\n        };\r\n        errors = [\r\n            { path: \"this/is/a/path\", error: \"this is an error\" },\r\n            { path: longestPath, error: \"this is another error\" }\r\n        ];\r\n        verbs = { present: \"test\", gerund: \"testing\", past: \"tested\" };\r\n        linker = null;\r\n        logger = {\r\n            log: jest.fn()\r\n        };\r\n        mockStderr();\r\n    });\r\n\r\n    /**\r\n     * @test {Linker#constructor}\r\n     */\r\n    describe(\"constructor()\", () => {\r\n        it(\"uses default config\", () => {\r\n            config = undefined;\r\n            expect(link().config).toBeTruthy();\r\n        });\r\n\r\n        it(\"uses default logger\", () => {\r\n            logger = undefined;\r\n            expect(link().logger).toBeTruthy();\r\n        });\r\n\r\n        it(\"sets properties\", () => {\r\n            const expected = config.link.files.length + config.link.directories.length;\r\n            expect(link().config).toEqual(config);\r\n            expect(link().total).toEqual(expected);\r\n            expect(link().maxLength).toEqual(longestPath.length);\r\n            expect(link().bar).toBeTruthy();\r\n        });\r\n    });\r\n\r\n    /**\r\n     * @test {Linker#errors}\r\n     */\r\n    describe(\"errors()\", () => {\r\n        const mapErrors = () => {\r\n            return errors.reduce(\r\n                (acc, err) => [\r\n                    ...acc,\r\n                    expect.stringContaining(err.path),\r\n                    expect.stringContaining(err.error)\r\n                ],\r\n                []\r\n            );\r\n        };\r\n\r\n        it(\"outputs verbose errors\", () => {\r\n            cmd.verbose = true;\r\n            const received = link().errors();\r\n\r\n            // n+1 for initial failure message\r\n            expect(received.length).toEqual(errors.length * 2 + 1);\r\n            expect(received).toEqual([expect.stringContaining(`${errors.length}`), ...mapErrors()]);\r\n        });\r\n\r\n        it(\"outputs succinct error\", () => {\r\n            cmd.verbose = false;\r\n            const received = link().errors();\r\n\r\n            // failure + verbose message\r\n            expect(received.length).toEqual(2);\r\n            expect(received).toEqual([\r\n                expect.stringContaining(`${errors.length}`),\r\n                expect.stringContaining(\"verbose\")\r\n            ]);\r\n        });\r\n    });\r\n\r\n    /**\r\n     * @test {Linker#success}\r\n     */\r\n    describe(\"success()\", () => {\r\n        it(\"outputs message\", () => {\r\n            const received = link().success();\r\n            expect(received).toEqual(expect.stringContaining(\"Success\"));\r\n        });\r\n    });\r\n\r\n    /**\r\n     * @test {Linker#constructor}\r\n     */\r\n    describe(\"getMaxLength()\", () => {\r\n        it(\"calculates max length\", () => {\r\n            const received = link().getMaxLength();\r\n            expect(received).toEqual(longestPath.length);\r\n        });\r\n    });\r\n\r\n    /**\r\n     * @test {Linker#progress}\r\n     */\r\n    describe(\"progress()\", () => {\r\n        it(\"outputs failure\", () => {\r\n            const path = \"a/path\";\r\n            const error = {\r\n                code: \"ERROR CODE\"\r\n            };\r\n            const received = link().progress(path, error);\r\n            [verbs.gerund, path, error.code].forEach(str => {\r\n                expect(received).toEqual(expect.stringContaining(str));\r\n            });\r\n        });\r\n\r\n        it(\"outputs success\", () => {\r\n            const path = \"a/path\";\r\n            const received = link().progress(path);\r\n            [verbs.gerund, path, \"Success\"].forEach(str => {\r\n                expect(received).toEqual(expect.stringContaining(str));\r\n            });\r\n        });\r\n    });\r\n\r\n    describe(\"linking\", () => {\r\n        const setupLinkage = file => {\r\n            errors = [];\r\n            link().cwd = path.resolve(\"src/Linker/__tests__/originals\");\r\n\r\n            return helpers.resolvePaths(file);\r\n        };\r\n\r\n        /**\r\n         * @test {Linker#makeLink}\r\n         */\r\n        describe(\"makeLink()\", () => {\r\n            const makeLink = (file, type) => {\r\n                const { linkPath } = setupLinkage(file);\r\n                helpers.checkForFile(linkPath);\r\n\r\n                link().makeLink(file, type);\r\n\r\n                const exists = helpers.fileExists(linkPath);\r\n                expect(exists).toEqual(true);\r\n\r\n                helpers.removeFile(linkPath);\r\n            };\r\n\r\n            it.each`\r\n                path                          | type\r\n                ${config.link.files[0]}       | ${\"file\"}\r\n                ${config.link.directories[0]} | ${\"dir\"}\r\n            `(\"links $type at $path\", ({ path, type }) => {\r\n                makeLink(path, type);\r\n            });\r\n\r\n            it(\"pushes error\", () => {\r\n                errors = [];\r\n                link().makeLink(\"not/a/real/path\");\r\n\r\n                expect(link().errorList).toHaveLength(1);\r\n            });\r\n        });\r\n\r\n        /**\r\n         * @test {Linker#destroyLink}\r\n         */\r\n        describe(\"destroyLink()\", () => {\r\n            it(\"destroys link\", () => {\r\n                const file = config.link.files[0];\r\n                const { originalPath, linkPath } = setupLinkage(file);\r\n                helpers.createFile(originalPath, linkPath);\r\n\r\n                link().destroyLink(file);\r\n\r\n                const exists = helpers.fileExists(linkPath);\r\n                expect(exists).toEqual(false);\r\n            });\r\n\r\n            it(\"pushes error\", () => {\r\n                const file = \"not/a/real/path\";\r\n                setupLinkage(file);\r\n\r\n                link().destroyLink(file);\r\n                expect(link().errorList.length).toEqual(1);\r\n                expect(link().errorList[0].path).toEqual(file);\r\n            });\r\n        });\r\n\r\n        describe(\"commands\", () => {\r\n            /**\r\n             * @test {Linker#link}\r\n             */\r\n            describe(\"link()\", () => {\r\n                it(\"sets verbs\", () => {\r\n                    config = emptyConfig;\r\n                    link().link();\r\n                    expect(link().verbs).toEqual(linkerVerbs.linking);\r\n                });\r\n\r\n                it(\"makes links\", () => {\r\n                    setupLinkage();\r\n                    link().link();\r\n\r\n                    [...config.link.files, ...config.link.directories].forEach(file => {\r\n                        const linkPath = path.resolve(mybb_root, file);\r\n                        const exists = helpers.fileExists(linkPath);\r\n                        expect(exists).toEqual(true);\r\n                    });\r\n\r\n                    helpers.removeLinks();\r\n                });\r\n            });\r\n\r\n            /**\r\n             * @test {Linker#unlink}\r\n             */\r\n            describe(\"unlink()\", () => {\r\n                it(\"sets verbs\", () => {\r\n                    config = emptyConfig;\r\n                    link().unlink();\r\n                    expect(link().verbs).toEqual(linkerVerbs.unlinking);\r\n                });\r\n\r\n                it(\"destroys links\", () => {\r\n                    helpers.createLinks([...config.link.files, ...config.link.directories]);\r\n\r\n                    if (!helpers.getLinks().length) {\r\n                        throw Error(\"Links were not created properly\");\r\n                    }\r\n\r\n                    link().unlink();\r\n\r\n                    [...config.link.files, ...config.link.directories].forEach(file => {\r\n                        const linkPath = path.resolve(mybb_root, file);\r\n                        const exists = helpers.fileExists(linkPath);\r\n                        expect(exists).toEqual(false);\r\n                    });\r\n                });\r\n\r\n                it(\"outputs errors\", () => {\r\n                    config = emptyConfig;\r\n                    const fnOutputErrors = jest.fn();\r\n                    link().outputErrors = fnOutputErrors;\r\n                    link().errorList = [\"something\"];\r\n\r\n                    link().unlink();\r\n\r\n                    expect(fnOutputErrors).toHaveBeenCalled();\r\n                });\r\n\r\n                it(\"outputs success\", () => {\r\n                    config = emptyConfig;\r\n                    const fnOutputSuccess = jest.fn();\r\n                    link().outputSuccess = fnOutputSuccess;\r\n                    link().errorList = [];\r\n\r\n                    link().unlink();\r\n\r\n                    expect(fnOutputSuccess).toHaveBeenCalled();\r\n                });\r\n            });\r\n        });\r\n    });\r\n});\r\n",
+    "static": true,
+    "longname": "C:/Users/Kalyn Robinson/Documents/Development/mybb/cli/src/Linker/__tests__/Linker.test.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 189,
+    "kind": "test",
+    "name": "describe20",
+    "testId": 20,
+    "memberof": "src/Linker/__tests__/Linker.test.js",
+    "testDepth": 0,
+    "static": true,
+    "longname": "src/Linker/__tests__/Linker.test.js~describe20",
+    "access": null,
+    "description": "Linker",
+    "lineNumber": 9,
+    "testTargets": [
+      "Linker"
+    ]
+  },
+  {
+    "__docId__": 190,
+    "kind": "test",
+    "name": "describe21",
+    "testId": 21,
+    "memberof": "src/Linker/__tests__/Linker.test.js~describe20",
+    "testDepth": 1,
+    "static": true,
+    "longname": "src/Linker/__tests__/Linker.test.js~describe20.describe21",
+    "access": null,
+    "description": "constructor()",
+    "lineNumber": 83,
+    "testTargets": [
+      "Linker#constructor"
+    ]
+  },
+  {
+    "__docId__": 191,
+    "kind": "test",
+    "name": "it22",
+    "testId": 22,
+    "memberof": "src/Linker/__tests__/Linker.test.js~describe20.describe21",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/Linker/__tests__/Linker.test.js~describe20.describe21.it22",
+    "access": null,
+    "description": "uses default config",
+    "lineNumber": 84
+  },
+  {
+    "__docId__": 192,
+    "kind": "test",
+    "name": "it23",
+    "testId": 23,
+    "memberof": "src/Linker/__tests__/Linker.test.js~describe20.describe21",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/Linker/__tests__/Linker.test.js~describe20.describe21.it23",
+    "access": null,
+    "description": "uses default logger",
+    "lineNumber": 89
+  },
+  {
+    "__docId__": 193,
+    "kind": "test",
+    "name": "it24",
+    "testId": 24,
+    "memberof": "src/Linker/__tests__/Linker.test.js~describe20.describe21",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/Linker/__tests__/Linker.test.js~describe20.describe21.it24",
+    "access": null,
+    "description": "sets properties",
+    "lineNumber": 94
+  },
+  {
+    "__docId__": 194,
+    "kind": "test",
+    "name": "describe25",
+    "testId": 25,
+    "memberof": "src/Linker/__tests__/Linker.test.js~describe20",
+    "testDepth": 1,
+    "static": true,
+    "longname": "src/Linker/__tests__/Linker.test.js~describe20.describe25",
+    "access": null,
+    "description": "errors()",
+    "lineNumber": 106,
+    "testTargets": [
+      "Linker#errors"
+    ]
+  },
+  {
+    "__docId__": 195,
+    "kind": "test",
+    "name": "it26",
+    "testId": 26,
+    "memberof": "src/Linker/__tests__/Linker.test.js~describe20.describe25",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/Linker/__tests__/Linker.test.js~describe20.describe25.it26",
+    "access": null,
+    "description": "outputs verbose errors",
+    "lineNumber": 118
+  },
+  {
+    "__docId__": 196,
+    "kind": "test",
+    "name": "it27",
+    "testId": 27,
+    "memberof": "src/Linker/__tests__/Linker.test.js~describe20.describe25",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/Linker/__tests__/Linker.test.js~describe20.describe25.it27",
+    "access": null,
+    "description": "outputs succinct error",
+    "lineNumber": 127
+  },
+  {
+    "__docId__": 197,
+    "kind": "test",
+    "name": "describe28",
+    "testId": 28,
+    "memberof": "src/Linker/__tests__/Linker.test.js~describe20",
+    "testDepth": 1,
+    "static": true,
+    "longname": "src/Linker/__tests__/Linker.test.js~describe20.describe28",
+    "access": null,
+    "description": "success()",
+    "lineNumber": 143,
+    "testTargets": [
+      "Linker#success"
+    ]
+  },
+  {
+    "__docId__": 198,
+    "kind": "test",
+    "name": "it29",
+    "testId": 29,
+    "memberof": "src/Linker/__tests__/Linker.test.js~describe20.describe28",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/Linker/__tests__/Linker.test.js~describe20.describe28.it29",
+    "access": null,
+    "description": "outputs message",
+    "lineNumber": 144
+  },
+  {
+    "__docId__": 199,
+    "kind": "test",
+    "name": "describe30",
+    "testId": 30,
+    "memberof": "src/Linker/__tests__/Linker.test.js~describe20",
+    "testDepth": 1,
+    "static": true,
+    "longname": "src/Linker/__tests__/Linker.test.js~describe20.describe30",
+    "access": null,
+    "description": "getMaxLength()",
+    "lineNumber": 153,
+    "testTargets": [
+      "Linker#constructor"
+    ]
+  },
+  {
+    "__docId__": 200,
+    "kind": "test",
+    "name": "it31",
+    "testId": 31,
+    "memberof": "src/Linker/__tests__/Linker.test.js~describe20.describe30",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/Linker/__tests__/Linker.test.js~describe20.describe30.it31",
+    "access": null,
+    "description": "calculates max length",
+    "lineNumber": 154
+  },
+  {
+    "__docId__": 201,
+    "kind": "test",
+    "name": "describe32",
+    "testId": 32,
+    "memberof": "src/Linker/__tests__/Linker.test.js~describe20",
+    "testDepth": 1,
+    "static": true,
+    "longname": "src/Linker/__tests__/Linker.test.js~describe20.describe32",
+    "access": null,
+    "description": "progress()",
+    "lineNumber": 163,
+    "testTargets": [
+      "Linker#progress"
+    ]
+  },
+  {
+    "__docId__": 202,
+    "kind": "test",
+    "name": "it33",
+    "testId": 33,
+    "memberof": "src/Linker/__tests__/Linker.test.js~describe20.describe32",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/Linker/__tests__/Linker.test.js~describe20.describe32.it33",
+    "access": null,
+    "description": "outputs failure",
+    "lineNumber": 164
+  },
+  {
+    "__docId__": 203,
+    "kind": "test",
+    "name": "it34",
+    "testId": 34,
+    "memberof": "src/Linker/__tests__/Linker.test.js~describe20.describe32",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/Linker/__tests__/Linker.test.js~describe20.describe32.it34",
+    "access": null,
+    "description": "outputs success",
+    "lineNumber": 175
+  },
+  {
+    "__docId__": 204,
+    "kind": "test",
+    "name": "describe35",
+    "testId": 35,
+    "memberof": "src/Linker/__tests__/Linker.test.js~describe20",
+    "testDepth": 1,
+    "static": true,
+    "longname": "src/Linker/__tests__/Linker.test.js~describe20.describe35",
+    "access": null,
+    "description": "linking",
+    "lineNumber": 184
+  },
+  {
+    "__docId__": 205,
+    "kind": "test",
+    "name": "describe36",
+    "testId": 36,
+    "memberof": "src/Linker/__tests__/Linker.test.js~describe20.describe35",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/Linker/__tests__/Linker.test.js~describe20.describe35.describe36",
+    "access": null,
+    "description": "makeLink()",
+    "lineNumber": 195,
+    "testTargets": [
+      "Linker#makeLink"
+    ]
+  },
+  {
+    "__docId__": 206,
+    "kind": "test",
+    "name": "it37",
+    "testId": 37,
+    "memberof": "src/Linker/__tests__/Linker.test.js~describe20.describe35.describe36",
+    "testDepth": 3,
+    "static": true,
+    "longname": "src/Linker/__tests__/Linker.test.js~describe20.describe35.describe36.it37",
+    "access": null,
+    "description": "pushes error",
+    "lineNumber": 216
+  },
+  {
+    "__docId__": 207,
+    "kind": "test",
+    "name": "describe38",
+    "testId": 38,
+    "memberof": "src/Linker/__tests__/Linker.test.js~describe20.describe35",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/Linker/__tests__/Linker.test.js~describe20.describe35.describe38",
+    "access": null,
+    "description": "destroyLink()",
+    "lineNumber": 227,
+    "testTargets": [
+      "Linker#destroyLink"
+    ]
+  },
+  {
+    "__docId__": 208,
+    "kind": "test",
+    "name": "it39",
+    "testId": 39,
+    "memberof": "src/Linker/__tests__/Linker.test.js~describe20.describe35.describe38",
+    "testDepth": 3,
+    "static": true,
+    "longname": "src/Linker/__tests__/Linker.test.js~describe20.describe35.describe38.it39",
+    "access": null,
+    "description": "destroys link",
+    "lineNumber": 228
+  },
+  {
+    "__docId__": 209,
+    "kind": "test",
+    "name": "it40",
+    "testId": 40,
+    "memberof": "src/Linker/__tests__/Linker.test.js~describe20.describe35.describe38",
+    "testDepth": 3,
+    "static": true,
+    "longname": "src/Linker/__tests__/Linker.test.js~describe20.describe35.describe38.it40",
+    "access": null,
+    "description": "pushes error",
+    "lineNumber": 239
+  },
+  {
+    "__docId__": 210,
+    "kind": "test",
+    "name": "describe41",
+    "testId": 41,
+    "memberof": "src/Linker/__tests__/Linker.test.js~describe20.describe35",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/Linker/__tests__/Linker.test.js~describe20.describe35.describe41",
+    "access": null,
+    "description": "commands",
+    "lineNumber": 249
+  },
+  {
+    "__docId__": 211,
+    "kind": "test",
+    "name": "describe42",
+    "testId": 42,
+    "memberof": "src/Linker/__tests__/Linker.test.js~describe20.describe35.describe41",
+    "testDepth": 3,
+    "static": true,
+    "longname": "src/Linker/__tests__/Linker.test.js~describe20.describe35.describe41.describe42",
+    "access": null,
+    "description": "link()",
+    "lineNumber": 253,
+    "testTargets": [
+      "Linker#link"
+    ]
+  },
+  {
+    "__docId__": 212,
+    "kind": "test",
+    "name": "it43",
+    "testId": 43,
+    "memberof": "src/Linker/__tests__/Linker.test.js~describe20.describe35.describe41.describe42",
+    "testDepth": 4,
+    "static": true,
+    "longname": "src/Linker/__tests__/Linker.test.js~describe20.describe35.describe41.describe42.it43",
+    "access": null,
+    "description": "sets verbs",
+    "lineNumber": 254
+  },
+  {
+    "__docId__": 213,
+    "kind": "test",
+    "name": "it44",
+    "testId": 44,
+    "memberof": "src/Linker/__tests__/Linker.test.js~describe20.describe35.describe41.describe42",
+    "testDepth": 4,
+    "static": true,
+    "longname": "src/Linker/__tests__/Linker.test.js~describe20.describe35.describe41.describe42.it44",
+    "access": null,
+    "description": "makes links",
+    "lineNumber": 260
+  },
+  {
+    "__docId__": 214,
+    "kind": "test",
+    "name": "describe45",
+    "testId": 45,
+    "memberof": "src/Linker/__tests__/Linker.test.js~describe20.describe35.describe41",
+    "testDepth": 3,
+    "static": true,
+    "longname": "src/Linker/__tests__/Linker.test.js~describe20.describe35.describe41.describe45",
+    "access": null,
+    "description": "unlink()",
+    "lineNumber": 277,
+    "testTargets": [
+      "Linker#unlink"
+    ]
+  },
+  {
+    "__docId__": 215,
+    "kind": "test",
+    "name": "it46",
+    "testId": 46,
+    "memberof": "src/Linker/__tests__/Linker.test.js~describe20.describe35.describe41.describe45",
+    "testDepth": 4,
+    "static": true,
+    "longname": "src/Linker/__tests__/Linker.test.js~describe20.describe35.describe41.describe45.it46",
+    "access": null,
+    "description": "sets verbs",
+    "lineNumber": 278
+  },
+  {
+    "__docId__": 216,
+    "kind": "test",
+    "name": "it47",
+    "testId": 47,
+    "memberof": "src/Linker/__tests__/Linker.test.js~describe20.describe35.describe41.describe45",
+    "testDepth": 4,
+    "static": true,
+    "longname": "src/Linker/__tests__/Linker.test.js~describe20.describe35.describe41.describe45.it47",
+    "access": null,
+    "description": "destroys links",
+    "lineNumber": 284
+  },
+  {
+    "__docId__": 217,
+    "kind": "test",
+    "name": "it48",
+    "testId": 48,
+    "memberof": "src/Linker/__tests__/Linker.test.js~describe20.describe35.describe41.describe45",
+    "testDepth": 4,
+    "static": true,
+    "longname": "src/Linker/__tests__/Linker.test.js~describe20.describe35.describe41.describe45.it48",
+    "access": null,
+    "description": "outputs errors",
+    "lineNumber": 300
+  },
+  {
+    "__docId__": 218,
+    "kind": "test",
+    "name": "it49",
+    "testId": 49,
+    "memberof": "src/Linker/__tests__/Linker.test.js~describe20.describe35.describe41.describe45",
+    "testDepth": 4,
+    "static": true,
+    "longname": "src/Linker/__tests__/Linker.test.js~describe20.describe35.describe41.describe45.it49",
+    "access": null,
+    "description": "outputs success",
+    "lineNumber": 311
+  },
+  {
+    "__docId__": 219,
+    "kind": "testFile",
+    "name": "src/Logger/__tests__/Logger.test.js",
+    "content": "import Logger from \"../Logger\";\r\n\r\n/**\r\n * @test {Logger}\r\n */\r\ndescribe(\"Logger\", () => {\r\n    const output = \"expected output\";\r\n    let log;\r\n    let channel;\r\n    let silent;\r\n\r\n    const logger = () => {\r\n        if (!log) {\r\n            log = new Logger(silent, channel);\r\n        }\r\n        return log;\r\n    };\r\n\r\n    beforeEach(() => {\r\n        log = null;\r\n        channel = {\r\n            log: jest.fn(),\r\n            warn: jest.fn(),\r\n            error: jest.fn()\r\n        };\r\n        silent = false;\r\n    });\r\n\r\n    /**\r\n     * @test {Logger#constructor}\r\n     */\r\n    describe(\"constructor()\", () => {\r\n        it(\"sets silent property\", () => {\r\n            silent = \"SILENCE\";\r\n            expect(logger().silent).toEqual(silent);\r\n        });\r\n\r\n        it(\"defaults channel to console\", () => {\r\n            channel = undefined;\r\n            expect(logger().channel).toEqual(console);\r\n        });\r\n    });\r\n\r\n    /**\r\n     * @test {Logger#log}\r\n     */\r\n    describe(\"log()\", () => {\r\n        it(\"logs output when not silenced\", () => {\r\n            logger().log(output);\r\n            expect(channel.log).toHaveBeenCalledWith(output);\r\n        });\r\n\r\n        it(\"doesn't log output when silenced\", () => {\r\n            silent = true;\r\n            logger().log(output);\r\n            expect(channel.log).not.toHaveBeenCalled();\r\n        });\r\n\r\n        /**\r\n         * @test {Logger#force.log}\r\n         */\r\n        it(\"logs output when forced\", () => {\r\n            silent = true;\r\n            logger().force.log(output);\r\n            expect(channel.log).toHaveBeenCalledWith(output);\r\n        });\r\n    });\r\n});\r\n",
+    "static": true,
+    "longname": "C:/Users/Kalyn Robinson/Documents/Development/mybb/cli/src/Logger/__tests__/Logger.test.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 220,
+    "kind": "test",
+    "name": "describe50",
+    "testId": 50,
+    "memberof": "src/Logger/__tests__/Logger.test.js",
+    "testDepth": 0,
+    "static": true,
+    "longname": "src/Logger/__tests__/Logger.test.js~describe50",
+    "access": null,
+    "description": "Logger",
+    "lineNumber": 6,
+    "testTargets": [
+      "Logger"
+    ]
+  },
+  {
+    "__docId__": 221,
+    "kind": "test",
+    "name": "describe51",
+    "testId": 51,
+    "memberof": "src/Logger/__tests__/Logger.test.js~describe50",
+    "testDepth": 1,
+    "static": true,
+    "longname": "src/Logger/__tests__/Logger.test.js~describe50.describe51",
+    "access": null,
+    "description": "constructor()",
+    "lineNumber": 32,
+    "testTargets": [
+      "Logger#constructor"
+    ]
+  },
+  {
+    "__docId__": 222,
+    "kind": "test",
+    "name": "it52",
+    "testId": 52,
+    "memberof": "src/Logger/__tests__/Logger.test.js~describe50.describe51",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/Logger/__tests__/Logger.test.js~describe50.describe51.it52",
+    "access": null,
+    "description": "sets silent property",
+    "lineNumber": 33
+  },
+  {
+    "__docId__": 223,
+    "kind": "test",
+    "name": "it53",
+    "testId": 53,
+    "memberof": "src/Logger/__tests__/Logger.test.js~describe50.describe51",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/Logger/__tests__/Logger.test.js~describe50.describe51.it53",
+    "access": null,
+    "description": "defaults channel to console",
+    "lineNumber": 38
+  },
+  {
+    "__docId__": 224,
+    "kind": "test",
+    "name": "describe54",
+    "testId": 54,
+    "memberof": "src/Logger/__tests__/Logger.test.js~describe50",
+    "testDepth": 1,
+    "static": true,
+    "longname": "src/Logger/__tests__/Logger.test.js~describe50.describe54",
+    "access": null,
+    "description": "log()",
+    "lineNumber": 47,
+    "testTargets": [
+      "Logger#log"
+    ]
+  },
+  {
+    "__docId__": 225,
+    "kind": "test",
+    "name": "it55",
+    "testId": 55,
+    "memberof": "src/Logger/__tests__/Logger.test.js~describe50.describe54",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/Logger/__tests__/Logger.test.js~describe50.describe54.it55",
+    "access": null,
+    "description": "logs output when not silenced",
+    "lineNumber": 48
+  },
+  {
+    "__docId__": 226,
+    "kind": "test",
+    "name": "it56",
+    "testId": 56,
+    "memberof": "src/Logger/__tests__/Logger.test.js~describe50.describe54",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/Logger/__tests__/Logger.test.js~describe50.describe54.it56",
+    "access": null,
+    "description": "doesn't log output when silenced",
+    "lineNumber": 53
+  },
+  {
+    "__docId__": 227,
+    "kind": "test",
+    "name": "it57",
+    "testId": 57,
+    "memberof": "src/Logger/__tests__/Logger.test.js~describe50.describe54",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/Logger/__tests__/Logger.test.js~describe50.describe54.it57",
+    "access": null,
+    "description": "logs output when forced",
+    "lineNumber": 62,
+    "testTargets": [
+      "Logger#force.log"
+    ]
+  },
+  {
+    "__docId__": 228,
+    "kind": "testFile",
+    "name": "src/Releaser/__tests__/Releaser.test.js",
+    "content": "import fs from \"fs\";\r\n\r\nimport Releaser from \"../Releaser\";\r\nimport { vendor, code, version } from \"../../../shinka.json\";\r\nimport path from \"path\";\r\n\r\ndescribe(\"Releaser\", () => {\r\n    let errors;\r\n    let cmd;\r\n    let rel;\r\n    let config;\r\n    let logger;\r\n\r\n    const releaser = () => {\r\n        if (!rel) {\r\n            rel = new Releaser(cmd, config, logger);\r\n            rel.errorList = errors;\r\n        }\r\n\r\n        return rel;\r\n    };\r\n\r\n    beforeEach(() => {\r\n        errors = [\"one error\", \"two error\"];\r\n        cmd = { output: \"test.zip\" };\r\n        rel = null;\r\n        config = {\r\n            vendor,\r\n            code,\r\n            version\r\n        };\r\n        logger = {\r\n            log: jest.fn()\r\n        };\r\n    });\r\n\r\n    describe(\"constructor()\", () => {\r\n        it(\"set default logger\", () => {\r\n            logger = undefined;\r\n            expect(releaser().logger).toBeTruthy();\r\n        });\r\n    });\r\n\r\n    describe(\"getFileName()\", () => {\r\n        const expectFilenameEquals = (expected = {}) => {\r\n            const received = releaser().getFileName();\r\n            expect(received).toEqual(expected);\r\n        };\r\n\r\n        it(\"get filename from config\", () => {\r\n            cmd = {};\r\n            expectFilenameEquals(`${vendor}-${code}-${version}.zip`);\r\n        });\r\n\r\n        it(\"get filename from command args\", () => {\r\n            cmd = { vendor: \"shin\", code: \"news\", semver: \"1.0.0a\" };\r\n            expectFilenameEquals(`${cmd.vendor}-${cmd.code}-${cmd.semver}.zip`);\r\n        });\r\n\r\n        it(\"get filename as output\", () => {\r\n            cmd = { output: \"path/to/a/thing.zip\" };\r\n            expectFilenameEquals(cmd.output);\r\n        });\r\n\r\n        it(\"add directory to filename\", () => {\r\n            cmd = { directory: \"path/to/a\" };\r\n            expectFilenameEquals(`${cmd.directory}/${vendor}-${code}-${version}.zip`);\r\n        });\r\n    });\r\n\r\n    describe(\"errors()\", () => {\r\n        it(\"output verbose errors\", () => {\r\n            cmd.verbose = true;\r\n            const received = releaser().errors();\r\n\r\n            // n+1 for initial failure message\r\n            expect(received.length).toEqual(errors.length + 1);\r\n            expect(received).toEqual([\r\n                expect.stringContaining(cmd.output),\r\n                ...errors.map(err => expect.stringContaining(err))\r\n            ]);\r\n        });\r\n\r\n        it(\"output succinct error\", () => {\r\n            cmd.verbose = false;\r\n            const received = releaser().errors();\r\n\r\n            // failure + verbose message\r\n            expect(received.length).toEqual(2);\r\n            expect(received).toEqual([\r\n                expect.stringContaining(cmd.output),\r\n                expect.stringContaining(\"verbose\")\r\n            ]);\r\n        });\r\n    });\r\n\r\n    describe(\"success()\", () => {\r\n        it(\"output message\", () => {\r\n            const received = releaser().success();\r\n            expect(received).toEqual(expect.stringContaining(\"Success\"));\r\n        });\r\n    });\r\n\r\n    describe(\"release()\", () => {\r\n        const fileExists = path => {\r\n            try {\r\n                fs.accessSync(path);\r\n            } catch (err) {\r\n                return false;\r\n            }\r\n\r\n            return true;\r\n        };\r\n\r\n        const removeFile = path => {\r\n            try {\r\n                fs.unlinkSync(path);\r\n            } catch (error) {\r\n                console.warn(`Could not remove ${path}.`);\r\n                return false;\r\n            }\r\n\r\n            return true;\r\n        };\r\n\r\n        const checkForFile = path => {\r\n            if (fileExists(path)) {\r\n                console.error(`File already exists. Attempting to remove.`);\r\n\r\n                if (!removeFile(path)) {\r\n                    throw Error(`File already exists and could not be removed.`);\r\n                }\r\n            }\r\n        };\r\n\r\n        it(\"create file\", () => {\r\n            cmd = {\r\n                output: path.resolve(\"src/Releaser/__tests__/Releaser.data.zip\")\r\n            };\r\n            errors = [];\r\n\r\n            checkForFile(cmd.output);\r\n\r\n            releaser().release();\r\n            const exists = fileExists(cmd.output);\r\n            expect(exists).toEqual(true);\r\n\r\n            removeFile(cmd.output);\r\n        });\r\n\r\n        it(\"push error\", () => {\r\n            errors = [];\r\n            releaser().executeArchive = () => {\r\n                throw Error(\"This is a test error\");\r\n            };\r\n\r\n            releaser().release();\r\n\r\n            expect(releaser().errorList.length).toEqual(1);\r\n        });\r\n    });\r\n});\r\n",
+    "static": true,
+    "longname": "C:/Users/Kalyn Robinson/Documents/Development/mybb/cli/src/Releaser/__tests__/Releaser.test.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 229,
+    "kind": "test",
+    "name": "describe58",
+    "testId": 58,
+    "memberof": "src/Releaser/__tests__/Releaser.test.js",
+    "testDepth": 0,
+    "static": true,
+    "longname": "src/Releaser/__tests__/Releaser.test.js~describe58",
+    "access": null,
+    "description": "Releaser",
+    "lineNumber": 7
+  },
+  {
+    "__docId__": 230,
+    "kind": "test",
+    "name": "describe59",
+    "testId": 59,
+    "memberof": "src/Releaser/__tests__/Releaser.test.js~describe58",
+    "testDepth": 1,
+    "static": true,
+    "longname": "src/Releaser/__tests__/Releaser.test.js~describe58.describe59",
+    "access": null,
+    "description": "constructor()",
+    "lineNumber": 37
+  },
+  {
+    "__docId__": 231,
+    "kind": "test",
+    "name": "it60",
+    "testId": 60,
+    "memberof": "src/Releaser/__tests__/Releaser.test.js~describe58.describe59",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/Releaser/__tests__/Releaser.test.js~describe58.describe59.it60",
+    "access": null,
+    "description": "set default logger",
+    "lineNumber": 38
+  },
+  {
+    "__docId__": 232,
+    "kind": "test",
+    "name": "describe61",
+    "testId": 61,
+    "memberof": "src/Releaser/__tests__/Releaser.test.js~describe58",
+    "testDepth": 1,
+    "static": true,
+    "longname": "src/Releaser/__tests__/Releaser.test.js~describe58.describe61",
+    "access": null,
+    "description": "getFileName()",
+    "lineNumber": 44
+  },
+  {
+    "__docId__": 233,
+    "kind": "test",
+    "name": "it62",
+    "testId": 62,
+    "memberof": "src/Releaser/__tests__/Releaser.test.js~describe58.describe61",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/Releaser/__tests__/Releaser.test.js~describe58.describe61.it62",
+    "access": null,
+    "description": "get filename from config",
+    "lineNumber": 50
+  },
+  {
+    "__docId__": 234,
+    "kind": "test",
+    "name": "it63",
+    "testId": 63,
+    "memberof": "src/Releaser/__tests__/Releaser.test.js~describe58.describe61",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/Releaser/__tests__/Releaser.test.js~describe58.describe61.it63",
+    "access": null,
+    "description": "get filename from command args",
+    "lineNumber": 55
+  },
+  {
+    "__docId__": 235,
+    "kind": "test",
+    "name": "it64",
+    "testId": 64,
+    "memberof": "src/Releaser/__tests__/Releaser.test.js~describe58.describe61",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/Releaser/__tests__/Releaser.test.js~describe58.describe61.it64",
+    "access": null,
+    "description": "get filename as output",
+    "lineNumber": 60
+  },
+  {
+    "__docId__": 236,
+    "kind": "test",
+    "name": "it65",
+    "testId": 65,
+    "memberof": "src/Releaser/__tests__/Releaser.test.js~describe58.describe61",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/Releaser/__tests__/Releaser.test.js~describe58.describe61.it65",
+    "access": null,
+    "description": "add directory to filename",
+    "lineNumber": 65
+  },
+  {
+    "__docId__": 237,
+    "kind": "test",
+    "name": "describe66",
+    "testId": 66,
+    "memberof": "src/Releaser/__tests__/Releaser.test.js~describe58",
+    "testDepth": 1,
+    "static": true,
+    "longname": "src/Releaser/__tests__/Releaser.test.js~describe58.describe66",
+    "access": null,
+    "description": "errors()",
+    "lineNumber": 71
+  },
+  {
+    "__docId__": 238,
+    "kind": "test",
+    "name": "it67",
+    "testId": 67,
+    "memberof": "src/Releaser/__tests__/Releaser.test.js~describe58.describe66",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/Releaser/__tests__/Releaser.test.js~describe58.describe66.it67",
+    "access": null,
+    "description": "output verbose errors",
+    "lineNumber": 72
+  },
+  {
+    "__docId__": 239,
+    "kind": "test",
+    "name": "it68",
+    "testId": 68,
+    "memberof": "src/Releaser/__tests__/Releaser.test.js~describe58.describe66",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/Releaser/__tests__/Releaser.test.js~describe58.describe66.it68",
+    "access": null,
+    "description": "output succinct error",
+    "lineNumber": 84
+  },
+  {
+    "__docId__": 240,
+    "kind": "test",
+    "name": "describe69",
+    "testId": 69,
+    "memberof": "src/Releaser/__tests__/Releaser.test.js~describe58",
+    "testDepth": 1,
+    "static": true,
+    "longname": "src/Releaser/__tests__/Releaser.test.js~describe58.describe69",
+    "access": null,
+    "description": "success()",
+    "lineNumber": 97
+  },
+  {
+    "__docId__": 241,
+    "kind": "test",
+    "name": "it70",
+    "testId": 70,
+    "memberof": "src/Releaser/__tests__/Releaser.test.js~describe58.describe69",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/Releaser/__tests__/Releaser.test.js~describe58.describe69.it70",
+    "access": null,
+    "description": "output message",
+    "lineNumber": 98
+  },
+  {
+    "__docId__": 242,
+    "kind": "test",
+    "name": "describe71",
+    "testId": 71,
+    "memberof": "src/Releaser/__tests__/Releaser.test.js~describe58",
+    "testDepth": 1,
+    "static": true,
+    "longname": "src/Releaser/__tests__/Releaser.test.js~describe58.describe71",
+    "access": null,
+    "description": "release()",
+    "lineNumber": 104
+  },
+  {
+    "__docId__": 243,
+    "kind": "test",
+    "name": "it72",
+    "testId": 72,
+    "memberof": "src/Releaser/__tests__/Releaser.test.js~describe58.describe71",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/Releaser/__tests__/Releaser.test.js~describe58.describe71.it72",
+    "access": null,
+    "description": "create file",
+    "lineNumber": 136
+  },
+  {
+    "__docId__": 244,
+    "kind": "test",
+    "name": "it73",
+    "testId": 73,
+    "memberof": "src/Releaser/__tests__/Releaser.test.js~describe58.describe71",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/Releaser/__tests__/Releaser.test.js~describe58.describe71.it73",
+    "access": null,
+    "description": "push error",
+    "lineNumber": 151
+  }
+]

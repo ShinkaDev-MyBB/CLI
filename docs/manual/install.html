@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../">
+  <title data-ice="title">Manual | shinka-cli</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<meta name="description" content="A command line utility for developing MyBB plugins."><meta property="twitter:card" content="summary"><meta property="twitter:title" content="shinka-cli"><meta property="twitter:description" content="A command line utility for developing MyBB plugins."></head>
+<body class="layout-container manual-root" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  <a href="test.html" data-ice="testLink">Test</a>
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+<a style="position:relative; top:3px;" href="https://github.com/ShinkaDev-MyBB/cli"><img width="20px" src="./image/github.png"></a></header>
+
+<nav class="navigation" data-ice="nav"><div class="manual-toc-root">
+  
+<div data-ice="manual">
+    <ul class="manual-toc">
+      
+    <li data-ice="manualNav" class="indent-h1" data-link="manual/install.html"><a href="manual/install.html" data-ice="link">Installation</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/install.html"><a href="manual/install.html#yarn" data-ice="link">Yarn</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/install.html"><a href="manual/install.html#npm" data-ice="link">NPM</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/install.html"><a href="manual/install.html#configure" data-ice="link">Configure</a></li>
+<li data-ice="manualNav" class="indent-h3" data-link="manual/install.html"><a href="manual/install.html#-code-shinka-json--code-" data-ice="link">shinka.json</a></li>
+</ul>
+  </div>
+<div data-ice="manual">
+    <ul class="manual-toc">
+      
+    <li data-ice="manualNav" class="indent-h1" data-link="manual/configure.html"><a href="manual/configure.html" data-ice="link">Configure</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/configure.html"><a href="manual/configure.html#-code-shinka-json--code-" data-ice="link">shinka.json</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/configure.html"><a href="manual/configure.html#fields" data-ice="link">Fields</a></li>
+</ul>
+  </div>
+<div data-ice="manual">
+    <ul class="manual-toc">
+      
+    <li data-ice="manualNav" class="indent-h1" data-link="manual/usage.html"><a href="manual/usage.html" data-ice="link">Usage</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/usage.html"><a href="manual/usage.html#-code-link--code-" data-ice="link">link</a></li>
+<li data-ice="manualNav" class="indent-h3" data-link="manual/usage.html"><a href="manual/usage.html#options" data-ice="link">Options</a></li>
+<li data-ice="manualNav" class="indent-h3" data-link="manual/usage.html"><a href="manual/usage.html#examples" data-ice="link">Examples</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/usage.html"><a href="manual/usage.html#-code-relink--code-" data-ice="link">relink</a></li>
+<li data-ice="manualNav" class="indent-h3" data-link="manual/usage.html"><a href="manual/usage.html#options" data-ice="link">Options</a></li>
+<li data-ice="manualNav" class="indent-h3" data-link="manual/usage.html"><a href="manual/usage.html#examples" data-ice="link">Examples</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/usage.html"><a href="manual/usage.html#-code-unlink--code-" data-ice="link">unlink</a></li>
+<li data-ice="manualNav" class="indent-h3" data-link="manual/usage.html"><a href="manual/usage.html#options" data-ice="link">Options</a></li>
+<li data-ice="manualNav" class="indent-h3" data-link="manual/usage.html"><a href="manual/usage.html#examples" data-ice="link">Examples</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/usage.html"><a href="manual/usage.html#-code-release--code-" data-ice="link">release</a></li>
+<li data-ice="manualNav" class="indent-h3" data-link="manual/usage.html"><a href="manual/usage.html#options" data-ice="link">Options</a></li>
+<li data-ice="manualNav" class="indent-h3" data-link="manual/usage.html"><a href="manual/usage.html#examples" data-ice="link">Examples</a></li>
+</ul>
+  </div>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><div class="github-markdown" data-ice="content"><h1 id="installation">Installation</h1><h2 id="yarn">Yarn</h2><pre><code class="lang-shell"><code class="source-code prettyprint">yarn global add shinka-cli</code>
+</code></pre>
+<h2 id="npm">NPM</h2><pre><code class="lang-shell"><code class="source-code prettyprint">npm install --global shinka-cli</code>
+</code></pre>
+<h2 id="configure">Configure</h2><p>Create the utility&apos;s config file in the root of your app. See <a href="./manual/configure.html">Configure</a> for more information.</p>
+<h3 id="-code-shinka-json--code-"><code>shinka.json</code></h3><pre><code class="lang-json"><code class="source-code prettyprint">{
+    &quot;link&quot;: {
+        &quot;files&quot;: [&quot;inc/plugins/shinka.php&quot;],
+        &quot;directories&quot;: [&quot;inc/plugins/Shinka&quot;]
+    },
+    &quot;mybb_root&quot;: &quot;C:/path/to/mybb/root&quot;
+}</code>
+</code></pre>
+</div>
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>
