@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../../">
+  <title data-ice="title">src/Releaser/Releaser.js | shinka-cli</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<meta name="description" content="Command line tool for developing MyBB plugins."><meta property="twitter:card" content="summary"><meta property="twitter:title" content="shinka-cli"><meta property="twitter:description" content="Command line tool for developing MyBB plugins."></head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  <a href="test.html" data-ice="testLink">Test</a>
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+<a style="position:relative; top:3px;" href="https://github.com/ShinkaDev-MyBB/cli"><img width="20px" src="./image/github.png"></a></header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#documenter">Documenter</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/Documenter/Documenter.js~Documenter.html">Documenter</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/Documenter/Presenter.js~Presenter.html">Presenter</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/Documenter/Transformer.js~Transformer.html">Transformer</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#helper">Helper</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/Helper/Helper.js~Helper.html">Helper</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#linker">Linker</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/Linker/Linker.js~Linker.html">Linker</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-verbs">verbs</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#linker---tests--">Linker/__tests__</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-checkForFile">checkForFile</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-createFile">createFile</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-createLinks">createLinks</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-fileExists">fileExists</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getLinks">getLinks</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-removeFile">removeFile</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-removeLinks">removeLinks</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-resolvePaths">resolvePaths</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#logger">Logger</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/Logger/Logger.js~Logger.html">Logger</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#releaser">Releaser</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/Releaser/Releaser.js~Releaser.html">Releaser</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#typedef">Typedef</a><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-Cmd">Cmd</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-Command">Command</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-Config">Config</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-Example">Example</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-LinkError">LinkError</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-LogObject">LogObject</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-Option">Option</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-Verbs">Verbs</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#commands">commands</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-link">link</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-release">release</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-relink">relink</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-unlink">unlink</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/Releaser/Releaser.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import { execSync } from &quot;child_process&quot;;
+import chalk from &quot;chalk&quot;;
+
+import Logger from &quot;../Logger&quot;;
+
+/**
+ * Bundles source files for release.
+ *
+ * @example &lt;caption&gt;Assume later uses of `config` use the following value.&lt;/caption&gt;
+ * const config = {
+ *      vendor: &quot;shinka&quot;,
+ *      code: &quot;cli&quot;,
+ *      version: &quot;0.0.1-a&quot;
+ * };
+ *
+ * @example
+ * new Releaser({}, config);
+ * // =&gt; shinka-news-0.0.1-a.zip
+ *
+ * @example
+ * new Releaser({
+ *      vendor: &quot;shin&quot;,
+ *      directory: &quot;to/a/dir&quot;
+ * }, config);
+ * // =&gt; to/a/dir/shin-news-0.0.1-a.zip
+ */
+export default class Releaser {
+    /**
+     * Command arguments.
+     *
+     * @type     {Cmd}
+     * @property {?string} [cmd.output]    - Overrides default filename format.
+     * @property {?string} [cmd.directory] - Prepended to filename.
+     * @property {?string} [cmd.vendor]    - Vendor name, e.g. `shinka` in `shinka-cli`.
+     * @property {?string} [cmd.code]      - Plugin code name, e.g. `cli` in `shinka-cli`.
+     * @property {?string} [cmd.semver]    - Semantic plugin version
+     */
+    cmd;
+
+    /**
+     * For vendor, code, and version lookup.
+     * @type {Config}
+     */
+    config = {};
+
+    /**
+     * @type {Error[]}
+     */
+    errorList = [];
+
+    /**
+     * Output target.
+     * @type {string}
+     */
+    filename;
+
+    /**
+     * logger#log is used to output progress, e.g. {@link Logger#log} or {@link console#log}.
+     * @type {LogObject}
+     */
+    logger;
+
+    /**
+     * @param {Cmd}       cmd                   - Command arguments
+     * @param {Config}    [config={}]           - For vendor, code, and version lookup.
+     * @param {LogObject} [logger=new Logger()] - logger#log is used to output progress
+     */
+    constructor(cmd, config = {}, logger = new Logger()) {
+        this.cmd = cmd;
+        this.config = config;
+        this.logger = logger;
+        this.filename = this.getFileName();
+    }
+
+    /**
+     * Builds filename from command arguments and config.
+     *
+     * Format defaults to `vendor-code-semver.zip`.
+     * `cmd.output` overwrites the default format.
+     * `cmd.directory` is prepended to the filename
+     *
+     * @returns {string}
+     *
+     * @example
+     * new Releaser({}, config).getFileName();
+     * // =&gt; shinka-cli-0.0.1-a.zip
+     *
+     * @example
+     * new Releaser({
+     *      vendor: &quot;shin&quot;,
+     *      code: &quot;news&quot;,
+     *      version: &quot;1.0.0&quot;
+     * }, config).getFileName();
+     * // =&gt; shin-news-1.0.0.zip
+     *
+     * @example
+     * new Releaser({
+     *      directory: &quot;to/a/dir&quot;
+     * }, config).getFileName();
+     * // =&gt; to/a/dir/shinka-news-0.0.1-a.zip
+     *
+     * @example
+     * new Releaser({
+     *      directory: &quot;to/a/dir&quot;,
+     *      output: &quot;release.zip&quot;
+     * }, config).getFileName();
+     * // =&gt; to/a/dir/release.zip
+     */
+    getFileName() {
+        const {
+            output,
+            directory,
+            vendor = this.config.vendor,
+            code = this.config.code,
+            semver = this.config.version
+        } = this.cmd;
+
+        let filename = `${vendor}-${code}-${semver}.zip`;
+
+        if (output) {
+            filename = output;
+        }
+
+        if (directory) {
+            filename = `${directory}/${filename}`;
+        }
+
+        return filename;
+    }
+
+    /**
+     * Bundles source files for release with `git archive`.
+     */
+    release() {
+        try {
+            this.executeArchive();
+        } catch (error) {
+            this.errorList.push(error);
+        }
+
+        this.errorList.length ? this.outputErrors() : this.outputSuccess();
+    }
+
+    /**
+     * Executes `git archive` to bundle release.
+     */
+    executeArchive() {
+        execSync(`git archive HEAD:src --format zip -o &quot;${this.filename}&quot;`);
+    }
+
+    /**
+     * Builds error messages.
+     * @returns {string[]}
+     */
+    errors() {
+        const { verbose } = this.cmd;
+
+        let str = [chalk.red(`Failed to bundle ${this.filename}`)];
+
+        if (verbose) {
+            this.errorList.forEach(error =&gt; {
+                str.push(`\n${error}`);
+            });
+        } else {
+            str.push(chalk.gray(&quot;Rerun with -v for verbose error messages.&quot;));
+        }
+
+        return str;
+    }
+
+    /**
+     * Builds success message.
+     * @returns {string}
+     */
+    success() {
+        return chalk.green(`Successfully bundled ${this.filename}`);
+    }
+
+    /**
+     * Outputs error messages.
+     */
+    outputErrors() {
+        const str = this.errors();
+        str.forEach(err =&gt; this.logger.log(err));
+    }
+
+    /**
+     * Outputs success message.
+     */
+    outputSuccess() {
+        const str = this.success();
+        this.logger.log(str);
+    }
+}
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>
