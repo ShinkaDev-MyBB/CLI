@@ -1,0 +1,11 @@
+coverage/
+docs/
+manual/
+scripts/
+src/
+
+.babelrc
+.esdoc.json
+.eslintrc
+.prettierignore
+.prettierrc

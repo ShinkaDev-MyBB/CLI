@@ -12,9 +12,9 @@
     "engines": {
         "node": ">=8.0.0"
     },
-    "main": "./bin/shinka.js",
+    "main": "./dist/bin/shinka.js",
     "bin": {
-        "shinka": "./bin/shinka.js"
+        "shinka": "./dist/bin/shinka.js"
     },
     "directories": {
         "bin": "./bin",
@@ -25,7 +25,7 @@
         "LICENSE.md"
     ],
     "scripts": {
-        "prepublishOnly": "yarn lint && yarn prettier && yarn test",
+        "prepublishOnly": "yarn lint && yarn prettier && yarn test && yarn docs",
         "prettier": "prettier --write '**/*.{js,json,css,md}'",
         "lint": "eslint --fix ./bin ./src",
         "test": "jest",
@@ -53,8 +53,6 @@
         "chalk": "^2.4.1",
         "cli-progress": "^2.0.0",
         "commander": "^2.15.1",
-        "esdoc": "^1.1.0",
-        "esdoc-standard-plugin": "^1.0.0",
         "progress": "^2.0.0"
     },
     "devDependencies": {
@@ -67,6 +65,8 @@
         "babel-plugin-transform-class-properties": "^6.24.1",
         "babel-preset-env": "^1.7.0",
         "esdoc-ecmascript-proposal-plugin": "^1.0.0",
+        "esdoc": "^1.1.0",
+        "esdoc-standard-plugin": "^1.0.0",
         "eslint": "^4.19.1",
         "husky": "^1.0.0-rc.7",
         "jest": "^23.0.0",
