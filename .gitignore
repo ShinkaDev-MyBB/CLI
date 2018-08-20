@@ -19,7 +19,7 @@ node_modules/
 # Output of 'npm pack'
 *.tgz
 
-shinka.json
 dist/
-*.zip
 docs/
+shinka.json
+*.zip
