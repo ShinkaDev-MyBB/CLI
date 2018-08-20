@@ -20,5 +20,6 @@ node_modules/
 *.tgz
 
 shinka.json
-dist
+dist/
 *.zip
+docs/
