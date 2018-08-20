@@ -3,10 +3,10 @@
     "version": "0.0.1",
     "description": "Command line tool for developing MyBB plugins.",
     "repository": "https://github.com/ShinkaDev-MyBB/cli",
-    "author": { 
-        "name" : "Kalyn Robinson", 
-        "email" : "kalyndrobinson@gmail.com",
-        "url" : "https://github.com/kalynrobinson"
+    "author": {
+        "name": "Kalyn Robinson",
+        "email": "kalyndrobinson@gmail.com",
+        "url": "https://github.com/kalynrobinson"
     },
     "license": "Unlicense",
     "engines": {
@@ -22,10 +22,11 @@
     },
     "files": [
         "README.md",
-        "LICENSE.md"
+        "LICENSE.md",
+        "dist"
     ],
     "scripts": {
-        "prepublishOnly": "yarn lint && yarn prettier && yarn test && yarn docs",
+        "prepublishOnly": "yarn lint && yarn prettier && yarn test && yarn build && yarn docs",
         "prettier": "prettier --write '**/*.{js,json,css,md}'",
         "lint": "eslint --fix ./bin ./src",
         "test": "jest",

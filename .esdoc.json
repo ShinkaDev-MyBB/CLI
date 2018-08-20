@@ -21,7 +21,6 @@
                 "manual": {
                     "index": "./manual/index.md",
                     "globalIndex": true,
-                    "asset": "./manual/asset",
                     "files": ["./manual/install.md", "./manual/configure.md", "./manual/usage.md"]
                 }
             }
