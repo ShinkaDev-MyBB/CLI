@@ -2,7 +2,8 @@
     "name": "shinka-cli",
     "version": "0.0.1",
     "description": "Command line tool for developing MyBB plugins.",
-    "repository": "https://github.com/ShinkaDev-MyBB/cli",
+    "repository": "https://github.com/shinkabb/cli",
+    "homepage": "https://shinkabb.github.io/cli/",
     "author": {
         "name": "Kalyn Robinson",
         "email": "kalyndrobinson@gmail.com",
@@ -33,7 +34,7 @@
         "test:watch": "yarn test --watch",
         "build": "babel src -d dist/src && babel bin -d dist/bin && babel version.js -d dist",
         "docs": "node scripts/document.js",
-        "publish:docs": "yarn docs && gh-pages -d docs -b docs"
+        "publish:docs": "yarn docs && gh-pages -d docs"
     },
     "husky": {
         "hooks": {
