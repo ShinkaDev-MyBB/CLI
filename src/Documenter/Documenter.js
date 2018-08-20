@@ -4,7 +4,7 @@ import nodePath from "path";
 import Presenter from "./Presenter";
 import * as cmds from "../../bin/commands";
 
-const defaultCommands = Object.entries(cmds).map(([_, value]) => value());
+const defaultCommands = Object.values(cmds).map(value => value());
 
 /**
  * Generates markdown documentation for commands.
@@ -20,8 +20,8 @@ export default class Documenter {
     /**
      * Generates documentation and write to file.
      *
-     * @param {Command[]} [commands=cmds] - Defaults to exported commands
-     * @param {string}    [path="src/commands/COMMANDS.md"] - File to write to
+     * @param {Command[]} [commands=defaultCommands] - Defaults to exported commands
+     * @param {string}    [path="manual/usage.md"] - File to write to
      *
      * @example
      * Documenter.generate();

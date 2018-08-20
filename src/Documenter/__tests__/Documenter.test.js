@@ -63,7 +63,7 @@ describe.only("Documenter", () => {
             Documenter.generate(undefined, path);
             const written = readFile();
 
-            ["link", "release", "relink", "unlink"].forEach(({ command }) => {
+            ["link", "release", "relink", "unlink"].forEach(command => {
                 expect(written).toContain(command);
             });
         });
@@ -75,6 +75,13 @@ describe.only("Documenter", () => {
             commands.forEach(command => {
                 expect(written).toContain(command.command);
             });
+        });
+
+        it("writes to default path", () => {
+            fs.writeFileSync = jest.fn();
+            Documenter.generate(commands);
+
+            expect(fs.writeFileSync).toHaveBeenCalled();
         });
     });
 });

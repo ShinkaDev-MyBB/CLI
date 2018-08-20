@@ -17,7 +17,7 @@ describe("Transformer", () => {
     ];
 
     const options = [
-        [{ flag: "-f, --force", description: "Force the thing" }],
+        [{ flag: "-f, --force" }],
         [{ flag: "-v, --verbose", description: "Output verbose error messages" }]
     ];
 
@@ -29,6 +29,8 @@ describe("Transformer", () => {
 
             if (example.description) {
                 expect(received).toContain(example.description);
+            } else {
+                expect(received).not.toContain("#");
             }
         });
     });
