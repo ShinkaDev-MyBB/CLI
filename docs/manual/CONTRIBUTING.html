@@ -88,18 +88,29 @@
 </div>
 </nav>
 
-<div class="content" data-ice="content"><div class="github-markdown" data-ice="content"><h1 id="installation">Installation</h1><h2 id="yarn">Yarn</h2><pre><code class="lang-shell"><code class="source-code prettyprint">yarn global add shinka-cli</code>
+<div class="content" data-ice="content"><div class="github-markdown" data-ice="content"><h1 id="contributing">Contributing</h1><h2 id="code-of-conduct">Code of Conduct</h2><p>Please note that this project is released with a <a href="./manual/CONTRIBUTING.md">Contributor Covenant Code of Conduct</a>. By participating in this project you agree to abide by its terms.</p>
+<h2 id="standards">Standards</h2><ul>
+<li>New features must have tests</li>
+<li>Branching model loosely follows <a href="https://nvie.com/posts/a-successful-git-branching-model/">Git Flow</a></li>
+<li>All contributions should branch off of <code>develop</code> and all PRs should merge back into <code>develop</code></li>
+<li>Prefix branch names with <code>bugfix/</code> or <code>feature/</code> as appropriate, e.g. <code>feature/test-command</code></li>
+</ul>
+<h2 id="setup">Setup</h2><pre><code class="lang-shell"><code class="source-code prettyprint">git clone https://github.com/ShinkaDev-MyBB/cli.git
+cd cli
+yarn install # or npm install
+
+# Run project
+node dist/bin/shinka.js --help</code>
 </code></pre>
-<h2 id="npm">NPM</h2><pre><code class="lang-shell"><code class="source-code prettyprint">npm install --global shinka-cli</code>
-</code></pre>
-<h2 id="configure">Configure</h2><p>Create the utility&apos;s config file in the root of your app. See <a href="./manual/configure.html">Configure</a> for more information.</p>
-<h3 id="-code-shinka-json--code-"><code>shinka.json</code></h3><pre><code class="lang-json"><code class="source-code prettyprint">{
-    &quot;link&quot;: {
-        &quot;files&quot;: [&quot;inc/plugins/shinka.php&quot;],
-        &quot;directories&quot;: [&quot;inc/plugins/Shinka&quot;]
-    },
-    &quot;mybb_root&quot;: &quot;C:/path/to/mybb/root&quot;
-}</code>
+<pre><code class="lang-shell"><code class="source-code prettyprint"># Run tests
+yarn test
+yarn test --watch
+
+# Generate docs/
+yarn docs
+
+# Build for release
+yarn build</code>
 </code></pre>
 </div>
 </div>

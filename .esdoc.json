@@ -11,17 +11,16 @@
                     "includes": ["(spec|Spec|test|Test)\\.js$"],
                     "excludes": ["\\.config\\.js$", "\\.data\\.js$"]
                 },
-                "brand": {
-                    "title": "shinka-cli",
-                    "description": "A command line utility for developing MyBB plugins.",
-                    "repository": "https://github.com/ShinkaDev-MyBB/cli",
-                    "site": "https://github.com/ShinkaDev-MyBB",
-                    "author": "https://github.com/kalyndrobinson"
-                },
                 "manual": {
                     "index": "./manual/index.md",
                     "globalIndex": true,
-                    "files": ["./manual/install.md", "./manual/configure.md", "./manual/usage.md"]
+                    "files": [
+                        "./manual/install.md",
+                        "./manual/configure.md",
+                        "./manual/usage.md",
+                        "./CONTRIBUTING.md",
+                        "./CODE_OF_CONDUCT.md"
+                    ]
                 }
             }
         },

@@ -8,7 +8,7 @@
   <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
   <script src="script/prettify/prettify.js"></script>
   <script src="script/manual.js"></script>
-<meta name="description" content="A command line utility for developing MyBB plugins."><meta property="twitter:card" content="summary"><meta property="twitter:title" content="shinka-cli"><meta property="twitter:description" content="A command line utility for developing MyBB plugins."></head>
+<meta name="description" content="Command line tool for developing MyBB plugins."><meta property="twitter:card" content="summary"><meta property="twitter:title" content="shinka-cli"><meta property="twitter:description" content="Command line tool for developing MyBB plugins."></head>
 <body class="layout-container manual-root" data-ice="rootContainer">
 
 <header>
@@ -64,25 +64,46 @@
 <li data-ice="manualNav" class="indent-h3" data-link="manual/usage.html"><a href="manual/usage.html#examples" data-ice="link">Examples</a></li>
 </ul>
   </div>
+<div data-ice="manual">
+    <ul class="manual-toc">
+      
+    <li data-ice="manualNav" class="indent-h1" data-link="manual/CONTRIBUTING.html"><a href="manual/CONTRIBUTING.html" data-ice="link">Contributing</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/CONTRIBUTING.html"><a href="manual/CONTRIBUTING.html#code-of-conduct" data-ice="link">Code of Conduct</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/CONTRIBUTING.html"><a href="manual/CONTRIBUTING.html#standards" data-ice="link">Standards</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/CONTRIBUTING.html"><a href="manual/CONTRIBUTING.html#setup" data-ice="link">Setup</a></li>
+</ul>
+  </div>
+<div data-ice="manual">
+    <ul class="manual-toc">
+      
+    <li data-ice="manualNav" class="indent-h1" data-link="manual/CODE_OF_CONDUCT.html"><a href="manual/CODE_OF_CONDUCT.html" data-ice="link">Contributor Covenant Code of Conduct</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/CODE_OF_CONDUCT.html"><a href="manual/CODE_OF_CONDUCT.html#our-pledge" data-ice="link">Our Pledge</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/CODE_OF_CONDUCT.html"><a href="manual/CODE_OF_CONDUCT.html#our-standards" data-ice="link">Our Standards</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/CODE_OF_CONDUCT.html"><a href="manual/CODE_OF_CONDUCT.html#our-responsibilities" data-ice="link">Our Responsibilities</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/CODE_OF_CONDUCT.html"><a href="manual/CODE_OF_CONDUCT.html#scope" data-ice="link">Scope</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/CODE_OF_CONDUCT.html"><a href="manual/CODE_OF_CONDUCT.html#enforcement" data-ice="link">Enforcement</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/CODE_OF_CONDUCT.html"><a href="manual/CODE_OF_CONDUCT.html#attribution" data-ice="link">Attribution</a></li>
+</ul>
+  </div>
 </div>
 </nav>
 
 <div class="content" data-ice="content"><div class="github-markdown" data-ice="content"><h1 id="usage">Usage</h1><p>Try <code>shinka &lt;command&gt; --help</code> for detailed options and examples.</p>
 <h2 id="-code-link--code-"><code>link</code></h2><p>Create symbolic links for plugin files and directories.</p>
 <h3 id="options">Options</h3><p><strong>-v, --verbose</strong>: Output verbose error messages</p>
-<h3 id="examples">Examples</h3><pre><code class="lang-shell"><code class="source-code prettyprint">$ link 
+<h3 id="examples">Examples</h3><pre><code class="lang-shell"><code class="source-code prettyprint">$ link
 $ link --verbose
 $ link -v</code>
 </code></pre>
 <h2 id="-code-relink--code-"><code>relink</code></h2><p>Destroy and recreate symbolic links for plugin files and directories.</p>
 <h3 id="options">Options</h3><p><strong>-v, --verbose</strong>: Output verbose error messages</p>
-<h3 id="examples">Examples</h3><pre><code class="lang-shell"><code class="source-code prettyprint">$ relink 
+<h3 id="examples">Examples</h3><pre><code class="lang-shell"><code class="source-code prettyprint">$ relink
 $ relink --verbose
 $ relink -v</code>
 </code></pre>
 <h2 id="-code-unlink--code-"><code>unlink</code></h2><p>Destroy and recreate symbolic links for plugin files and directories.</p>
 <h3 id="options">Options</h3><p><strong>-v, --verbose</strong>: Output verbose error messages</p>
-<h3 id="examples">Examples</h3><pre><code class="lang-shell"><code class="source-code prettyprint">$ unlink 
+<h3 id="examples">Examples</h3><pre><code class="lang-shell"><code class="source-code prettyprint">$ unlink
 $ unlink --verbose
 $ unlink -v</code>
 </code></pre>

@@ -40,10 +40,14 @@ Create the utility's config file in the root of your app. See [Configure](https:
     "mybb_root": "C:/path/to/mybb/root",
     "vendor": "shinka",
     "code": "cli",
-    "version": "0.0.1-a"
+    "version": "0.0.1-alpha.1"
 }
 ```
 
 ## Usage
 
 See [Usage](https://shinkadev-mybb.github.io/cli/manual/usage.html) or try `shinka <command> --help` for detailed options and examples.
+
+## Contributing
+
+See [Contributing](CONTRIBUTING.md) for more information.
