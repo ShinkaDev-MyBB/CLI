@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/shinkabb/cli.svg?branch=master)](https://travis-ci.com/shinkabb/cli) [![BCH compliance](https://bettercodehub.com/edge/badge/shinkabb/cli?branch=master)](https://bettercodehub.com/)
+
 # shinka-cli
 
 Command line tool for developing MyBB plugins.
