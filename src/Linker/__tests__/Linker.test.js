@@ -77,6 +77,10 @@ describe("Linker", () => {
         mockStderr();
     });
 
+    afterEach(() => {
+        helpers.removeLinks();
+    });
+
     /**
      * @test {Linker#constructor}
      */
@@ -266,8 +270,6 @@ describe("Linker", () => {
                         const exists = helpers.fileExists(linkPath);
                         expect(exists).toEqual(true);
                     });
-
-                    helpers.removeLinks();
                 });
             });
 
