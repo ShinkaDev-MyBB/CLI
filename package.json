@@ -27,8 +27,7 @@
         "dist"
     ],
     "scripts": {
-        "prepublishOnly": "yarn lint && yarn prettier && yarn test && yarn build && yarn publish:docs",
-        "prettier": "prettier --write '**/*.{js,json,css,md}'",
+        "prepublishOnly": "yarn lint && yarn test && yarn build",
         "lint": "eslint --fix ./bin ./src",
         "test": "jest",
         "test:watch": "yarn test --watch",
