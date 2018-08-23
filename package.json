@@ -1,6 +1,6 @@
 {
     "name": "shinka-cli",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Command line tool for developing MyBB plugins.",
     "repository": "https://github.com/shinkabb/cli",
     "homepage": "https://shinkabb.github.io/cli/",
