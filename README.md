@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/shinkabb/cli.svg?branch=master)](https://travis-ci.com/shinkabb/cli) [![BCH compliance](https://bettercodehub.com/edge/badge/shinkabb/cli?branch=master)](https://bettercodehub.com/)
+[![Build Status](https://travis-ci.com/shinkabb/cli.svg?branch=master)](https://travis-ci.com/shinkabb/cli) [![npm](https://img.shields.io/npm/v/shinka-cli.svg)](https://www.npmjs.com/package/shinka-cli) ![node](https://img.shields.io/node/v/shinka-cli.svg) [![BCH compliance](https://bettercodehub.com/edge/badge/shinkabb/cli?branch=master)](https://bettercodehub.com/)
 
 # shinka-cli
 

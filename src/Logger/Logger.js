@@ -1,5 +1,7 @@
+import chalk from "chalk";
+
 /**
- * Drop-in replacement for console.log.
+ * Drop-in replacement for `console`.
  *
  * Optionally silences and forces output.
  */
@@ -38,8 +40,30 @@ export default class Logger {
     }
 
     /**
+     * Outputs error in red. Cannot be silenced.
+     *
+     * Falls back to channel#log if channel#error does not exist.
+     *
+     * @param {string} msg
+     */
+    error(msg) {
+        msg = chalk.red(msg);
+        this.channel.error ? this.channel.error(msg) : this.channel.log(msg);
+    }
+
+    /**
+     * Outputs message in green. Cannot be silenced.
+     *
+     * @param {string} msg
+     */
+    success(msg) {
+        msg = chalk.green(msg);
+        this.channel.log(msg);
+    }
+
+    /**
      * Namespace to force log output.
-     * @type {Object}
+     * @type     {Object}
      * @property {function(msg: string)} force.log - Always outputs message.
      * @see {@link Logger#log}
      */

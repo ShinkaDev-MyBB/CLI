@@ -135,16 +135,19 @@ export default class Linker {
      */
     destroyLink = path => {
         const { mybb_root } = this.config;
+        const { toTrim } = this.config.link;
         let error = null;
 
+        const symPath = !toTrim ? path : path.replace(toTrim, "");
+
         try {
-            fs.unlinkSync(nodePath.resolve(mybb_root, path));
+            fs.unlinkSync(nodePath.resolve(mybb_root, symPath));
         } catch (e) {
             error = e;
-            this.errorList.push({ path, error });
+            this.errorList.push({ symPath, error });
         }
 
-        this.outputProgress(path, error);
+        this.outputProgress(symPath, error);
     };
 
     /**
@@ -156,12 +159,15 @@ export default class Linker {
      */
     makeLink = (path, type = "file") => {
         const { mybb_root } = this.config;
+        const { toTrim } = this.config.link;
         let error = null;
+
+        const symPath = !toTrim ? path : path.replace(toTrim, "");
 
         try {
             fs.symlinkSync(
                 nodePath.resolve(this.cwd, path),
-                nodePath.resolve(mybb_root, path),
+                nodePath.resolve(mybb_root, symPath),
                 type
             );
         } catch (e) {

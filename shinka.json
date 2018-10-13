@@ -1,7 +1,7 @@
 {
-  "link": {
-    "files": ["test/resources/dummy/dummy1.txt"],
-    "directories": ["test/resources/dummy/dummyA"]
-  },
-  "mybb_root": "C:/Users/Kalyn/Documents/Development/MyBB/Shinka/shinka-cli/test/resources/duped"
+    "link": {
+        "files": ["test/resources/dummy/dummy1.txt"],
+        "directories": ["test/resources/dummy/dummyA"]
+    },
+    "mybb_root": "C:/Users/Kalyn/Documents/Development/MyBB/Shinka/shinka-cli/test/resources/duped"
 }

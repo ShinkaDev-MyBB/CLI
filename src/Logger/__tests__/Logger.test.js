@@ -1,3 +1,5 @@
+import chalk from "chalk";
+
 import Logger from "../Logger";
 
 /**
@@ -29,7 +31,7 @@ describe("Logger", () => {
     /**
      * @test {Logger#constructor}
      */
-    describe("constructor()", () => {
+    describe("#constructor", () => {
         it("sets silent property", () => {
             silent = "SILENCE";
             expect(logger().silent).toEqual(silent);
@@ -44,7 +46,7 @@ describe("Logger", () => {
     /**
      * @test {Logger#log}
      */
-    describe("log()", () => {
+    describe("#log", () => {
         it("logs output when not silenced", () => {
             logger().log(output);
             expect(channel.log).toHaveBeenCalledWith(output);
@@ -63,6 +65,32 @@ describe("Logger", () => {
             silent = true;
             logger().force.log(output);
             expect(channel.log).toHaveBeenCalledWith(output);
+        });
+    });
+
+    /**
+     * @test {Logger#error}
+     */
+    describe("#error", () => {
+        it("logs error in red", () => {
+            logger().error(output);
+            expect(channel.error).toHaveBeenCalledWith(chalk.red(output));
+        });
+
+        it("falls back to channel#log", () => {
+            channel.error = null;
+            logger().error(output);
+            expect(channel.log).toHaveBeenCalledWith(chalk.red(output));
+        });
+    });
+
+    /**
+     * @test {Logger#success}
+     */
+    describe("#success", () => {
+        it("logs success in green", () => {
+            logger().success(output);
+            expect(channel.log).toHaveBeenCalledWith(chalk.green(output));
         });
     });
 });
